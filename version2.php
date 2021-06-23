@@ -57,7 +57,7 @@
 
         <section class="section hero-section bg-ico-hero" id="home" style="width: 100%;">
             <div class="bg-overlay bg-primary"></div>
-            <div class="container" style="margin-top: -100px;">
+            <div class="container" >
                 <div class="row ">
                     <div class="col-lg-5">
                         <div class="text-white-50" v-if="!isMobile()">
