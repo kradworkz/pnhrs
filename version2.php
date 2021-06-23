@@ -55,7 +55,7 @@
             </div>
         </nav>
 
-        <section class="section hero-section bg-ico-hero" id="home" style="width: 100%;">
+        <section class="section hero-section bg-ico-hero" id="home">
             <div class="bg-overlay bg-primary"></div>
             <div class="container" v-bind:style="[!isMobile() ? {'margin-top' : '-100px'} : {}]">
                 <div class="row ">

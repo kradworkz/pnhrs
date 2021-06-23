@@ -63,7 +63,7 @@
         </nav>
 
         <!-- hero section start -->
-        <section class="section hero-section bg-ico-hero" id="home">
+        <section class="section hero-section bg-ico-hero" id="home" style="height: 100vh;">
             <div class="bg-overlay bg-primary"></div>
             <div class="container" style="margin-top: -100px;">
                 <div class="row ">

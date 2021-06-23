@@ -4791,7 +4791,7 @@ table.dataTable.dtr-inline.collapsed>tbody>tr>td.dtr-control:before {
 .hero-section.bg-ico-hero {
     background-image: url(../images/krad/bg-ico-hero.jpg);
     background-size: cover;
-    background-position: top
+    background-position: top;
 }
 
 @media (max-width:575.98px) {
