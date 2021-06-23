@@ -95,6 +95,8 @@
                             <br class="mb-5">
                            
                                    
+                           <div class="row mt-4">
+                                <div class="col-md-6 mt-1">
                                     <a href="#about" class="btn btn-success">REGISTER HERE</a>
                                 </div>
                                 <div class="col-md-6" style="float: right;">
@@ -103,7 +105,7 @@
                                     <img src="assets/images/krad/pchrd.png" alt="" class="rounded avatar-sm">
                                     <img src="assets/images/krad/zchrd.png" alt="" class="rounded avatar-sm">
                                 </div>
-                            </div> -->
+                            </div> 
                         </div>
                     </div>
                 </div>
