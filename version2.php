@@ -68,7 +68,7 @@
                     </div>
                     <div class="col-lg-7">
                         <div class="text-white-50" v-if="type == 'main'">
-                            <h1 class="text-white fw-semibold mb-3"><span v-bind:style="[!isMobile() ? {'font-size' : '24px'} : {'font-size' : '12px'}]">Health R&D in the New Normal :</span><br> Moving towards Universal Health Care</h1>
+                            <h1 class="text-white fw-semibold mb-3"><span v-bind:style="[!isMobile() ? {'font-size' : '24px'} : {'font-size' : '15px'}]">Health R&D in the New Normal :</span><br><span v-bind:style="[!isMobile() ? {'font-size' : '32px'} : {'font-size' : '18px'}]"> Moving towards Universal Health Care</span></h1>
                             <span class="font-size-14" style="margin-right: 20px;"><i class='bx bx-calendar'></i> August 09-13, 2021 </span>
                             <span class="font-size-14"><i class='bx bx-map-pin'></i> Zamboanga City</span>
                             <br class="mb-5">
