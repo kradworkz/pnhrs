@@ -66,7 +66,7 @@
         <section class="section hero-section bg-ico-hero" id="home">
             <div class="bg-overlay bg-primary"></div>
             <div class="container" style="margin-top: -100px;">
-                <div class="row align-items-center">
+                <div class="row ">
                     <div class="col-lg-5">
                         <div class="text-white-50">
                             <div class="">
@@ -89,12 +89,12 @@
                     </div>
                     <div class="col-lg-7">
                         <div class="text-white-50">
-                            <h1 class="text-white fw-semibold mb-3">Health R&D in the New Normal :<br> Moving towards Universal Health Care</h1>
+                            <h1 class="text-white fw-semibold mb-3"><span class="font-size-24">Health R&D in the New Normal :</span><br> Moving towards Universal Health Care</h1>
                             <span class="font-size-14" style="margin-right: 20px;"><i class='bx bx-calendar'></i> August 09-13, 2021 </span>
                             <span class="font-size-14"><i class='bx bx-map-pin'></i> Zamboanga City</span>
-                            <br><br>
-                            <div class="row mt-4">
-                                <div class="col-md-6 mt-1">
+                            <br class="mb-5">
+                           
+                                   
                                     <a href="#about" class="btn btn-success">REGISTER HERE</a>
                                 </div>
                                 <div class="col-md-6" style="float: right;">
@@ -103,7 +103,7 @@
                                     <img src="assets/images/krad/pchrd.png" alt="" class="rounded avatar-sm">
                                     <img src="assets/images/krad/zchrd.png" alt="" class="rounded avatar-sm">
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
