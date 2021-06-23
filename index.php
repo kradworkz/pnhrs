@@ -119,16 +119,16 @@
         <section class="section bg-white" id="about">
             <div class="container">
 
-                <div class="row" data-bs-toggle="modal" data-bs-target="#openmodal">
+                <div class="row">
                     <div class="col-xl-12">
                         <div class="blog-box mb-4 mb-xl-0">
                             <div class="mt-4 text-muted">
                                 <h5 class="text-primary mb-3"><i class="bx bx-news me-1"></i> SATELLITE SESSIONS</h5>
                                   <div class="text-muted mt-4" style="cursor:pointer">
-                                    <p class="mb-2"><i class="mdi mdi-circle-medium text-success me-1"></i>Financing for National Health Security and Pandemic Preparedness</p>
-                                    <p class="mb-2"><i class="mdi mdi-circle-medium text-success me-1"></i>Strengthening the National Health Research System’s Capacity for Response and Research</p>
-                                    <p class="mb-2"><i class="mdi mdi-circle-medium text-success me-1"></i>Enhancing Regional Preparedness for Public Health Emergencies</p>
-                                    <p class="mb-2"><i class="mdi mdi-circle-medium text-success me-1"></i>Strengthening the National Health Research System’s Capacity for Response and Research</p>
+                                    <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2"><i class="mdi mdi-circle-medium text-success me-1"></i>Financing for National Health Security and Pandemic Preparedness</p>
+                                    <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2"><i class="mdi mdi-circle-medium text-success me-1"></i>Strengthening the National Health Research System’s Capacity for Response and Research</p>
+                                    <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2"><i class="mdi mdi-circle-medium text-success me-1"></i>Enhancing Regional Preparedness for Public Health Emergencies</p>
+                                    <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2"><i class="mdi mdi-circle-medium text-success me-1"></i>Strengthening the National Health Research System’s Capacity for Response and Research</p>
                                 </div>
                             </div>
                         </div>
@@ -139,14 +139,14 @@
                             <div class="mt-4 text-muted">
                                 <h5 class="text-danger mb-3"><i class="bx bx-news me-1"></i> PRE-CONFERENCE SESSION</h5>
                                 <div class="text-muted mt-4" style="cursor:pointer">
-                                    <p class="mb-2"><i class="mdi mdi-circle-medium text-success me-1"></i>Oral Research Presentation Contest - Student</p>
-                                    <p class="mb-2"><i class="mdi mdi-circle-medium text-success me-1"></i>Oral Research Presentation Contest - Professional</p>
-                                    <p class="mb-2"><i class="mdi mdi-circle-medium text-success me-1"></i>Talk on Social Innovation in Health Research</p>
-                                    <p class="mb-2"><i class="mdi mdi-circle-medium text-success me-1"></i>Moral Compass for Emergency Research and the Importance and Nature of Community Consultation</p>
-                                    <p class="mb-2"><i class="mdi mdi-circle-medium text-success me-1"></i>Undergraduate Thesis Grant in Natural Products Competition</p>
-                                    <p class="mb-2"><i class="mdi mdi-circle-medium text-success me-1"></i>HERDIN</p>
-                                    <p class="mb-2"><i class="mdi mdi-circle-medium text-success me-1"></i>Research Ethics Secretariat Training</p>
-                                    <p class="mb-2"><i class="mdi mdi-circle-medium text-success me-1"></i>3-Minute Pitch to Policymakers Competition</p>
+                                    <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2"><i class="mdi mdi-circle-medium text-success me-1"></i>Oral Research Presentation Contest - Student</p>
+                                    <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2"><i class="mdi mdi-circle-medium text-success me-1"></i>Oral Research Presentation Contest - Professional</p>
+                                    <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2"><i class="mdi mdi-circle-medium text-success me-1"></i>Talk on Social Innovation in Health Research</p>
+                                    <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2"><i class="mdi mdi-circle-medium text-success me-1"></i>Moral Compass for Emergency Research and the Importance and Nature of Community Consultation</p>
+                                    <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2"><i class="mdi mdi-circle-medium text-success me-1"></i>Undergraduate Thesis Grant in Natural Products Competition</p>
+                                    <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2"><i class="mdi mdi-circle-medium text-success me-1"></i>HERDIN</p>
+                                    <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2"><i class="mdi mdi-circle-medium text-success me-1"></i>Research Ethics Secretariat Training</p>
+                                    <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2"><i class="mdi mdi-circle-medium text-success me-1"></i>3-Minute Pitch to Policymakers Competition</p>
                                 </div>
                             </div>
                         </div>
@@ -157,11 +157,11 @@
                             <div class="mt-4 text-muted">
                                 <h5 class="text-success mb-3"><i class="bx bx-news me-1"></i> MAIN CONFERENCE SESSIONS</h5>
                                 <div class="text-muted mt-4" style="cursor:pointer">
-                                    <p class="mb-2"><i class="mdi mdi-circle-medium text-success me-1"></i>14th PNHRS Week Celebration - Opening and Plenary 1</p>
-                                    <p class="mb-2"><i class="mdi mdi-circle-medium text-success me-1"></i>Implications of the New Normal on Health Technology Assessment</p>
-                                    <p class="mb-2"><i class="mdi mdi-circle-medium text-success me-1"></i>Enhancing the Country’s Bio-Preparedness for COVID-19 and other Emerging Infectious Diseases</p>
-                                    <p class="mb-2"><i class="mdi mdi-circle-medium text-success me-1"></i>Harnessing International Collaborations and Engagement of Stakeholders to Maximize Health Research Impact</p>
-                                    <p class="mb-2"><i class="mdi mdi-circle-medium text-success me-1"></i>Plenary II and 14th PNHRS Week Celebration Closing</p>
+                                    <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2"><i class="mdi mdi-circle-medium text-success me-1"></i>14th PNHRS Week Celebration - Opening and Plenary 1</p>
+                                    <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2"><i class="mdi mdi-circle-medium text-success me-1"></i>Implications of the New Normal on Health Technology Assessment</p>
+                                    <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2"><i class="mdi mdi-circle-medium text-success me-1"></i>Enhancing the Country’s Bio-Preparedness for COVID-19 and other Emerging Infectious Diseases</p>
+                                    <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2"><i class="mdi mdi-circle-medium text-success me-1"></i>Harnessing International Collaborations and Engagement of Stakeholders to Maximize Health Research Impact</p>
+                                    <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2"><i class="mdi mdi-circle-medium text-success me-1"></i>Plenary II and 14th PNHRS Week Celebration Closing</p>
                                 </div>
                             </div>
                         </div>
@@ -195,7 +195,7 @@
                             <img src="assets/images/logo-light.png" alt="" height="20">
                         </div>
     
-                        <p class="mb-2"><script>document.write(new Date().getFullYear())</script> © PNHRS. Design & Develop by DOST-IX</p>
+                        <p class="mb-2"><script>document.write(new Date().getFullYear())</script> © PNHRS. Developed by DOST-IX</p>
                     </div>
                     <!-- <div class="col-lg-6">
                         <div>
