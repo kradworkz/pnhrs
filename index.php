@@ -90,9 +90,10 @@
                     <div class="col-lg-7">
                         <div class="text-white-50">
                             <h1 class="text-white fw-semibold mb-3">Health R&D in the New Normal :<br> Moving towards Universal Health Care</h1>
-                            <p class="font-size-14"><i class='bx bx-calendar mr-4'></i> August 09-13, 2021  <br> <i class='bx bx-map-pin mr-2 ml-2' ></i> Zamboanga City</p>
+                            <span class="font-size-14" style="margin-right: 20px;"><i class='bx bx-calendar'></i> August 09-13, 2021 </span>
+                            <span class="font-size-14"><i class='bx bx-map-pin'></i> Zamboanga City</span>
                             <br><br>
-                            <div class="row">
+                            <div class="row mt-4">
                                 <div class="col-md-6 mt-1">
                                     <a href="#about" class="btn btn-success">REGISTER HERE</a>
                                 </div>
