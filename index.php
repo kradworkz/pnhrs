@@ -90,8 +90,8 @@
                     <div class="col-lg-7">
                         <div class="text-white-50">
                             <h1 class="text-white fw-semibold mb-3">Health R and D in the New Normal :<br> Moving towards Universal Health Care</h1>
-                            <p class="font-size-14">It will be as simple as occidental in fact to an English person, it will seem like simplified as a skeptical Cambridge</p>
-                           
+                            <p class="font-size-14"><i class='bx bx-calendar mr-4'></i> August 09-13, 2021  <br> <i class='bx bx-map-pin mr-2 ml-2' ></i> Zamboanga City</p>
+                            <br><br>
                             <div class="col-md-6 float-right mt-4" style="float: right;">
                                 <img src="assets/images/krad/pnhrs.png" alt="" class="img-thumbnail" style="width: 40%; height: auto;">
                                 <img src="assets/images/krad/dost.png" alt="" class="rounded avatar-sm">
