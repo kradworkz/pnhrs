@@ -57,7 +57,7 @@
 
         <section class="section hero-section bg-ico-hero" id="home" style="width: 100%;">
             <div class="bg-overlay bg-primary"></div>
-            <div class="container" >
+            <div class="container" v-bind:style="[!isMobile() ? {'margin-top' : '-100px'} : {}]">
                 <div class="row ">
                     <div class="col-lg-5">
                         <div class="text-white-50" v-if="!isMobile()">
@@ -79,21 +79,21 @@
                                             <div class="mb-3">
                                                 <a style="cursor: pointer;" @click="openhaha(1)" class="accordion-list">
                                                     <div>Sattelite Sessions</div>
-                                                    <i class="mdi mdi-minus accor-plus-icon"></i>
+                                                    <i class="bx bx-plus accor-plus-icon"></i>
                                                 </a>
                                             </div>
 
                                             <div class="mb-3">
                                                 <a style="cursor: pointer;" @click="openhaha(2)" class="accordion-list">
                                                     <div>Main Conference Sessions</div>
-                                                    <i class="mdi mdi-minus accor-plus-icon"></i>
+                                                    <i class="bx bx-plus accor-plus-icon"></i>
                                                 </a>
                                             </div>
 
                                             <div class="mb-3">
                                                 <a style="cursor: pointer;" @click="openhaha(3)" class="accordion-list">
                                                     <div>Pre-Conference Sessions</div>
-                                                    <i class="mdi mdi-minus accor-plus-icon"></i>
+                                                    <i class="bx bx-plus accor-plus-icon"></i>
                                                 </a>
                                             </div>
                                         </div>
@@ -102,35 +102,53 @@
                             </div>
                         </div>
                         <div class="text-white-50" v-else-if="type == 1">
-                            <h2 class="text-white fw-semibold font-size-24">Sattelite Sessions :</h2>
+                            <div class="avatar-sm mx-auto mb-4 float-end" @click="openhaha('main')" style="cursor:pointer;">
+                                <span class="avatar-title rounded-circle bg-light font-size-24">
+                                    <i class="bx bx-x-circle text-danger"></i>
+                                </span>
+                            </div>
+                            <h1 class="text-white fw-semibold mb-4">Sattelite Sessions :</h1>
+                            <hr>
                             <div class="text-white mt-4" style="cursor:pointer">
-                                <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2"><i class="mdi mdi-circle-medium text-warning me-1"></i>Financing for National Health Security and Pandemic Preparedness</p>
-                                <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2"><i class="mdi mdi-circle-medium text-warning me-1"></i>Strengthening the National Health Research System’s Capacity for Response and Research</p>
-                                <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2"><i class="mdi mdi-circle-medium text-warning me-1"></i>Enhancing Regional Preparedness for Public Health Emergencies</p>
-                                <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2"><i class="mdi mdi-circle-medium text-warning me-1"></i>Strengthening the National Health Research System’s Capacity for Response and Research</p>
+                                <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2 text-truncate" ><i class="mdi mdi-circle-medium text-warning me-1"></i>Financing for National Health Security and Pandemic Preparedness</p>
+                                <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Strengthening the National Health Research System’s Capacity for Response and Research</p>
+                                <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Enhancing Regional Preparedness for Public Health Emergencies</p>
+                                <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Strengthening the National Health Research System’s Capacity for Response and Research</p>
                             </div>
                         </div>
                         <div class="text-white-50" v-else-if="type == 2"> 
-                            <h2 class="text-white fw-semibold font-size-24">Pre-Conference Sessions :</h2>
+                            <div class="avatar-sm mx-auto mb-4 float-end" @click="openhaha('main')" style="cursor:pointer;">
+                                <span class="avatar-title rounded-circle bg-light font-size-24">
+                                    <i class="bx bx-x-circle text-danger"></i>
+                                </span>
+                            </div>
+                            <h1 class="text-white fw-semibold mb-4">Pre-Conference Sessions :</h1>
+                            <hr>
                             <div class="text-white mt-4" style="cursor:pointer">
-                                <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2"><i class="mdi mdi-circle-medium text-warning me-1"></i>Oral Research Presentation Contest - Student</p>
-                                <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2"><i class="mdi mdi-circle-medium text-warning me-1"></i>Oral Research Presentation Contest - Professional</p>
-                                <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2"><i class="mdi mdi-circle-medium text-warning me-1"></i>Talk on Social Innovation in Health Research</p>
-                                <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2"><i class="mdi mdi-circle-medium text-warning me-1"></i>Moral Compass for Emergency Research and the Importance and Nature of Community Consultation</p>
-                                <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2"><i class="mdi mdi-circle-medium text-warning me-1"></i>Undergraduate Thesis Grant in Natural Products Competition</p>
-                                <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2"><i class="mdi mdi-circle-medium text-warning me-1"></i>HERDIN</p>
-                                <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2"><i class="mdi mdi-circle-medium text-warning me-1"></i>Research Ethics Secretariat Training</p>
-                                <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2"><i class="mdi mdi-circle-medium text-warning me-1"></i>3-Minute Pitch to Policymakers Competition</p>
+                                <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Oral Research Presentation Contest - Student</p>
+                                <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Oral Research Presentation Contest - Professional</p>
+                                <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Talk on Social Innovation in Health Research</p>
+                                <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Moral Compass for Emergency Research and the Importance and Nature of Community Consultation</p>
+                                <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Undergraduate Thesis Grant in Natural Products Competition</p>
+                                <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>HERDIN</p>
+                                <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Research Ethics Secretariat Training</p>
+                                <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>3-Minute Pitch to Policymakers Competition</p>
                             </div>
                         </div>
                         <div class="text-white-50" v-else>
-                             <h2 class="text-white fw-semibold font-size-24">Main Conference Sessions :</h2>
+                            <div class="avatar-sm mx-auto mb-4 float-end" @click="openhaha('main')" style="cursor:pointer;">
+                                <span class="avatar-title rounded-circle bg-light font-size-24">
+                                    <i class="bx bx-x-circle text-danger"></i>
+                                </span>
+                            </div>
+                             <h1 class="text-white fw-semibold mb-4">Main Conference Sessions :</h1>
+                             <hr>
                              <div class="text-white mt-4" style="cursor:pointer">
-                                <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2"><i class="mdi mdi-circle-medium text-warning me-1"></i>14th PNHRS Week Celebration - Opening and Plenary 1</p>
-                                <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2"><i class="mdi mdi-circle-medium text-warning me-1"></i>Implications of the New Normal on Health Technology Assessment</p>
-                                <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2"><i class="mdi mdi-circle-medium text-warning me-1"></i>Enhancing the Country’s Bio-Preparedness for COVID-19 and other Emerging Infectious Diseases</p>
-                                <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2"><i class="mdi mdi-circle-medium text-warning me-1"></i>Harnessing International Collaborations and Engagement of Stakeholders to Maximize Health Research Impact</p>
-                                <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2"><i class="mdi mdi-circle-medium text-warning me-1"></i>Plenary II and 14th PNHRS Week Celebration Closing</p>
+                                <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>14th PNHRS Week Celebration - Opening and Plenary 1</p>
+                                <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Implications of the New Normal on Health Technology Assessment</p>
+                                <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Enhancing the Country’s Bio-Preparedness for COVID-19 and other Emerging Infectious Diseases</p>
+                                <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Harnessing International Collaborations and Engagement of Stakeholders to Maximize Health Research Impact</p>
+                                <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Plenary II and 14th PNHRS Week Celebration Closing</p>
                             </div>
                         </div>
                     </div>
