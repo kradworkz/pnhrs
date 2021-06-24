@@ -79,14 +79,14 @@
 
                                             <div class="mb-3">
                                                 <a style="cursor: pointer;" @click="openhaha(2)" class="accordion-list">
-                                                    <div>Main Conference Sessions</div>
+                                                    <div>Pre-Conference Sessions</div>
                                                     <i class="bx bx-plus accor-plus-icon"></i>
                                                 </a>
                                             </div>
 
                                             <div class="mb-3">
                                                 <a style="cursor: pointer;" @click="openhaha(3)" class="accordion-list">
-                                                    <div>Pre-Conference Sessions</div>
+                                                    <div>Main Conference Sessions</div>
                                                     <i class="bx bx-plus accor-plus-icon"></i>
                                                 </a>
                                             </div>
@@ -179,14 +179,14 @@
 
                                             <div class="mb-3">
                                                 <a style="cursor: pointer;" @click="openhaha(2)" class="accordion-list">
-                                                    <div>Main Conference Sessions</div>
+                                                    <div>Pre-Conference Sessions</div>
                                                     <i class="bx bx-plus accor-plus-icon"></i>
                                                 </a>
                                             </div>
 
                                             <div class="mb-3">
                                                 <a style="cursor: pointer;" @click="openhaha(3)" class="accordion-list">
-                                                    <div>Pre-Conference Sessions</div>
+                                                    <div>Main Conference Sessions</div>
                                                     <i class="bx bx-plus accor-plus-icon"></i>
                                                 </a>
                                             </div>
