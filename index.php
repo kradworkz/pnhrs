@@ -202,7 +202,7 @@
                             </div>
                         </div>
                         <div class="text-white-50 mt-4" v-else-if="type == 1" style="margin-top: 20px;">
-                            <div class="avatar-sm mx-auto mb-4 float-end" @click="openhaha('main')" style="cursor:pointer;">
+                            <div class="mx-auto mb-4 float-end" @click="openhaha('main')" style="cursor:pointer; height: 2rem; width: 2rem;">
                                 <span class="avatar-title rounded-circle bg-light font-size-24">
                                     <i class="bx bx-x-circle text-danger"></i>
                                 </span>
@@ -217,7 +217,7 @@
                             </div>
                         </div>
                         <div class="text-white-50 mt-4" v-else-if="type == 2" style="margin-top: 20px;"> 
-                            <div class="avatar-sm mx-auto mb-4 float-end" @click="openhaha('main')" style="cursor:pointer;">
+                            <div class="mx-auto mb-4 float-end" @click="openhaha('main')" style="cursor:pointer; height: 2rem; width: 2rem;">
                                 <span class="avatar-title rounded-circle bg-light font-size-24">
                                     <i class="bx bx-x-circle text-danger"></i>
                                 </span>
@@ -236,7 +236,7 @@
                             </div>
                         </div>
                         <div class="text-white-50 mt-4" v-else style="margin-top: 20px;">
-                            <div class="avatar-sm mx-auto mb-4 float-end" @click="openhaha('main')" style="cursor:pointer;">
+                            <div class="mx-auto mb-4 float-end" @click="openhaha('main')" style="cursor:pointer; height: 2rem; width: 2rem;">
                                 <span class="avatar-title rounded-circle bg-light font-size-20">
                                     <i class="bx bx-x-circle text-danger"></i>
                                 </span>
