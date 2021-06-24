@@ -58,7 +58,7 @@
         <section class="section hero-section bg-ico-hero" id="home" style="height: 100vh;">
             <div class="bg-overlay bg-primary"></div>
             <div class="container" v-bind:style="[!isMobile() ? {'margin-top' : '-100px'} : {}]">
-                <div class="row" v-if="!isMobile()">
+                <div class="row" v-if="isMobile()">
                     <div class="col-lg-5">
                         <div class="text-white-50">
                             <div class="">
@@ -68,7 +68,7 @@
                     </div>
                     <div class="col-lg-7">
                         <div class="text-white-50" v-if="type == 'main'">
-                            <h1 class="text-white fw-semibold mb-3"><span v-bind:style="[!isMobile() ? {'font-size' : '24px'} : {'font-size' : '15px'}]">Health R&D in the New Normal :</span><br><span v-bind:style="[!isMobile() ? {'font-size' : '32px'} : {'font-size' : '18px'}]"> Moving towards Universal Health Care</span></h1>
+                            <h1 class="text-white fw-semibold mb-3"><span style="font-size : 24px;">Health R&D in the New Normal :</span><br><span style="font-size : 32px;"> Moving towards Universal Health Care</span></h1>
                             <span class="font-size-14" style="margin-right: 20px;"><i class='bx bx-calendar'></i> August 09-13, 2021 </span>
                             <span class="font-size-14"><i class='bx bx-map-pin'></i> Zamboanga City</span>
                             <br class="mb-5">
@@ -156,10 +156,12 @@
                 <div class="row" v-else>
                     <div class="col-lg-12">
                         <div class="media">
-                                <div class="media-body float-end">
+                            <div class="media-body float-end" style="margin-left: -5px;">
                                 <div class="text-white">
                                     <p style="margin-bottom: -1px;">Health R&D in the New Normal :</p>
-                                    <h6 class="text-white mb-1">Moving towards Universal Health Care</h6>
+                                    <h6 class="text-white mb-1">Moving towards Universal Health Care</h6>                 
+                                    <span class="font-size-10" style="margin-right: 20px;"><i class='bx bx-calendar'></i> August 09-13, 2021 </span>
+                                    <span class="font-size-10"><i class='bx bx-map-pin'></i> Zamboanga City</span>
                                 </div>
                             </div>
                             <div>
@@ -169,10 +171,7 @@
                     </div>
                     <div class="col-lg-12">
                     <div class="text-white-50" v-if="type == 'main'">
-                            <h1 class="text-white fw-semibold mb-3"><span v-bind:style="[!isMobile() ? {'font-size' : '24px'} : {'font-size' : '15px'}]">Health R&D in the New Normal :</span><br><span v-bind:style="[!isMobile() ? {'font-size' : '32px'} : {'font-size' : '18px'}]"> Moving towards Universal Health Care</span></h1>
-                            <span class="font-size-14" style="margin-right: 20px;"><i class='bx bx-calendar'></i> August 09-13, 2021 </span>
-                            <span class="font-size-14"><i class='bx bx-map-pin'></i> Zamboanga City</span>
-                            <br class="mb-5">
+                            <br><br>
                             <div class="tab-content mt-4">
                                 <div class="tab-pane fade show active" id="v-pills-gen-ques" role="tabpanel">
                                     <div>
