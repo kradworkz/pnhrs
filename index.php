@@ -38,13 +38,7 @@
                             <a class="nav-link active" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#news">News</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#faqs">FAQs</a>
+                            <a class="nav-link" href="#about">Sessions</a>
                         </li>
                     </ul>
 
