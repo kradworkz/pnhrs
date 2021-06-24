@@ -19,6 +19,12 @@ document.addEventListener('DOMContentLoaded', function () {
                 window.open(this.link, '_blank');
             },
 
+            openmodal1(link,date){
+                this.link = link;
+                this.date = date;
+                $("#openmodal").modal('show');
+            },
+
             close(){
                 $("#openmodal").modal('hide');
             },
