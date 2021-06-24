@@ -169,7 +169,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-12">
+                    <div class="col-lg-12" style="margin-top: 20px;">
                     <div class="text-white-50" v-if="type == 'main'">
                             <br><br>
                             <div class="tab-content mt-4">
