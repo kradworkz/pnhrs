@@ -58,7 +58,7 @@
         <section class="section hero-section bg-ico-hero" id="home" style="height: 100vh;">
             <div class="bg-overlay bg-primary"></div>
             <div class="container" v-bind:style="[!isMobile() ? {'margin-top' : '-100px'} : {}]">
-                <div class="row" v-if="isMobile()">
+                <div class="row" v-if="!isMobile()">
                     <div class="col-lg-5">
                         <div class="text-white-50">
                             <div class="">
