@@ -105,7 +105,7 @@
                             <hr>
                             <div class="text-white mt-4" style="cursor:pointer">
                                 <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_B1HGEtFjQjyqjJQXl_KWGw','August 03, 2021')" class="mb-2 text-truncate" ><i class="mdi mdi-circle-medium text-warning me-1"></i>Financing for National Health Security and Pandemic Preparedness</p>
-                                <p @click="openmodal('','August 04, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Strengthening the National Health Research System’s Capacity for Response and Research</p>
+                                <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_0wrnbsM1R5iGsWKqRt8oCQ','August 04, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Strengthening the National Health Research System’s Capacity for Response and Research</p>
                                 <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_BUZ-ntn_SI-I9qMJyMVuKA','August 05, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Enhancing Regional Preparedness for Public Health Emergencies</p>
                                 <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_6k1-qA-5RUe7F231-IPuow','August 06, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Ensuring Good Governance and Accountability in the New Normal</p>
                             </div>
