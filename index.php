@@ -207,7 +207,7 @@
                                     <i class="bx bx-x-circle text-danger"></i>
                                 </span>
                             </div>
-                            <h4 class="text-white fw-semibold mb-4">Sattelite Sessions :</h4>
+                            <h6 class="text-white fw-semibold mb-4">Sattelite Sessions :</h6>
                             <hr>
                             <div class="text-white mt-4" style="cursor:pointer">
                                 <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_B1HGEtFjQjyqjJQXl_KWGw','August 03, 2021')" class="mb-2 text-truncate" ><i class="mdi mdi-circle-medium text-warning me-1"></i>Financing for National Health Security and Pandemic Preparedness</p>
@@ -222,7 +222,7 @@
                                     <i class="bx bx-x-circle text-danger"></i>
                                 </span>
                             </div>
-                            <h4 class="text-white fw-semibold mb-4">Pre-Conference Sessions :</h4>
+                            <h6 class="text-white fw-semibold mb-4">Pre-Conference Sessions :</h6>
                             <hr>
                             <div class="text-white mt-4" style="cursor:pointer">
                                 <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_HSzgJC2YSMKtazgiE_MFiA','August 09, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Oral Research Presentation Contest - Student</p>
@@ -241,7 +241,7 @@
                                     <i class="bx bx-x-circle text-danger"></i>
                                 </span>
                             </div>
-                             <h4 class="text-white fw-semibold mb-4">Main Conference Sessions :</h4>
+                             <h6 class="text-white fw-semibold mb-4">Main Conference Sessions :</h6>
                              <hr>
                              <div class="text-white mt-4" style="cursor:pointer">
                                 <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_5aRz2YXGQBa_bxW6RRTdJg', 'August 12, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>14th PNHRS Week Celebration - Opening and Plenary 1</p>
