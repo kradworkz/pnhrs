@@ -3,11 +3,24 @@ document.addEventListener('DOMContentLoaded', function () {
     new Vue({
         el: '#sg1',
         data: {
-            type : 'main'
+            type : 'main',
+            link: '',
+            date: ''
         },
         methods: {
             openhaha(val) {
                this.type = val;
+            },
+
+            openmodal(link,date){
+                this.link = link;
+                this.date = date;
+                // $("#openmodal").modal('show');
+                window.open(this.link, '_blank');
+            },
+
+            close(){
+                $("#openmodal").modal('hide');
             },
 
             isMobile() {

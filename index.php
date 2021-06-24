@@ -110,10 +110,10 @@
                             <h1 class="text-white fw-semibold mb-4">Sattelite Sessions :</h1>
                             <hr>
                             <div class="text-white mt-4" style="cursor:pointer">
-                                <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2 text-truncate" ><i class="mdi mdi-circle-medium text-warning me-1"></i>Financing for National Health Security and Pandemic Preparedness</p>
-                                <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Strengthening the National Health Research System’s Capacity for Response and Research</p>
-                                <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Enhancing Regional Preparedness for Public Health Emergencies</p>
-                                <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Strengthening the National Health Research System’s Capacity for Response and Research</p>
+                                <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_B1HGEtFjQjyqjJQXl_KWGw','August 03, 2021')" class="mb-2 text-truncate" ><i class="mdi mdi-circle-medium text-warning me-1"></i>Financing for National Health Security and Pandemic Preparedness</p>
+                                <p @click="openmodal('','August 04, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Strengthening the National Health Research System’s Capacity for Response and Research</p>
+                                <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_BUZ-ntn_SI-I9qMJyMVuKA','August 05, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Enhancing Regional Preparedness for Public Health Emergencies</p>
+                                <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_6k1-qA-5RUe7F231-IPuow','August 06, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Ensuring Good Governance and Accountability in the New Normal</p>
                             </div>
                         </div>
                         <div class="text-white-50" v-else-if="type == 2"> 
@@ -125,14 +125,14 @@
                             <h1 class="text-white fw-semibold mb-4">Pre-Conference Sessions :</h1>
                             <hr>
                             <div class="text-white mt-4" style="cursor:pointer">
-                                <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Oral Research Presentation Contest - Student</p>
-                                <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Oral Research Presentation Contest - Professional</p>
-                                <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Talk on Social Innovation in Health Research</p>
-                                <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Moral Compass for Emergency Research and the Importance and Nature of Community Consultation</p>
-                                <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Undergraduate Thesis Grant in Natural Products Competition</p>
-                                <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>HERDIN</p>
-                                <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Research Ethics Secretariat Training</p>
-                                <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>3-Minute Pitch to Policymakers Competition</p>
+                                <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_HSzgJC2YSMKtazgiE_MFiA','August 09, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Oral Research Presentation Contest - Student</p>
+                                <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_wvTDUmJWQV23CQEbFnm3DQ','August 09, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Oral Research Presentation Contest - Professional</p>
+                                <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_4V-Qlp41TyCDokWC1bot3A','August 09, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Talk on Social Innovation in Health Research</p>
+                                <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_s-isBFZESkinjrB_YXkQ8g','August 10, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Moral Compass for Emergency Research and the Importance and Nature of Community Consultation</p>
+                                <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_aut-ZSkBRAOMB6cFyigSjg','August 10, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Undergraduate Thesis Grant in Natural Products Competition</p>
+                                <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_E0AnW6IsT6mNE-O7tZmxTw','August 11, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>HERDIN</p>
+                                <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_ROZhY35mR36O0AOiHoe1yQ','August 11, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Research Ethics Secretariat Training</p>
+                                <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_KvBNGA_GT3q9TGLaxFEjIg','August 11, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>3-Minute Pitch to Policymakers Competition</p>
                             </div>
                         </div>
                         <div class="text-white-50" v-else>
@@ -144,11 +144,11 @@
                              <h1 class="text-white fw-semibold mb-4">Main Conference Sessions :</h1>
                              <hr>
                              <div class="text-white mt-4" style="cursor:pointer">
-                                <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>14th PNHRS Week Celebration - Opening and Plenary 1</p>
-                                <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Implications of the New Normal on Health Technology Assessment</p>
-                                <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Enhancing the Country’s Bio-Preparedness for COVID-19 and other Emerging Infectious Diseases</p>
-                                <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Harnessing International Collaborations and Engagement of Stakeholders to Maximize Health Research Impact</p>
-                                <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Plenary II and 14th PNHRS Week Celebration Closing</p>
+                                <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_5aRz2YXGQBa_bxW6RRTdJg', 'August 12, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>14th PNHRS Week Celebration - Opening and Plenary 1</p>
+                                <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_B1HGEtFjQjyqjJQXl_KWGw','n/a')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Implications of the New Normal on Health Technology Assessment</p>
+                                <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_B1HGEtFjQjyqjJQXl_KWGw','n/a')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Enhancing the Country’s Bio-Preparedness for COVID-19 and other Emerging Infectious Diseases</p>
+                                <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_B1HGEtFjQjyqjJQXl_KWGw','n/a')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Harnessing International Collaborations and Engagement of Stakeholders to Maximize Health Research Impact</p>
+                                <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_B1HGEtFjQjyqjJQXl_KWGw','n/a')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Plenary II and 14th PNHRS Week Celebration Closing</p>
                             </div>
                         </div>
                     </div>
@@ -164,11 +164,23 @@
                         <div class="blog-box mb-4 mb-xl-0">
                             <div class="mt-4 text-muted">
                                 <h5 class="text-primary mb-3"><i class="bx bx-news me-1"></i> SATELLITE SESSIONS</h5>
-                                  <div class="text-muted mt-4" style="cursor:pointer">
-                                    <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2"><i class="mdi mdi-circle-medium text-warning me-1"></i>Financing for National Health Security and Pandemic Preparedness</p>
-                                    <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2"><i class="mdi mdi-circle-medium text-warning me-1"></i>Strengthening the National Health Research System’s Capacity for Response and Research</p>
-                                    <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2"><i class="mdi mdi-circle-medium text-warning me-1"></i>Enhancing Regional Preparedness for Public Health Emergencies</p>
-                                    <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2"><i class="mdi mdi-circle-medium text-warning me-1"></i>Strengthening the National Health Research System’s Capacity for Response and Research</p>
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <div class="text-muted mt-4">
+                                            <p class="mb-2 text-truncate"><i class='bx bx-calendar'></i> August 03, 2021</p>
+                                            <p class="mb-2 text-truncate"><i class='bx bx-calendar'></i> August 04, 2021</p>
+                                            <p class="mb-2 text-truncate"><i class='bx bx-calendar'></i> August 05, 2021</p>
+                                            <p class="mb-2 text-truncate"><i class='bx bx-calendar'></i> August 06, 2021</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-10" style="margin-left: -30px;">
+                                        <div class="text-muted mt-4" style="cursor:pointer">
+                                            <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_B1HGEtFjQjyqjJQXl_KWGw','August 03, 2021')" class="mb-2 text-truncate" ><i class="mdi mdi-circle-medium text-warning me-1"></i>Financing for National Health Security and Pandemic Preparedness</p>
+                                            <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_0wrnbsM1R5iGsWKqRt8oCQ','August 04, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Strengthening the National Health Research System’s Capacity for Response and Research</p>
+                                            <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_BUZ-ntn_SI-I9qMJyMVuKA','August 05, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Enhancing Regional Preparedness for Public Health Emergencies</p>
+                                            <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_6k1-qA-5RUe7F231-IPuow','August 06, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Ensuring Good Governance and Accountability in the New Normal</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -178,15 +190,31 @@
                         <div class="blog-box mb-4 mb-xl-0">
                             <div class="mt-4 text-muted">
                                 <h5 class="text-danger mb-3"><i class="bx bx-news me-1"></i> PRE-CONFERENCE SESSION</h5>
-                                <div class="text-muted mt-4" style="cursor:pointer">
-                                    <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2"><i class="mdi mdi-circle-medium text-warning me-1"></i>Oral Research Presentation Contest - Student</p>
-                                    <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2"><i class="mdi mdi-circle-medium text-warning me-1"></i>Oral Research Presentation Contest - Professional</p>
-                                    <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2"><i class="mdi mdi-circle-medium text-warning me-1"></i>Talk on Social Innovation in Health Research</p>
-                                    <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2"><i class="mdi mdi-circle-medium text-warning me-1"></i>Moral Compass for Emergency Research and the Importance and Nature of Community Consultation</p>
-                                    <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2"><i class="mdi mdi-circle-medium text-warning me-1"></i>Undergraduate Thesis Grant in Natural Products Competition</p>
-                                    <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2"><i class="mdi mdi-circle-medium text-warning me-1"></i>HERDIN</p>
-                                    <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2"><i class="mdi mdi-circle-medium text-warning me-1"></i>Research Ethics Secretariat Training</p>
-                                    <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2"><i class="mdi mdi-circle-medium text-warning me-1"></i>3-Minute Pitch to Policymakers Competition</p>
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <div class="text-muted mt-4">
+                                            <p class="mb-2 text-truncate"><i class='bx bx-calendar'></i> August 09, 2021</p>
+                                            <p class="mb-2 text-truncate"><i class='bx bx-calendar'></i> August 09, 2021</p>
+                                            <p class="mb-2 text-truncate"><i class='bx bx-calendar'></i> August 09, 2021</p>
+                                            <p class="mb-2 text-truncate"><i class='bx bx-calendar'></i> August 10, 2021</p>
+                                            <p class="mb-2 text-truncate"><i class='bx bx-calendar'></i> August 10, 2021</p>
+                                            <p class="mb-2 text-truncate"><i class='bx bx-calendar'></i> August 11, 2021</p>
+                                            <p class="mb-2 text-truncate"><i class='bx bx-calendar'></i> August 11, 2021</p>
+                                            <p class="mb-2 text-truncate"><i class='bx bx-calendar'></i> August 11, 2021</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-10" style="margin-left: -30px;">
+                                        <div class="text-muted mt-4" style="cursor:pointer">
+                                        <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_HSzgJC2YSMKtazgiE_MFiA','August 09, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Oral Research Presentation Contest - Student</p>
+                                            <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_wvTDUmJWQV23CQEbFnm3DQ','August 09, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Oral Research Presentation Contest - Professional</p>
+                                            <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_4V-Qlp41TyCDokWC1bot3A','August 09, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Talk on Social Innovation in Health Research</p>
+                                            <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_s-isBFZESkinjrB_YXkQ8g','August 10, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Moral Compass for Emergency Research and the Importance and Nature of Community Consultation</p>
+                                            <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_aut-ZSkBRAOMB6cFyigSjg','August 10, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Undergraduate Thesis Grant in Natural Products Competition</p>
+                                            <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_E0AnW6IsT6mNE-O7tZmxTw','August 11, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>HERDIN</p>
+                                            <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_ROZhY35mR36O0AOiHoe1yQ','August 11, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Research Ethics Secretariat Training</p>
+                                            <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_KvBNGA_GT3q9TGLaxFEjIg','August 11, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>3-Minute Pitch to Policymakers Competition</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -196,12 +224,25 @@
                         <div class="blog-box mb-4 mb-xl-0">
                             <div class="mt-4 text-muted">
                                 <h5 class="text-warning mb-3"><i class="bx bx-news me-1"></i> MAIN CONFERENCE SESSIONS</h5>
-                                <div class="text-muted mt-4" style="cursor:pointer">
-                                    <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2"><i class="mdi mdi-circle-medium text-warning me-1"></i>14th PNHRS Week Celebration - Opening and Plenary 1</p>
-                                    <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2"><i class="mdi mdi-circle-medium text-warning me-1"></i>Implications of the New Normal on Health Technology Assessment</p>
-                                    <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2"><i class="mdi mdi-circle-medium text-warning me-1"></i>Enhancing the Country’s Bio-Preparedness for COVID-19 and other Emerging Infectious Diseases</p>
-                                    <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2"><i class="mdi mdi-circle-medium text-warning me-1"></i>Harnessing International Collaborations and Engagement of Stakeholders to Maximize Health Research Impact</p>
-                                    <p data-bs-toggle="modal" data-bs-target="#openmodal" class="mb-2"><i class="mdi mdi-circle-medium text-warning me-1"></i>Plenary II and 14th PNHRS Week Celebration Closing</p>
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <div class="text-muted mt-4">
+                                            <p class="mb-2 text-truncate"><i class='bx bx-calendar'></i> August 12, 2021</p>
+                                            <p class="mb-2 text-truncate"><i class='bx bx-calendar'></i> Not Available</p>
+                                            <p class="mb-2 text-truncate"><i class='bx bx-calendar'></i> Not Available</p>
+                                            <p class="mb-2 text-truncate"><i class='bx bx-calendar'></i> Not Available</p>
+                                            <p class="mb-2 text-truncate"><i class='bx bx-calendar'></i> Not Available</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-10" style="margin-left: -30px;">
+                                        <div class="text-muted mt-4" style="cursor:pointer">
+                                            <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_5aRz2YXGQBa_bxW6RRTdJg', 'August 12, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>14th PNHRS Week Celebration - Opening and Plenary 1</p>
+                                            <p @click="openmodal('','n/a')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Implications of the New Normal on Health Technology Assessment</p>
+                                            <p @click="openmodal('','n/a')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Enhancing the Country’s Bio-Preparedness for COVID-19 and other Emerging Infectious Diseases</p>
+                                            <p @click="openmodal('','n/a')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Harnessing International Collaborations and Engagement of Stakeholders to Maximize Health Research Impact</p>
+                                            <p @click="openmodal('','n/a')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Plenary II and 14th PNHRS Week Celebration Closing</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -211,7 +252,7 @@
         </section>
         
         <div class="modal fade" id="openmodal" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered  modal-lg">
+            <div class="modal-dialog modal-dialog-centered modal">
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title mt-0" id="myExtraLargeModalLabel">Register Now!</h5>
@@ -219,8 +260,13 @@
                         </button>
                     </div>
                     <div class="modal-body">
-                        <div class="alert alert-warning alert-dismissible fade show" role="alert">
-                            <i class="mdi mdi-alert-outline me-2"></i> Link for registration is not yet available.
+                        <div class="row">
+                            <div class="col-md-8">
+                                <span class="font-size-20 mt-5"><i class='bx bx-calendar'></i> {{date}} </span>
+                            </div>
+                            <div class="col-md-4">
+                                <a :href="link" target="_blank"><button @click="close" type="button" class="btn btn-primary waves-effect btn-label waves-light"><i class='bx bxl-zoom bx-flashing label-icon'></i> Zoom Link</button></a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -250,6 +296,7 @@
         <script src="assets/libs/owl.carousel/owl.carousel.min.js"></script>
         <script src="assets/js/pages/ico-landing.init.js"></script>
         <script src="assets/js/app.js"></script>
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet' defer>
         </div>
     </body>
 </html>
