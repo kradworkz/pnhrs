@@ -156,7 +156,7 @@
                 <div class="row" v-else>
                     <div class="col-lg-12">
                         <div class="media">
-                            <div class="media-body float-end" style="margin-left: -5px;">
+                            <div class="media-body float-end" style="margin-left: -10px;">
                                 <div class="text-white">
                                     <p style="margin-bottom: -1px;">Health R&D in the New Normal :</p>
                                     <h6 class="text-white mb-1">Moving towards Universal Health Care</h6>                 
