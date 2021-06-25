@@ -19,38 +19,6 @@
         <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script>
         <script src="https://cdn.jsdelivr.net/npm/vue-slick-carousel@1.0.6/dist/vue-slick-carousel.umd.min.js"></script>
         <script src="./js/main.js"></script>
-        <!-- <style>
-        .slide {
-
-            &-1, &-2, &-3, &-4 {
-            height: 150px;
-            display: flex !important;
-            justify-content: center;
-            align-items: center;
-            
-            p {
-                margin-top: 0;
-            }
-            }
-
-            &-1 {
-            background-color: orange;
-            }
-
-            &-2 {
-            background-color: green;
-            }
-
-            &-3 {
-            background-color: teal;
-            }
-
-            &-4 {
-            background-color: purple;
-            }
-        }
-        </style> -->
-
         <style>
         .slick-prev {
             margin-left: -25px;
