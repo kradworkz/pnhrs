@@ -104,7 +104,7 @@
             <div class="bg-overlay bg-primary"></div>
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-12 mb-5" style="margin-top: -120px;">
+                    <div class="col-lg-12 mb-5" style="margin-top: -130px;">
                         <div class="text-white-50">
                             <h1 class="text-white fw-semibold mb-2"><span style="font-size : 20px;">Health R&D in the New Normal :</span><br><span style="font-size : 32px;"> Moving towards Universal Health Care</span></h1>
                             <span class="font-size-14 text-warning" style="margin-right: 20px;"><i class='bx bx-calendar'></i> August 09-13, 2021 </span>
