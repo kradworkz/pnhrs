@@ -74,10 +74,6 @@
                             <a class="nav-link" href="#about">Sessions</a>
                         </li>
                     </ul>
-
-                    <div class="my-2 ms-lg-2">
-                        <a href="javascript: void(0);" class="btn btn-outline-success w-xs">Register</a>
-                    </div>
                 </div>
             </div>
         </nav>
