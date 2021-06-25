@@ -82,6 +82,13 @@
             <div class="bg-overlay bg-primary"></div>
             <div class="container">
                 <div class="row align-items-center">
+                    <div class="col-lg-20">
+                        <div class="text-white-50">
+                            <h1 class="text-white fw-semibold mb-2"><span style="font-size : 24px;">Health R&D in the New Normal :</span><br><span style="font-size : 32px;"> Moving towards Universal Health Care</span></h1>
+                                    <span class="font-size-14" style="margin-right: 20px;"><i class='bx bx-calendar'></i> August 09-13, 2021 </span>
+                                    <span class="font-size-14"><i class='bx bx-map-pin'></i> Zamboanga City</span>
+                        </div>
+                    </div>
                     <div class="col-lg-5">
                         <div class="text-white-50">
                             <div class="">
@@ -93,9 +100,9 @@
                         <vue-slick-carousel :autoplay="true" :autoplaySpeed="10000" :dots="true" :options="slickOptions">
                             <div class="slide-1">
                                 <div class="text-white-50">
-                                    <h1 class="text-white fw-semibold mb-2"><span style="font-size : 24px;">Health R&D in the New Normal :</span><br><span style="font-size : 32px;"> Moving towards Universal Health Care</span></h1>
+                                    <!--h1 class="text-white fw-semibold mb-2"><span style="font-size : 24px;">Health R&D in the New Normal :</span><br><span style="font-size : 32px;"> Moving towards Universal Health Care</span></h1>
                                     <span class="font-size-14" style="margin-right: 20px;"><i class='bx bx-calendar'></i> August 09-13, 2021 </span>
-                                    <span class="font-size-14"><i class='bx bx-map-pin'></i> Zamboanga City</span>
+                                    <span class="font-size-14"><i class='bx bx-map-pin'></i> Zamboanga City</span-->
                                     
                                     <p class="font-size-13 mt-4 mb-4">Anchored on the principles of the Essential National Health Research (ENHR) on inclusiveness, participation, quality, equity, and effectiveness, the Philippine National Health Research System (PNHRS) is an integrated national framework for health research in the country. It is a convergence strategy that aims to promote cooperation and integration of all health research efforts and stakeholders in the country to ensure that research contributes to evidence-informed health policies and actions.</p>
                                     
