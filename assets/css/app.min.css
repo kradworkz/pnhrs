@@ -3992,6 +3992,7 @@ table.dataTable.dtr-inline.collapsed>tbody>tr>td.dtr-control:before {
 
 .auth-full-bg .bg-overlay {
     background: url(../images/bg-auth-overlay.png);
+    /*opacity: 0.1;*/
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center
