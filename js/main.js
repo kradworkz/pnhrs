@@ -2,10 +2,17 @@
 document.addEventListener('DOMContentLoaded', function () {
     new Vue({
         el: '#sg1',
+        components: { 
+            VueSlickCarousel : window['vue-slick-carousel'] 
+        },
         data: {
             type : 'main',
             link: '',
-            date: ''
+            date: '',
+            slickOptions: {
+                infinite: true,
+                slidesToShow: 1,
+            },
         },
         methods: {
             openhaha(val) {
