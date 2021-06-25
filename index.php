@@ -90,7 +90,7 @@
                         </div>
                     </div>
                     <div class="col-lg-7">
-                        <vue-slick-carousel :autoplay="true" :dots="true" :options="slickOptions">
+                        <vue-slick-carousel :autoplay="true" :autoplaySpeed="10000" :dots="true" :options="slickOptions">
                             <div class="slide-1">
                                 <div class="text-white-50">
                                     <h1 class="text-white fw-semibold mb-2"><span style="font-size : 24px;">Health R&D in the New Normal :</span><br><span style="font-size : 32px;"> Moving towards Universal Health Care</span></h1>
