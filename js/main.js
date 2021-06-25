@@ -12,6 +12,8 @@ document.addEventListener('DOMContentLoaded', function () {
             slickOptions: {
                 infinite: true,
                 slidesToShow: 1,
+                speed: 1000,
+                centerPadding: '100px'
             },
         },
         methods: {
