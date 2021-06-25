@@ -82,21 +82,21 @@
             <div class="bg-overlay bg-primary"></div>
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-20">
+                    <div class="col-lg-12 mb-5" style="margin-top: -70px;">
                         <div class="text-white-50">
                             <h1 class="text-white fw-semibold mb-2"><span style="font-size : 24px;">Health R&D in the New Normal :</span><br><span style="font-size : 32px;"> Moving towards Universal Health Care</span></h1>
-                                    <span class="font-size-14" style="margin-right: 20px;"><i class='bx bx-calendar'></i> August 09-13, 2021 </span>
-                                    <span class="font-size-14"><i class='bx bx-map-pin'></i> Zamboanga City</span>
+                            <span class="font-size-14" style="margin-right: 20px;"><i class='bx bx-calendar'></i> August 09-13, 2021 </span>
+                            <span class="font-size-14"><i class='bx bx-map-pin'></i> Zamboanga City</span>
                         </div>
                     </div>
-                    <div class="col-lg-5">
+                    <div class="col-lg-4">
                         <div class="text-white-50">
                             <div class="">
                                 <img src="assets/images/krad/logo.png" class="img-fluid" alt="Responsive image" style="max-width: 85%; height: auto;">
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-7">
+                    <div class="col-lg-8">
                         <vue-slick-carousel :autoplay="true" :autoplaySpeed="10000" :dots="true" :options="slickOptions">
                             <div class="slide-1">
                                 <div class="text-white-50">
@@ -367,25 +367,25 @@
         <script src="assets/js/pages/ico-landing.init.js"></script>
         <script src="assets/js/app.js"></script>
         <script>
-            var heightSlider = $('.hero-section').height();
-            if(heightSlider < 250){
-                $('.hero-section').css({ paddingTop : '150px' });
-            }else if(heightSlider < 420){
-                $('.hero-section').css({ paddingTop : '200px' });
-            }else{
-                $('.hero-section').css({ paddingTop : '300px' });
-            }
+            // var heightSlider = $('.hero-section').height();
+            // if(heightSlider < 250){
+            //     $('.hero-section').css({ paddingTop : '150px' });
+            // }else if(heightSlider < 420){
+            //     $('.hero-section').css({ paddingTop : '200px' });
+            // }else{
+            //     $('.hero-section').css({ paddingTop : '300px' });
+            // }
 
-            $(window).resize(function(){
-                var heightSlider = $('.hero-section').height();
-                if(heightSlider < 250){
-                    $('.hero-section').css({ paddingTop : '150px' });
-                }else if(heightSlider < 420){
-                    $('.hero-section').css({ paddingTop : '200px' });
-                }else{
-                    $('.hero-section').css({ paddingTop : '300px' });
-                }
-            });
+            // $(window).resize(function(){
+            //     var heightSlider = $('.hero-section').height();
+            //     if(heightSlider < 250){
+            //         $('.hero-section').css({ paddingTop : '150px' });
+            //     }else if(heightSlider < 420){
+            //         $('.hero-section').css({ paddingTop : '200px' });
+            //     }else{
+            //         $('.hero-section').css({ paddingTop : '300px' });
+            //     }
+            // });
         </script>
         <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet' defer>
         </div>
