@@ -44,7 +44,7 @@
 
     <body data-bs-spy="scroll" data-bs-target="#topnav-menu" data-bs-offset="60">
         <div id="sg1">
-        <nav class="navbar navbar-expand-lg navigation fixed-top sticky">
+        <nav class="navbar navbar-expand-lg navigation fixed-top sticky navy">
             <div class="container">
                 <a class="navbar-logo" href="index-2.html">
                     <img src="assets/images/logo-dark.png" alt="" height="19" class="logo logo-dark">
@@ -68,19 +68,19 @@
             </div>
         </nav>
 
-        <section class="section hero-section bg-ico-hero" id="home" style="height: 100vh;">
+        <section class="section hero-section bg-ico-hero" id="home" style="height: 100vh;" >
             <div class="bg-overlay bg-primary"></div>
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-12 mb-5" style="margin-top: -120px;">
+                    <div class="col-lg-12 mb-5" style="margin-top: -130px;">
                         <div class="text-white-50">
-                            <h1 class="text-white fw-semibold mb-2"><span style="font-size : 20px;">Health R&D in the New Normal :</span><br><span style="font-size : 32px;"> Moving towards Universal Health Care</span></h1>
-                            <span class="font-size-14 text-warning" style="margin-right: 20px;"><i class='bx bx-calendar'></i> August 09-13, 2021 </span>
-                            <span class="font-size-14 text-warning"><i class='bx bx-map-pin'></i> Zamboanga City</span>
+                            <h1 class="text-white fw-semibold mb-2"><span style="font-size : 18px; color: #ffd311; text-shadow: 1px 1px 1px #404040;">Health R&D in the New Normal :</span><br><span style="font-size : 30px; color: #ff2960; text-shadow: 1px 1px 2px #000000;"> Moving towards Universal Health Care</span></h1>
+                            <span class="font-size-13 text-white" style="margin-right: 20px;"><i class='bx bx-calendar'></i> August 09-13, 2021 </span>
+                            <span class="font-size-13 text-white"><i class='bx bx-map-pin'></i> Zamboanga City</span>
                         </div>
                     </div>
                 </div>
-                <div class="row align-items-center" style="margin-top: 35px;">
+                <div class="row align-items-center" style="margin-top: 30px;">
                     <div class="col-lg-4">
                         <div class="text-white-50">
                             <div class="">
@@ -92,7 +92,7 @@
                         <vue-slick-carousel :autoplay="true" :autoplaySpeed="10000" :dots="true" :options="slickOptions">
                             <div class="slide-1" style="padding: 50px;">
                                 <div class="text-white-50" style="margin-left: 100px;">
-                                    <h3 class="text-white fw-semibold mb-4">Philippine National Health Research System </h3>
+                                    <h3 class="gratext fw-semibold mb-4">Philippine National Health Research System </h3>
                                     <p class="font-size-13 mt-4 mb-5">Anchored on the principles of the Essential National Health Research (ENHR) on inclusiveness, participation, quality, equity, and effectiveness, the Philippine National Health Research System (PNHRS) is an integrated national framework for health research in the country. It is a convergence strategy that aims to promote cooperation and integration of all health research efforts and stakeholders in the country to ensure that research contributes to evidence-informed health policies and actions.</p>
                                     <ul class="list-inline user-chat-nav text-right" style="margin-top: 5rem !impotant;">
                                         <li class="list-inline-item">
@@ -123,7 +123,7 @@
 
                             <div class="slide-2">
                                 <div class="text-white-50">
-                                    <h3 class="text-white fw-semibold mb-4">Sattelite Sessions :</h3>
+                                    <h3 class="gratext fw-semibold mb-4">Sattelite Sessions :</h3>
                                     <hr>
                                     <div class="text-white mt-4" style="cursor:pointer">
                                         <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_B1HGEtFjQjyqjJQXl_KWGw','August 03, 2021')" class="mb-2 text-truncate" ><i class="mdi mdi-circle-medium text-warning me-1"></i>Financing for National Health Security and Pandemic Preparedness</p>
@@ -136,7 +136,7 @@
 
                             <div class="slide-3">
                                 <div class="text-white-50">
-                                    <h3 class="text-white fw-semibold mb-4">Pre-Conference Sessions :</h3>
+                                    <h3 class="gratext fw-semibold mb-4">Pre-Conference Sessions :</h3>
                                     <hr>
                                     <div class="text-white mt-4" style="cursor:pointer">
                                         <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_HSzgJC2YSMKtazgiE_MFiA','August 09, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Oral Research Presentation (Student Category)</p>
@@ -155,7 +155,7 @@
 
                             <div class="slide-4">
                                 <div class="text-white-50">
-                                    <h3 class="text-white fw-semibold mb-4">Main Conference Sessions :</h3>
+                                    <h3 class="gratext fw-semibold mb-4">Main Conference Sessions :</h3>
                                     <hr>
                                     <div class="text-white mt-4" style="cursor:pointer">
                                         <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_5aRz2YXGQBa_bxW6RRTdJg', 'August 12, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>14th PNHRS Week Celebration - Opening</p>

@@ -4795,6 +4795,10 @@ table.dataTable.dtr-inline.collapsed>tbody>tr>td.dtr-control:before {
     background-position: top;
 }
 
+/* .navy {
+    background-image: url(../images/krad/nav.jpg);
+} */
+
 @media (max-width:575.98px) {
     .hero-section {
         padding-top: 140px;
@@ -5058,3 +5062,10 @@ table.dataTable.dtr-inline.collapsed>tbody>tr>td.dtr-control:before {
 }
 
 /*# sourceMappingURL=app.min.css.map */
+.gratext {
+	/* background: linear-gradient(to right, #740283 0%, #de6ff5 100%);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    text-shadow: 1px 1px 2px #3f3f3f;
+    color: #71f8ba;
+}
