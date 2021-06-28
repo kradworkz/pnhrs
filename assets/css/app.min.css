@@ -4795,9 +4795,11 @@ table.dataTable.dtr-inline.collapsed>tbody>tr>td.dtr-control:before {
     background-position: top;
 }
 
-/* .navy {
-    background-image: url(../images/krad/nav.jpg);
-} */
+.navy {
+    /* background-image: url(../images/krad/nav.jpg); */
+    /* border-bottom: 2px solid #eff2f7; */
+
+}
 
 @media (max-width:575.98px) {
     .hero-section {
@@ -5069,3 +5071,4 @@ table.dataTable.dtr-inline.collapsed>tbody>tr>td.dtr-control:before {
     text-shadow: 1px 1px 2px #3f3f3f;
     color: #71f8ba;
 }
+

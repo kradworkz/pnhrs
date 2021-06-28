@@ -46,7 +46,7 @@
         <div id="sg1">
         <nav class="navbar navbar-expand-lg navigation fixed-top sticky navy">
             <div class="container">
-                <a class="navbar-logo" href="index-2.html">
+                <a class="navbar-logo" href="index.php">
                     <img src="assets/images/logo-dark.png" alt="" height="19" class="logo logo-dark">
                     <img src="assets/images/logo-light.png" alt="" height="19" class="logo logo-light">
                 </a>
@@ -74,13 +74,13 @@
                 <div class="row align-items-center">
                     <div class="col-lg-12 mb-5" style="margin-top: -130px;">
                         <div class="text-white-50">
-                            <h1 class="text-white fw-semibold mb-2"><span style="font-size : 18px; color: #ffd311; text-shadow: 1px 1px 1px #404040;">Health R&D in the New Normal :</span><br><span style="font-size : 30px; color: #ff2960; text-shadow: 1px 1px 2px #000000;"> Moving towards Universal Health Care</span></h1>
-                            <span class="font-size-13 text-white" style="margin-right: 20px;"><i class='bx bx-calendar'></i> August 09-13, 2021 </span>
-                            <span class="font-size-13 text-white"><i class='bx bx-map-pin'></i> Zamboanga City</span>
+                            <h1 class="text-white fw-semibold mb-2"><p style="font-size : 18px; color: #ffd311; text-shadow: 1px 1px 1px #404040;">Health R&D in the New Normal :</p><p style="font-size : 30px; color: #ff2960; text-shadow: 1px 1px 2px #000000; margin-top: -15px;"> Moving towards Universal Health Care</p></h1>
+                            <p style="margin-top: -12px;"><span class="font-size-13 text-white" style="margin-right: 20px;"><i class='bx bx-calendar'></i> August 09-13, 2021 </span>
+                            <span class="font-size-13 text-white"><i class='bx bx-map-pin'></i> Zamboanga City</span></p>
                         </div>
                     </div>
                 </div>
-                <div class="row align-items-center" style="margin-top: 30px;">
+                <div class="row align-items-center" style="margin-top: 20px;">
                     <div class="col-lg-4">
                         <div class="text-white-50">
                             <div class="">
@@ -93,7 +93,7 @@
                             <div class="slide-1" style="padding: 50px;">
                                 <div class="text-white-50" style="margin-left: 100px;">
                                     <h3 class="gratext fw-semibold mb-4">Philippine National Health Research System </h3>
-                                    <p class="font-size-13 mt-4 mb-5">Anchored on the principles of the Essential National Health Research (ENHR) on inclusiveness, participation, quality, equity, and effectiveness, the Philippine National Health Research System (PNHRS) is an integrated national framework for health research in the country. It is a convergence strategy that aims to promote cooperation and integration of all health research efforts and stakeholders in the country to ensure that research contributes to evidence-informed health policies and actions.</p>
+                                    <p class="font-size-13 mt-4 mb-5 highlight">Anchored on the principles of the Essential National Health Research (ENHR) on inclusiveness, participation, quality, equity, and effectiveness, the Philippine National Health Research System (PNHRS) is an integrated national framework for health research in the country. It is a convergence strategy that aims to promote cooperation and integration of all health research efforts and stakeholders in the country to ensure that research contributes to evidence-informed health policies and actions.</p>
                                     <ul class="list-inline user-chat-nav text-right" style="margin-top: 5rem !impotant;">
                                         <li class="list-inline-item">
                                         <img src="assets/images/krad/pnhrs.jpg" alt="" class="rounded" style="width: 50px; height: 50px;">
