@@ -4795,6 +4795,17 @@ table.dataTable.dtr-inline.collapsed>tbody>tr>td.dtr-control:before {
     background-position: top;
 }
 
+.bgback {
+    background-image: url(../images/krad/bg.jpg);
+
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .navy {
     /* background-image: url(../images/krad/nav.jpg); */
     /* border-bottom: 2px solid #eff2f7; */
