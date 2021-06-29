@@ -4780,7 +4780,7 @@ table.dataTable.dtr-inline.collapsed>tbody>tr>td.dtr-control:before {
     bottom: 0;
     left: 0;
     top: 0;
-    opacity: .7;
+    opacity:.5;
     background-color: #000
 }
 
@@ -5081,5 +5081,10 @@ table.dataTable.dtr-inline.collapsed>tbody>tr>td.dtr-control:before {
     -webkit-text-fill-color: transparent; */
     text-shadow: 1px 1px 2px #3f3f3f;
     color: #71f8ba;
+}
+
+.para {
+    text-shadow: 1px 1px 1px #000000;
+    font-weight: 450;
 }
 

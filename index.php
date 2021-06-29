@@ -69,7 +69,7 @@
         </nav>
 
         <section class="section hero-section bg-ico-hero" id="home" style="height: 100vh;" >
-            <div class="bg-overlay bg-warning"></div>
+            <div class="bg-overlay bg-info"></div>
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-12 mb-5" style="margin-top: -130px;">
@@ -88,12 +88,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-8">
+                    <div class="col-lg-8 test">
                         <vue-slick-carousel :autoplay="true" :autoplaySpeed="10000" :dots="true" :options="slickOptions">
                             <div class="slide-1" style="padding: 50px;">
                                 <div class="text-white-50" style="margin-left: 100px;">
                                     <h3 class="gratext fw-semibold mb-4">Philippine National Health Research System </h3>
-                                    <p class="font-size-13 mt-4 mb-5 text-white">Anchored on the principles of the Essential National Health Research (ENHR) on inclusiveness, participation, quality, equity, and effectiveness, the Philippine National Health Research System (PNHRS) is an integrated national framework for health research in the country. It is a convergence strategy that aims to promote cooperation and integration of all health research efforts and stakeholders in the country to ensure that research contributes to evidence-informed health policies and actions.</p>
+                                    <p class="font-size-13 mt-4 mb-5 text-white para">Anchored on the principles of the Essential National Health Research (ENHR) on inclusiveness, participation, quality, equity, and effectiveness, the Philippine National Health Research System (PNHRS) is an integrated national framework for health research in the country. It is a convergence strategy that aims to promote cooperation and integration of all health research efforts and stakeholders in the country to ensure that research contributes to evidence-informed health policies and actions.</p>
                                     <ul class="list-inline user-chat-nav text-right" style="margin-top: 5rem !impotant;">
                                         <li class="list-inline-item">
                                         <img src="assets/images/krad/pnhrs.jpg" alt="" class="rounded" style="width: 50px; height: 50px;">
@@ -125,7 +125,7 @@
                                 <div class="text-white-50">
                                     <h3 class="gratext fw-semibold mb-4">Sattelite Sessions :</h3>
                                     <hr>
-                                    <div class="text-white mt-4" style="cursor:pointer">
+                                    <div class="text-white mt-4 para" style="cursor:pointer">
                                         <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_B1HGEtFjQjyqjJQXl_KWGw','August 03, 2021')" class="mb-2 text-truncate" ><i class="mdi mdi-circle-medium text-warning me-1"></i>Financing for National Health Security and Pandemic Preparedness</p>
                                         <!--https://us02web.zoom.us/webinar/register/WN_0wrnbsM1R5iGsWKqRt8oCQ-->
                                         <p @click="openmodal('https://zoom.us/webinar/register/WN_qrQQF9gaQzua-A2-pTuRSg','August 04, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Strengthening the National Health Research System’s Capacity for Response and Research</p>
@@ -139,7 +139,7 @@
                                 <div class="text-white-50">
                                     <h3 class="gratext fw-semibold mb-4">Pre-Conference Sessions :</h3>
                                     <hr>
-                                    <div class="text-white mt-4" style="cursor:pointer">
+                                    <div class="text-white mt-4 para" style="cursor:pointer">
                                         <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_HSzgJC2YSMKtazgiE_MFiA','August 09, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Oral Research Presentation (Student Category)</p>
                                         <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_wvTDUmJWQV23CQEbFnm3DQ','August 09, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Oral Research Presentation (Professional Category)</p>
                                         <p @click="openmodal('https://us02web.zoom.us/meeting/register/tZYocOmrqD0oHd1MQFZoycLpqubRv2m-AozG','August 09, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Session on Social Innovation in Health Research</p>
@@ -158,7 +158,7 @@
                                 <div class="text-white-50">
                                     <h3 class="gratext fw-semibold mb-4">Main Conference Sessions :</h3>
                                     <hr>
-                                    <div class="text-white mt-4" style="cursor:pointer">
+                                    <div class="text-white mt-4 para" style="cursor:pointer">
                                         <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_5aRz2YXGQBa_bxW6RRTdJg', 'August 12, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>14th PNHRS Week Celebration - Opening</p>
                                         <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_5aRz2YXGQBa_bxW6RRTdJg', 'August 12, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Plenary 1: Changing Landscape of Universal Health Care: Paradigm Shifts in Health R&D</p>
                                         <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_-1fQ80W0RkiHE00v35EuEg','August 12, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Parallel Session 1 : Implications of the New Normal on Health Technology Assessment</p>
