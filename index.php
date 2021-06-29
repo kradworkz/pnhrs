@@ -69,7 +69,7 @@
         </nav>
 
         <section class="section hero-section bg-ico-hero" id="home" style="height: 100vh;" >
-            <div class="bg-overlay bg-info"></div>
+            <div class="bg-overlay bg-warning"></div>
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-12 mb-5" style="margin-top: -130px;">
