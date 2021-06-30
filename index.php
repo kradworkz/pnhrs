@@ -148,7 +148,7 @@
                                         <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_KvBNGA_GT3q9TGLaxFEjIg','August 11, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>3-Minute Pitch to Policymakers Competition</p>
                                         <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_E0AnW6IsT6mNE-O7tZmxTw','August 11, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Session on HERDIN</p>
                                         <p @click="openmodal('https://us02web.zoom.us/meeting/register/tZ0pd--qrz8sE920J_aW_GIAXIQIdTtCUgIT','August 11, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Practical Training For Regional Ethics Committee Members And Staff</p>
-                                        <p @click="openmodal('','')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Research Poster Contest (Professional and Student Category)</p>
+                                        <p @click="openmodal('','')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Visual Abstract Poster Competition</p>
                                         
                                     </div>
                                 </div>
@@ -206,7 +206,7 @@
                                     <p @click="openmodal1('https://us02web.zoom.us/webinar/register/WN_KvBNGA_GT3q9TGLaxFEjIg','August 11, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>3-Minute Pitch to Policymakers Competition&nbsp;&nbsp;&nbsp | &nbsp;<span class="font-size-10 text-info"><i class='bx bx-calendar'></i> August 10, 2021 | 1 - 4 PM</span></p>
                                     <p @click="openmodal1('https://us02web.zoom.us/webinar/register/WN_E0AnW6IsT6mNE-O7tZmxTw','August 11, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Session on HERDIN&nbsp;&nbsp;&nbsp; | &nbsp;<span class="font-size-10 text-info"><i class='bx bx-calendar'></i> August 10, 2021 | 8 AM - 12 NN</span></p>
                                     <p @click="openmodal1('https://us02web.zoom.us/webinar/register/WN_ROZhY35mR36O0AOiHoe1yQ','August 11, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Research Ethics Secretariat Training&nbsp;&nbsp;&nbsp; | &nbsp;<span class="font-size-10 text-info"><i class='bx bx-calendar'></i> August 11, 2021 | 8 AM - 4 PM</span></p>
-                                    <p @click="openmodal1('','')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Research Poster Contest (Professional and Student Category)&nbsp;&nbsp;&nbsp; | &nbsp;<span class="font-size-10 text-info"><i class='bx bx-calendar'></i> August 11, 2021 | 8 AM - 12 NN</span></p>
+                                    <p @click="openmodal1('','')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Visual Abstract Poster Competition&nbsp;&nbsp;&nbsp; | &nbsp;<span class="font-size-10 text-info"><i class='bx bx-calendar'></i> August 11, 2021 | 8 AM - 12 NN</span></p>
                                 </div>
                             </div>
                         </div>
