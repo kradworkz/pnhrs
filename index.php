@@ -152,7 +152,7 @@
                                         <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_E0AnW6IsT6mNE-O7tZmxTw','August 11, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Session on HERDIN</p>
                                         <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_KvBNGA_GT3q9TGLaxFEjIg','August 11, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>3-Minute Pitch to Policymakers Competition</p>
                                         <p class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Visual Abstract Poster Competition &nbsp; <span class="badge bg-danger text-white">By Invitation Only</span> &nbsp;</p>
-                                        <p class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Practical Training For Regional Ethics Committee Members And Staff &nbsp; <span class="badge bg-danger text-white">By Invitation Only</span></p>
+                                        <p class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Practical Training For REC Members And Staff &nbsp; <span class="badge bg-danger text-white">By Invitation Only</span></p>
                                         
                                     </div>
                                 </div>
@@ -237,7 +237,7 @@
                                     </div>   
                                     <h6 style="margin-left: 40px;"> <span class="text-success"><i class='bx bx-time'></i> 8AM - 4PM </span> </h6>
                                     <div style="margin-left: 60px;"> 
-                                        <p class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Practical Training for Regional Ethics Committee Members and Staff&nbsp; <span class="badge bg-danger text-white">By Invitation Only</span></p>
+                                        <p class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Practical Training for REC Members and Staff&nbsp; <span class="badge bg-danger text-white">By Invitation Only</span></p>
                                     </div>
                                 </div>
                             </div>
