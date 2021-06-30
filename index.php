@@ -126,11 +126,16 @@
                                     <h3 class="gratext fw-semibold mb-4">Sattelite Sessions :</h3>
                                     <hr>
                                     <div class="text-white mt-4 para" style="cursor:pointer">
-                                        <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_B1HGEtFjQjyqjJQXl_KWGw','August 03, 2021')" class="mb-2 text-truncate" ><i class="mdi mdi-circle-medium text-warning me-1"></i>Financing for National Health Security and Pandemic Preparedness</p>
-                                        <!--https://us02web.zoom.us/webinar/register/WN_0wrnbsM1R5iGsWKqRt8oCQ-->
+                                        <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_B1HGEtFjQjyqjJQXl_KWGw','August 03, 2021')" class="mb-2 text-truncate" ><i class="mdi mdi-circle-medium text-warning me-1"></i>South Luzon Cluster</p>
+                                        <p @click="openmodal('https://zoom.us/webinar/register/WN_qrQQF9gaQzua-A2-pTuRSg','August 04, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>North Luzon Cluster</p>
+                                        <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_BUZ-ntn_SI-I9qMJyMVuKA','August 05, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Visayas Cluster</p>
+                                        <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_6k1-qA-5RUe7F231-IPuow','August 06, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Mindanao Cluster</p>
+                                        
+                                        <!-- <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_B1HGEtFjQjyqjJQXl_KWGw','August 03, 2021')" class="mb-2 text-truncate" ><i class="mdi mdi-circle-medium text-warning me-1"></i>Financing for National Health Security and Pandemic Preparedness</p>
                                         <p @click="openmodal('https://zoom.us/webinar/register/WN_qrQQF9gaQzua-A2-pTuRSg','August 04, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Strengthening the National Health Research System’s Capacity for Response and Research</p>
                                         <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_BUZ-ntn_SI-I9qMJyMVuKA','August 05, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Enhancing Regional Preparedness for Public Health Emergencies</p>
-                                        <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_6k1-qA-5RUe7F231-IPuow','August 06, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Ensuring Good Governance and Accountability in the New Normal</p>
+                                        <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_6k1-qA-5RUe7F231-IPuow','August 06, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Ensuring Good Governance and Accountability in the New Normal</p> -->
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -141,14 +146,13 @@
                                     <hr>
                                     <div class="text-white mt-4 para" style="cursor:pointer">
                                         <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_HSzgJC2YSMKtazgiE_MFiA','August 09, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Oral Research Presentation (Student Category)</p>
+                                        <p @click="openmodal('https://us02web.zoom.us/meeting/register/tZYocOmrqD0oHd1MQFZoycLpqubRv2m-AozG','August 09, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Talk on Social Innovation in Health Research</p>
                                         <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_wvTDUmJWQV23CQEbFnm3DQ','August 09, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Oral Research Presentation (Professional Category)</p>
-                                        <p @click="openmodal('https://us02web.zoom.us/meeting/register/tZYocOmrqD0oHd1MQFZoycLpqubRv2m-AozG','August 09, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Session on Social Innovation in Health Research</p>
-                                        <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_s-isBFZESkinjrB_YXkQ8g','August 10, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Research in Global Health Emergencies: The Nuffield Council Moral Compass and Good Participatory Practice</p>
-                                        <!--p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_aut-ZSkBRAOMB6cFyigSjg','August 10, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Undergraduate Thesis Grant in Natural Products Competition</p-->
-                                        <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_KvBNGA_GT3q9TGLaxFEjIg','August 11, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>3-Minute Pitch to Policymakers Competition</p>
+                                        <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_s-isBFZESkinjrB_YXkQ8g','August 10, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Moral Compass for Emergency Research and the Importance and Nature of Community Consultation</p>
                                         <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_E0AnW6IsT6mNE-O7tZmxTw','August 11, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Session on HERDIN</p>
-                                        <p class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Practical Training For Regional Ethics Committee Members And Staff &nbsp; <span class="badge bg-danger text-white">By Invitation Only</span></p>
+                                        <p @click="openmodal('https://us02web.zoom.us/webinar/register/WN_KvBNGA_GT3q9TGLaxFEjIg','August 11, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>3-Minute Pitch to Policymakers Competition</p>
                                         <p class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Visual Abstract Poster Competition &nbsp; <span class="badge bg-danger text-white">By Invitation Only</span> &nbsp;</p>
+                                        <p class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Practical Training For Regional Ethics Committee Members And Staff &nbsp; <span class="badge bg-danger text-white">By Invitation Only</span></p>
                                         
                                     </div>
                                 </div>
@@ -206,22 +210,36 @@
                                 <h5 class="text-danger mb-3"><i class="bx bx-news me-1"></i> PRE-CONFERENCE SESSIONS (09 -11 August 2021)</h5>
                                 <div class="text-muted mt-4" style="cursor:pointer">
                                     <h6 style="margin-left: 20px;"> <span class="text-info"><i class='bx bx-calendar'></i> August 09, 2021 </span> </h6>
-                                    <div style="margin-left: 35px;">
-                                        <p @click="openmodal1('https://us02web.zoom.us/webinar/register/WN_HSzgJC2YSMKtazgiE_MFiA','August 09, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Oral Research Presentation - Student Category&nbsp;&nbsp;&nbsp; | &nbsp;<span class="font-size-10 text-info"><i class='bx bx-time'></i> 8 AM - 12 NN</span></p>
-                                        <p @click="openmodal1('https://us02web.zoom.us/webinar/register/WN_wvTDUmJWQV23CQEbFnm3DQ','August 09, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Oral Research Presentation - Professional Category&nbsp;&nbsp;&nbsp; | &nbsp;<span class="font-size-10 text-info"><i class='bx bx-time'></i> 1 - 4 PM</span></p>
-                                        <p @click="openmodal1('https://us02web.zoom.us/webinar/register/WN_4V-Qlp41TyCDokWC1bot3A','August 09, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Talk on Social Innovation in Health Research&nbsp;&nbsp;&nbsp; | &nbsp;<span class="font-size-10 text-info"><i class='bx bx-time'></i> 8 AM - 12 NN</span></p>
+                                    <h6 style="margin-top: 15px;  margin-left: 40px;"> <span class="text-success"><i class='bx bx-time'></i> 8AM - 12NN </span> </h6>
+                                    <div style="margin-left: 60px;">
+                                        <p @click="openmodal1('https://us02web.zoom.us/webinar/register/WN_HSzgJC2YSMKtazgiE_MFiA','August 09, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Oral Research Presentation - Student Category</p>
+                                        <p @click="openmodal1('https://us02web.zoom.us/webinar/register/WN_4V-Qlp41TyCDokWC1bot3A','August 09, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Talk on Social Innovation in Health Research</p>
+                                    </div>
+                                    <h6 style="margin-left: 40px;"> <span class="text-success"><i class='bx bx-time'></i> 1PM - 4PM </span> </h6>
+                                    <div style="margin-left: 60px;">
+                                        <p @click="openmodal1('https://us02web.zoom.us/webinar/register/WN_wvTDUmJWQV23CQEbFnm3DQ','August 09, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Oral Research Presentation - Professional Category</p>
                                     </div>
                                     <h6 style="margin-left: 20px;"> <span class="text-info"><i class='bx bx-calendar'></i> August 10, 2021 </span> </h6>
-                                    <div style="margin-left: 35px;">
-                                        <p @click="openmodal1('https://us02web.zoom.us/webinar/register/WN_s-isBFZESkinjrB_YXkQ8g','August 10, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Moral Compass for Emergency Research and the Importance and Nature of Community Consultation&nbsp;&nbsp;&nbsp; | &nbsp;<span class="font-size-10 text-info"><i class='bx bx-time'></i> 8 AM - 12 NN</span></p>
-                                        <!--p @click="openmodal1('https://us02web.zoom.us/webinar/register/WN_aut-ZSkBRAOMB6cFyigSjg','August 10, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Undergraduate Thesis Grant in Natural Products Competition</p-->
-                                        <p @click="openmodal1('https://us02web.zoom.us/webinar/register/WN_KvBNGA_GT3q9TGLaxFEjIg','August 11, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>3-Minute Pitch to Policymakers Competition&nbsp;&nbsp;&nbsp | &nbsp;<span class="font-size-10 text-info"><i class='bx bx-time'></i>  1 - 4 PM</span></p>
-                                        <p @click="openmodal1('https://us02web.zoom.us/webinar/register/WN_E0AnW6IsT6mNE-O7tZmxTw','August 11, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Session on HERDIN&nbsp;&nbsp;&nbsp; | &nbsp;<span class="font-size-10 text-info"><i class='bx bx-time'></i>  8 AM - 12 NN</span></p>
+                                    <h6 style="margin-top: 15px; margin-left: 40px;"> <span class="text-success"><i class='bx bx-time'></i> 8AM - 12NN </span> </h6>
+                                    <div style="margin-left: 60px;">
+                                        <div style="margin-left: 35px;">
+                                            <p @click="openmodal1('https://us02web.zoom.us/webinar/register/WN_s-isBFZESkinjrB_YXkQ8g','August 10, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Moral Compass for Emergency Research and the Importance and Nature of Community Consultation</p>
+                                            <p @click="openmodal1('https://us02web.zoom.us/webinar/register/WN_E0AnW6IsT6mNE-O7tZmxTw','August 11, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Session on HERDIN</p>
+                                        </div>
+                                    </div>
+                                    <h6 style="margin-left: 40px;"> <span class="text-success"><i class='bx bx-time'></i> 1PM - 4PM </span> </h6>
+                                    <div style="margin-left: 60px;">
+                                            <p @click="openmodal1('https://us02web.zoom.us/webinar/register/WN_KvBNGA_GT3q9TGLaxFEjIg','August 11, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>3-Minute Pitch to Policymakers Competition</p>
+                                        </div>
                                     </div>
                                     <h6 style="margin-left: 20px;"> <span class="text-info"><i class='bx bx-calendar'></i> August 11, 2021 </span> </h6>
-                                    <div style="margin-left: 35px;"> 
-                                        <p class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Practical Training for Regional Ethics Committee Members and Staff&nbsp; <span class="badge bg-danger text-white">By Invitation Only</span> &nbsp; | &nbsp;<span class="font-size-10 text-info"><i class='bx bx-time'></i>  8 AM - 4 PM</span></p>
-                                        <p class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Visual Abstract Poster Competition&nbsp; <span class="badge bg-danger text-white">By Invitation Only</span> &nbsp;| &nbsp;<span class="font-size-10 text-info"><i class='bx bx-time'> </i> 8 AM - 12 NN</span></p>
+                                    <h6 style="margin-top: 15px; margin-left: 40px;"> <span class="text-success"><i class='bx bx-time'></i> 8AM - 12NN </span> </h6>
+                                    <div style="margin-left: 60px;"> 
+                                        <p class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Visual Abstract Poster Competition&nbsp; <span class="badge bg-danger text-white">By Invitation Only</span></p>
+                                    </div>   
+                                    <h6 style="margin-left: 40px;"> <span class="text-success"><i class='bx bx-time'></i> 8AM - 4PM </span> </h6>
+                                    <div style="margin-left: 60px;"> 
+                                        <p class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Practical Training for Regional Ethics Committee Members and Staff&nbsp; <span class="badge bg-danger text-white">By Invitation Only</span></p>
                                     </div>
                                 </div>
                             </div>
