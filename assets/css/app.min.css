@@ -4801,6 +4801,11 @@ table.dataTable.dtr-inline.collapsed>tbody>tr>td.dtr-control:before {
     background-size: cover; 
 }
 
+.nobgback{
+    background-color: #4ea8ff;
+    overflow: hidden;
+}
+
 .navy {
     /* background-image: url(../images/krad/nav.jpg); */
     /* border-bottom: 2px solid #eff2f7; */

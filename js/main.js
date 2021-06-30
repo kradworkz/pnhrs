@@ -1,5 +1,6 @@
 // when life is settled, load up the fun stuff
 document.addEventListener('DOMContentLoaded', function () {
+    
     new Vue({
         el: '#sg1',
         components: { 
