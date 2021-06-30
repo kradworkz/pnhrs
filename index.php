@@ -222,10 +222,8 @@
                                     <h6 style="margin-left: 20px;"> <span class="text-info"><i class='bx bx-calendar'></i> August 10, 2021 </span> </h6>
                                     <h6 style="margin-top: 15px; margin-left: 40px;"> <span class="text-success"><i class='bx bx-time'></i> 8AM - 12NN </span> </h6>
                                     <div style="margin-left: 60px;">
-                                        <div style="margin-left: 35px;">
-                                            <p @click="openmodal1('https://us02web.zoom.us/webinar/register/WN_s-isBFZESkinjrB_YXkQ8g','August 10, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Moral Compass for Emergency Research and the Importance and Nature of Community Consultation</p>
-                                            <p @click="openmodal1('https://us02web.zoom.us/webinar/register/WN_E0AnW6IsT6mNE-O7tZmxTw','August 11, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Session on HERDIN</p>
-                                        </div>
+                                        <p @click="openmodal1('https://us02web.zoom.us/webinar/register/WN_s-isBFZESkinjrB_YXkQ8g','August 10, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Moral Compass for Emergency Research and the Importance and Nature of Community Consultation</p>
+                                        <p @click="openmodal1('https://us02web.zoom.us/webinar/register/WN_E0AnW6IsT6mNE-O7tZmxTw','August 11, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Session on HERDIN</p>
                                     </div>
                                     <h6 style="margin-left: 40px;"> <span class="text-success"><i class='bx bx-time'></i> 1PM - 4PM </span> </h6>
                                     <div style="margin-left: 60px;">
