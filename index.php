@@ -188,7 +188,7 @@
                     <div class="col-xl-12">
                         <div class="blog-box mb-4 mb-xl-0">
                             <div class="mt-4 text-muted">
-                                <h5 class="text-primary mb-3"><i class="bx bx-news me-1"></i> SATELLITE SESSIONS (03 -06 August 2021)</h5>
+                                <h5 class="text-primary mb-3"><i class="bx bx-news me-1"></i> SATTELITE SESSIONS (03 -06 August 2021)</h5>
                                 <div class="text-muted mt-4" style="cursor:pointer"> 
                                     <!-- <p @click="openmodal1('https://us02web.zoom.us/webinar/register/WN_B1HGEtFjQjyqjJQXl_KWGw','August 03, 2021')" class="mb-2 text-truncate" ><i class="mdi mdi-circle-medium text-warning me-1"></i>Financing for National Health Security and Pandemic Preparedness &nbsp;&nbsp;&nbsp; | &nbsp;<span class="font-size-10 text-info"><i class='bx bx-calendar'></i> August 03, 2021 | 8 AM - 12 NN</span>&nbsp;&nbsp;&nbsp;<span class="font-size-10 text-info"><i class='bx bx-map-pin'></i> South Luzon Cluster</span></p>
                                     <p @click="openmodal1('https://zoom.us/webinar/register/WN_qrQQF9gaQzua-A2-pTuRSg','August 04, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Strengthening the National Health Research System’s Capacity for Response and Research &nbsp;&nbsp;&nbsp; | &nbsp;<span class="font-size-10 text-info"><i class='bx bx-calendar'></i> August 04, 2021 | 8 AM - 12 NN</span>&nbsp;&nbsp;&nbsp;<span class="font-size-10 text-info"><i class='bx bx-map-pin'></i> North Luzon Cluster</span></p>
