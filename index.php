@@ -198,7 +198,7 @@
                     <div class="col-xl-12">
                         <div class="blog-box mb-4 mb-xl-0">
                             <div class="mt-4 text-muted">
-                                <h5 class="text-danger mb-3"><i class="bx bx-news me-1"></i> PRE-CONFERENCE SESSION (09 -11 August 2021)</h5>
+                                <h5 class="text-danger mb-3"><i class="bx bx-news me-1"></i> PRE-CONFERENCE SESSIONS (09 -11 August 2021)</h5>
                                 <div class="text-muted mt-4" style="cursor:pointer">
                                     <p @click="openmodal1('https://us02web.zoom.us/webinar/register/WN_HSzgJC2YSMKtazgiE_MFiA','August 09, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Oral Research Presentation - Student Category&nbsp;&nbsp;&nbsp; | &nbsp;<span class="font-size-10 text-info"><i class='bx bx-calendar'></i> August 09, 2021 | 8 AM - 12 NN</span></p>
                                     <p @click="openmodal1('https://us02web.zoom.us/webinar/register/WN_wvTDUmJWQV23CQEbFnm3DQ','August 09, 2021')" class="mb-2 text-truncate"><i class="mdi mdi-circle-medium text-warning me-1"></i>Oral Research Presentation - Professional Category&nbsp;&nbsp;&nbsp; | &nbsp;<span class="font-size-10 text-info"><i class='bx bx-calendar'></i> August 09, 2021 | 1 - 4 PM</span></p>

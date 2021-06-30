@@ -4796,14 +4796,9 @@ table.dataTable.dtr-inline.collapsed>tbody>tr>td.dtr-control:before {
 }
 
 .bgback {
-    /* background-image: url(../images/krad/bg.jpg);
-
-    /* Full height */
-    /* height: 100%; */
-  
-    /* Center and scale the image nicely */
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */ */
+    background-image: url(../images/landing/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
 }
 
 .navy {
