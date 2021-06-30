@@ -4796,14 +4796,14 @@ table.dataTable.dtr-inline.collapsed>tbody>tr>td.dtr-control:before {
 }
 
 .bgback {
-    background-image: url(../images/krad/bg.jpg);
+    /* background-image: url(../images/krad/bg.jpg);
 
     /* Full height */
-    height: 100%;
+    /* height: 100%; */
   
     /* Center and scale the image nicely */
-    background-repeat: no-repeat;
-    background-size: cover;
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */ */
 }
 
 .navy {

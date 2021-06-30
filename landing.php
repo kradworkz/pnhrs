@@ -20,6 +20,9 @@
         <script src="https://cdn.jsdelivr.net/npm/vue-slick-carousel@1.0.6/dist/vue-slick-carousel.umd.min.js"></script>
         <script src="./js/main.js"></script>
         <style>
+        body {
+            background-color: #80F0F9;
+        }
         .slick-prev {
             margin-left: -25px;
         }
@@ -43,11 +46,13 @@
     </head>
 
     <body data-bs-spy="scroll" data-bs-target="#topnav-menu" data-bs-offset="60">
-        <div id="sg1">
+        <center id="sg1">
       
 
-        <section class="section bgback" style="height: 100vh;">
-            
+        <section class="section" style="height: 100vh;">
+            <center>
+                <img src="assets/images/landing/main.png">
+            </center>
         </section>
      
     
