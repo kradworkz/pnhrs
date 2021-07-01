@@ -37,19 +37,19 @@
 
             <div class="col-xl-12">
                 <div class="blog-box mb-4 mb-xl-0">
-                    <div class="mt-4 text-muted">
+                    <div class="mt-4 text-muted" style="cursor:pointer">
                         <h5 class="text-warning mb-0"><i class="bx bx-news me-1"></i> MAIN CONFERENCE SESSIONS (12 -13 August 2021)</h5>
                         <br><button @click="view('d1')" type="button" class="btn btn-outline-primary waves-effect waves-light">Day 1</button>
                         <button @click="view('d2')" type="button" class="btn btn-outline-primary waves-effect waves-light">Day 2</button>
                         <br><br>
                         <table v-if="d1 == true" class="table table-centered table-nowrap table-hover mb-0">
                             <tr v-for="(l,index) in lists.third[0]" v-bind:key="l.index">
-                                <td><i class="mdi mdi-circle-medium text-warning me-1"></i><span style="font-weight: 600;">{{ l.title}}</span></td>
+                                <td @click="openmodal1(l)"><span class="font-size-12" style="margin-left: 40px; float:left; width: 150px;"><i class="bx bx-time me-1"></i>{{l.time}}</span><i class="mdi mdi-circle-medium text-warning me-1"></i><span style="font-weight: 600;">{{ l.title}}</span></td>
                             </tr>
                         </table>
                         <table v-if="d2 == true" class="table table-centered table-nowrap table-hover mb-0">
                             <tr v-for="(l,index) in lists.third[1]" v-bind:key="l.index">
-                                <td><i class="mdi mdi-circle-medium text-warning me-1"></i><span style="font-weight: 600;">{{ l.title}}</span></td>
+                                <td @click="openmodal1(l)"><span class="font-size-12" style="margin-left: 40px; float:left; width: 150px;"><i class="bx bx-time me-1"></i>{{l.time}}</span><i class="mdi mdi-circle-medium text-warning me-1"></i><span style="font-weight: 600;">{{ l.title}}</span></td>
                             </tr>
                         </table>
                     </div>

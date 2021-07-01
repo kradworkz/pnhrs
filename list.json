@@ -101,33 +101,54 @@
         [
             {
                 "title" : "14th PNHRS Week Celebration Opening Ceremonies",
-                "option" : ""
+                "option" : "",
+                "time" : "8AM - 10:30AM",
+                "date" : "August 12, 2021",
+                "link" : "https://us02web.zoom.us/webinar/register/WN_5aRz2YXGQBa_bxW6RRTdJg"
             },
             {
                 "title" : "Plenary 1: Changing Landscape of Universal Health Care: Paradigm Shifts in Health R&D",
-                "option" : ""
+                "option" : "",
+                "time" : "10:30AM - 12:00NN",
+                "date" : "August 12, 2021",
+                "link" : "https://us02web.zoom.us/webinar/register/WN_5aRz2YXGQBa_bxW6RRTdJg"
+
             },
             {
                 "title" : "Parallel Session 1: Implications of the New Normal on Health Technology Assessment",
-                "option" : ""
+                "option" : "",
+                "time" : "1PM -3PM",
+                "date" : "August 12, 2021",
+                "link" : "https://us02web.zoom.us/webinar/register/WN_-1fQ80W0RkiHE00v35EuEg"
             },
             {
                 "title" : "Parallel Session 2: Enhancing the Country’s Bio-Preparedness for COVID-19 and other Emerging Infectious Diseases",
-                "option" : ""
+                "option" : "",
+                "time" : "1PM -3PM",
+                "date" : "August 12, 2021",
+                "link" : "https://us02web.zoom.us/meeting/register/tZwtce6tqjMvHtdrE5V-Lp8zxdK007HBwqXn"
             },
             {
                 "title" : "Parallel Session 3: Harnessing International Collaborations and Engagement of Stakeholders to Maximize Health Research Impact",
-                "option" : ""
+                "option" : "",
+                "time" : "1PM -3PM",
+                "date" : "August 12, 2021",
+                "link" : "https://us02web.zoom.us/meeting/register/tZMpdOqupz0sE93vzwng7HAXBcziWyH68Fhb"
             }
         ],
         [
             {
                 "title" : "Plenary 2: LGU COVID-19 Response: Sharing of Collaborative Practices in Disease Prevention and Control",
-                "option" : ""
+                "option" : "",
+                "time" : "8:15AM - 10AM",
+                "date" : "August 13, 2021",
+                "link" : "https://us02web.zoom.us/webinar/register/WN_s8n4xox2Sq25zNmwON-uTw"
             },
             {
                 "title" : "Closing and Awarding Ceremonies",
-                "option" : ""
+                "option" : "",
+                "date" : "August 13, 2021",
+                "time" : "10:30AM - 10:45AM"
             }
         ]
     ],
