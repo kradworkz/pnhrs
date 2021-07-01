@@ -224,37 +224,44 @@
             {
                 "title" : "14th PNHRS Week Celebration Opening Ceremonies",
                 "option" : "",
-                "color" : "warning"
+                "color" : "warning",
+                "link" : "https://us02web.zoom.us/webinar/register/WN_5aRz2YXGQBa_bxW6RRTdJg"
             },
             {
                 "title" : "Plenary 1: Changing Landscape of Universal Health Care: Paradigm Shifts in Health R&D",
                 "option" : "",
-                "color" : "warning"
+                "color" : "warning",
+                "link" : "https://us02web.zoom.us/webinar/register/WN_5aRz2YXGQBa_bxW6RRTdJg"
             },
             {
                 "title" : "Parallel Session 1: Implications of the New Normal on Health Technology Assessment",
                 "option" : "",
-                "color" : "warning"
+                "color" : "warning",
+                "link" : "https://us02web.zoom.us/webinar/register/WN_-1fQ80W0RkiHE00v35EuEg"
             },
             {
                 "title" : "Parallel Session 2: Enhancing the Country’s Bio-Preparedness for COVID-19 and other Emerging Infectious Diseases",
                 "option" : "",
-                "color" : "warning"
+                "color" : "warning",
+                "link" : "https://us02web.zoom.us/meeting/register/tZwtce6tqjMvHtdrE5V-Lp8zxdK007HBwqXn"
             },
             {
                 "title" : "Parallel Session 3: Harnessing International Collaborations and Engagement of Stakeholders to Maximize Health Research Impact",
                 "option" : "",
-                "color" : "warning"
+                "color" : "warning",
+                "link" : "https://us02web.zoom.us/meeting/register/tZMpdOqupz0sE93vzwng7HAXBcziWyH68Fhb"
             },
             {
                 "title" : "Plenary 2: LGU COVID-19 Response: Sharing of Collaborative Practices in Disease Prevention and Control",
                 "option" : "",
-                "color" : "danger"
+                "color" : "danger",
+                "link" : ""
             },
             {
                 "title" : "Closing and Awarding Ceremonies",
                 "option" : "",
-                "color" : "danger"
+                "color" : "danger",
+                "link" : "https://us02web.zoom.us/webinar/register/WN_s8n4xox2Sq25zNmwON-uTw"
             }
         
         ]

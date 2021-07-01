@@ -90,7 +90,7 @@
                             </div>
                             <hr> 
                             <div v-for="(list,index) in lists.fifth" v-bind:key="list.index" class="text-white mt-2 para" style="cursor:pointer">
-                                <span><i :class="'bx bxs-caret-right-circle text-'+list.color"></i> {{list.title}}</span>
+                                <span @click="openmodal(list.link)"><i :class="'bx bxs-caret-right-circle text-'+list.color"></i> {{list.title}}</span>
                             </div>
                         </div>
                     </div>
