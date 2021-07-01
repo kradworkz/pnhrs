@@ -1,0 +1,241 @@
+{
+    "first" : [
+        {
+            "title" : "South Luzon Cluster",
+            "date" : "August 03, 2021",
+            "time" : "8AM - 12NN",
+            "link" : "https://us02web.zoom.us/webinar/register/WN_B1HGEtFjQjyqjJQXl_KWGw",
+            "option" : ""
+        },
+        {
+            "title" : "North Luzon Cluster",
+            "date" : "August 04, 2021",
+            "time" : "8AM - 12NN",
+            "link" : "https://zoom.us/webinar/register/WN_qrQQF9gaQzua-A2-pTuRSg",
+            "option" : ""
+        },
+        {
+            "title" : "Visayas Cluster",
+            "date" : "August 05, 2021",
+            "time" : "8AM - 12NN",
+            "link" : "https://us02web.zoom.us/webinar/register/WN_BUZ-ntn_SI-I9qMJyMVuKA",
+            "option" : ""
+        },
+        {
+            "title" : "Mindanao Cluster",
+            "date" : "August 06, 2021",
+            "time" : "8AM - 12NN",
+            "link" : "https://us02web.zoom.us/webinar/register/WN_6k1-qA-5RUe7F231-IPuow",
+            "option" : ""
+        }
+    ],
+    
+    "second" : [
+         [
+            {
+                "title" : "Oral Research Presentation - Student Category",
+                "date" : "August 09, 2021",
+                "time" : "8AM - 12NN",
+                "link" : "https://us02web.zoom.us/webinar/register/WN_HSzgJC2YSMKtazgiE_MFiA",
+                "option" : ""
+            },
+            {
+                "title" : "Talk on Social Innovation in Health Research",
+                "date" : "August 09, 2021",
+                "time" : "8AM - 12NN",
+                "link" : "https://us02web.zoom.us/webinar/register/WN_4V-Qlp41TyCDokWC1bot3A",
+                "option" : ""
+            }, 
+            {
+                "title" : "Oral Research Presentation - Professional Category",
+                "date" : "August 09, 2021",
+                "time" : "1PM - 4PM",
+                "link" : "https://us02web.zoom.us/webinar/register/WN_wvTDUmJWQV23CQEbFnm3DQ",
+                "option" : ""
+            }
+        ],
+
+        [
+            {
+                "title" : "Moral Compass for Emergency Research and the Importance and Nature of Community Consultation",
+                "date" : "August 10, 2021",
+                "time" : "8AM - 12NN",
+                "link" : "https://us02web.zoom.us/webinar/register/WN_s-isBFZESkinjrB_YXkQ8g",
+                "option" : ""
+            },
+            {
+                "title" : "Session on HERDIN",
+                "date" : "August 10, 2021",
+                "time" : "8AM - 12NN",
+                "link" : "https://us02web.zoom.us/webinar/register/WN_E0AnW6IsT6mNE-O7tZmxTw",
+                "option" : ""
+            }, 
+            {
+                "title" : "3-Minute Pitch to Policymakers Competition",
+                "date" : "August 10, 2021",
+                "time" : "1PM - 4PM",
+                "link" : "https://us02web.zoom.us/webinar/register/WN_KvBNGA_GT3q9TGLaxFEjIg",
+                "option" : ""
+            }
+        ],
+        [
+            {
+                "title" : "Visual Abstract Poster Competition (Student and Professional)",
+                "date" : "August 10, 2021",
+                "time" : "8AM - 12NN",
+                "link" : "",
+                "option" : "By Invitation Only"
+            },
+            {
+                "title" : "Practical Training for REC Members and Staff",
+                "date" : "August 10, 2021",
+                "time" : "8AM - 4PM",
+                "link" : "",
+                "option" : "By Invitation Only"
+            }
+        ]
+       
+    ],
+
+    "third" : [
+        [
+            {
+                "title" : "14th PNHRS Week Celebration Opening Ceremonies",
+                "option" : ""
+            },
+            {
+                "title" : "Plenary 1: Changing Landscape of Universal Health Care: Paradigm Shifts in Health R&D",
+                "option" : ""
+            },
+            {
+                "title" : "Parallel Session 1: Implications of the New Normal on Health Technology Assessment",
+                "option" : ""
+            },
+            {
+                "title" : "Parallel Session 2: Enhancing the Country’s Bio-Preparedness for COVID-19 and other Emerging Infectious Diseases",
+                "option" : ""
+            },
+            {
+                "title" : "Parallel Session 3: Harnessing International Collaborations and Engagement of Stakeholders to Maximize Health Research Impact",
+                "option" : ""
+            }
+        ],
+        [
+            {
+                "title" : "Plenary 2: LGU COVID-19 Response: Sharing of Collaborative Practices in Disease Prevention and Control",
+                "option" : ""
+            },
+            {
+                "title" : "Closing and Awarding Ceremonies",
+                "option" : ""
+            }
+        ]
+    ],
+
+    "fourth" : [
+           {
+               "title" : "Oral Research Presentation - Student Category",
+               "date" : "August 09, 2021",
+               "time" : "8AM - 12NN",
+               "link" : "https://us02web.zoom.us/webinar/register/WN_HSzgJC2YSMKtazgiE_MFiA",
+               "option" : "",
+               "color" : "danger"
+           },
+           {
+               "title" : "Talk on Social Innovation in Health Research",
+               "date" : "August 09, 2021",
+               "time" : "8AM - 12NN",
+               "link" : "https://us02web.zoom.us/webinar/register/WN_4V-Qlp41TyCDokWC1bot3A",
+               "option" : "",
+               "color" : "danger"
+           }, 
+           {
+               "title" : "Oral Research Presentation - Professional Category",
+               "date" : "August 09, 2021",
+               "time" : "1PM - 4PM",
+               "link" : "https://us02web.zoom.us/webinar/register/WN_wvTDUmJWQV23CQEbFnm3DQ",
+               "option" : "",
+               "color" : "danger"
+           },
+           {
+               "title" : "Moral Compass for Emergency Research and the Importance and Nature of Community Consultation",
+               "date" : "August 10, 2021",
+               "time" : "8AM - 12NN",
+               "link" : "https://us02web.zoom.us/webinar/register/WN_s-isBFZESkinjrB_YXkQ8g",
+               "option" : "",
+               "color" : "warning"
+           },
+           {
+               "title" : "Session on HERDIN",
+               "date" : "August 10, 2021",
+               "time" : "8AM - 12NN",
+               "link" : "https://us02web.zoom.us/webinar/register/WN_E0AnW6IsT6mNE-O7tZmxTw",
+               "option" : "",
+               "color" : "warning"
+           }, 
+           {
+               "title" : "3-Minute Pitch to Policymakers Competition",
+               "date" : "August 10, 2021",
+               "time" : "1PM - 4PM",
+               "link" : "https://us02web.zoom.us/webinar/register/WN_KvBNGA_GT3q9TGLaxFEjIg",
+               "option" : "",
+               "color" : "warning"
+           },
+           {
+               "title" : "Visual Abstract Poster Competition (Student and Professional)",
+               "date" : "August 10, 2021",
+               "time" : "8AM - 12NN",
+               "link" : "",
+               "option" : "By Invitation Only",
+               "color" : "success"
+           },
+           {
+               "title" : "Practical Training for REC Members and Staff",
+               "date" : "August 10, 2021",
+               "time" : "8AM - 4PM",
+               "link" : "",
+               "option" : "By Invitation Only",
+               "color" : "success"
+           }
+       ],
+
+       "fifth" : [
+            {
+                "title" : "14th PNHRS Week Celebration Opening Ceremonies",
+                "option" : "",
+                "color" : "warning"
+            },
+            {
+                "title" : "Plenary 1: Changing Landscape of Universal Health Care: Paradigm Shifts in Health R&D",
+                "option" : "",
+                "color" : "warning"
+            },
+            {
+                "title" : "Parallel Session 1: Implications of the New Normal on Health Technology Assessment",
+                "option" : "",
+                "color" : "warning"
+            },
+            {
+                "title" : "Parallel Session 2: Enhancing the Country’s Bio-Preparedness for COVID-19 and other Emerging Infectious Diseases",
+                "option" : "",
+                "color" : "warning"
+            },
+            {
+                "title" : "Parallel Session 3: Harnessing International Collaborations and Engagement of Stakeholders to Maximize Health Research Impact",
+                "option" : "",
+                "color" : "warning"
+            },
+            {
+                "title" : "Plenary 2: LGU COVID-19 Response: Sharing of Collaborative Practices in Disease Prevention and Control",
+                "option" : "",
+                "color" : "danger"
+            },
+            {
+                "title" : "Closing and Awarding Ceremonies",
+                "option" : "",
+                "color" : "danger"
+            }
+        
+        ]
+
+}

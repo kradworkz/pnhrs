@@ -5088,3 +5088,24 @@ table.dataTable.dtr-inline.collapsed>tbody>tr>td.dtr-control:before {
     font-weight: 450;
 }
 
+.slick-prev {
+    margin-left: -25px;
+}
+.slick-next {
+    margin-right: -25px;
+}
+
+.slide-2 p {
+    cursor: pointer;
+}
+.slide-3 p {
+    cursor: pointer;
+}
+.slide-4 p {
+    cursor: pointer;
+}
+
+.first {
+   width: 550px;
+   float: right;  
+}
