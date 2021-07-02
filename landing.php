@@ -74,6 +74,7 @@
                     <img id="island" class="island" src="assets/images/landing/island.png">
                     <img id="cityhall" class="cityhall" src="assets/images/landing/cityhall.png">
                 </div>
+
                 <div v-else>
                     <div class="row align-items-center pt-4">
                         <div class="col-md-6 col-sm-8">
