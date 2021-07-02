@@ -1,9 +1,9 @@
 <nav class="navbar navbar-expand-lg navigation fixed-top sticky navy">
     <div class="container">
-        <a class="navbar-logo" href="index.php">
+        <!-- <a class="navbar-logo" href="index.php">
             <img src="assets/images/logo-dark.png" alt="" height="19" class="logo logo-dark">
             <img src="assets/images/logo-light.png" alt="" height="19" class="logo logo-light">
-        </a>
+        </a> -->
         <!-- <ul class="list-inline user-chat-nav text-right" style="margin-top: 10px; float: right;">
             <li class="list-inline-item">
             <img src="assets/images/krad/pnhrs.jpg" alt="" class="rounded" style="width: 80%; height: auto;">

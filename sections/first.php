@@ -50,7 +50,7 @@
             <div class="col-lg-8">
                 <vue-slick-carousel :autoplay="true" :autoplaySpeed="10000" :dots="true" :options="slickOptions">
                     
-                    <div class="slide-1" style="padding: 50px;">
+                    <!-- <div class="slide-1" style="padding: 50px;">
                         <div class="text-white-50" style="margin-left: 100px;">
                             <h4 class="gratext fw-semibold mb-4">Philippine National Health Research System </h4>
                             <p class="font-size-13 mt-4 mb-5 text-white para">Anchored on the principles of the Essential National Health Research (ENHR) on inclusiveness, participation, quality, equity, and effectiveness, the Philippine National Health Research System (PNHRS) is an integrated national framework for health research in the country. It is a convergence strategy that aims to promote cooperation and integration of all health research efforts and stakeholders in the country to ensure that research contributes to evidence-informed health policies and actions.</p>
@@ -79,9 +79,9 @@
                                 
                             </ul>
                         </div>
-                    </div>
+                    </div> -->
 
-                    <div class="slide-2">
+                    <div class="slide-1">
                         <div class="text-white-50">
                             <h4 class="gratext fw-semibold mb-4">Satellite Sessions :</h4><hr>
                             <div v-for="(list,index) in lists.first" v-bind:key="list.index" class="text-white mt-2 para" style="cursor:pointer">
@@ -90,7 +90,7 @@
                         </div>
                     </div>
 
-                    <div class="slide-3">
+                    <div class="slide-2">
                         <div class="text-white-50">
                           
                             <h4 class="gratext fw-semibold">Pre-Conference Sessions : </h4>
@@ -106,7 +106,7 @@
                         </div>
                     </div>
 
-                    <div class="slide-4">
+                    <div class="slide-3">
                         <div class="text-white-50">
                           
                             <h4 class="gratext fw-semibold">Main Conference Sessions : </h4>
