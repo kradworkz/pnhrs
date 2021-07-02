@@ -64,13 +64,6 @@
                 "option" : ""
             },
             {
-                "title" : "Session on HERDIN",
-                "date" : "August 10, 2021",
-                "time" : "8AM - 12NN",
-                "link" : "https://us02web.zoom.us/webinar/register/WN_E0AnW6IsT6mNE-O7tZmxTw",
-                "option" : ""
-            }, 
-            {
                 "title" : "3-Minute Pitch to Policymakers Competition",
                 "date" : "August 10, 2021",
                 "time" : "1PM - 4PM",
@@ -80,15 +73,22 @@
         ],
         [
             {
+                "title" : "Session on HERDIN",
+                "date" : "August 11, 2021",
+                "time" : "8AM - 12NN",
+                "link" : "https://us02web.zoom.us/webinar/register/WN_E0AnW6IsT6mNE-O7tZmxTw",
+                "option" : ""
+            }, 
+            {
                 "title" : "Visual Abstract Poster Competition (Student and Professional)",
-                "date" : "August 10, 2021",
+                "date" : "August 11, 2021",
                 "time" : "8AM - 12NN",
                 "link" : "",
                 "option" : "By Invitation Only"
             },
             {
                 "title" : "Practical Training for REC Members and Staff",
-                "date" : "August 10, 2021",
+                "date" : "August 11, 2021",
                 "time" : "8AM - 4PM",
                 "link" : "",
                 "option" : "By Invitation Only"
@@ -187,14 +187,6 @@
                "color" : "warning"
            },
            {
-               "title" : "Session on HERDIN",
-               "date" : "August 10, 2021",
-               "time" : "8AM - 12NN",
-               "link" : "https://us02web.zoom.us/webinar/register/WN_E0AnW6IsT6mNE-O7tZmxTw",
-               "option" : "",
-               "color" : "warning"
-           }, 
-           {
                "title" : "3-Minute Pitch to Policymakers Competition",
                "date" : "August 10, 2021",
                "time" : "1PM - 4PM",
@@ -202,6 +194,14 @@
                "option" : "",
                "color" : "warning"
            },
+            {
+                "title" : "Session on HERDIN",
+                "date" : "August 11, 2021",
+                "time" : "8AM - 12NN",
+                "link" : "https://us02web.zoom.us/webinar/register/WN_E0AnW6IsT6mNE-O7tZmxTw",
+                "option" : "",
+                "color" : "success"
+            }, 
            {
                "title" : "Visual Abstract Poster Competition (Student and Professional)",
                "date" : "August 10, 2021",
