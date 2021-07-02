@@ -7,7 +7,7 @@
             <div class="col-lg-12 mb-5" style="margin-top: -130px;">
                 <div style="float: right;">
                     <ul class="list-inline user-chat-nav text-right" style="margin-top: 10px; float: right;">
-                        <li class="list-inline-item">
+                        <li class="list-inline-item" style="margin-right: -30px;">
                         <img src="assets/images/krad/pnhrs.jpg" alt="" class="rounded" style="width: 80%; height: auto;">
                         </li>
                         <li class="list-inline-item">
@@ -30,8 +30,8 @@
                         </li>
                     </ul>
                 </div>
-                <div class="text-white-50">
-                    <h1 class="text-white fw-semibold mb-2"><p style="font-size : 18px; color: #ffd311; text-shadow: 1px 1px 1px #404040;">Health R&D in the New Normal :</p><p style="font-size : 24px; color: #ff2960; text-shadow: 1px 1px 2px #000000; margin-top: -15px;"> Moving towards Universal Health Care</p></h1>
+                <div class="text-white-50" style="cursor: pointer;" @click="desc('title')">
+                    <h1 class="text-white fw-semibold mb-2"><p style="font-size : 18px; color: #ffd311; text-shadow: 1px 1px 1px #404040;">Health R&D in the New Normal :</p><p style="font-size : 26px; color: #ff2960; text-shadow: 1px 1px 2px #000000; margin-top: -15px;"> Moving towards Universal Health Care</p></h1>
                     <p style="margin-top: -12px;  text-shadow: 1px 1px 1px #000000;"><span class="font-size-13 text-white" style="margin-right: 20px;"><i class='bx bx-calendar'></i> August 09-13, 2021 </span>
                     <span class="font-size-13 text-white"><i class='bx bx-map-pin'></i> Zamboanga City</span></p>
                 </div>
@@ -42,7 +42,7 @@
         <div class="row align-items-center" style="margin-top: 20px;">
             <div class="col-lg-4">
                 <div class="text-white-50">
-                    <div class="">
+                    <div class="" style="cursor: pointer;" @click="desc('logo')">
                         <img src="assets/images/krad/logo.png" class="img-fluid" alt="Responsive image" style="max-width: 85%; height: auto;">
                     </div>
                 </div>
