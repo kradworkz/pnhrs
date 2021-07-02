@@ -76,6 +76,7 @@
                     <img id="cityhall" class="cityhall" src="assets/images/landing/cityhall.png">
                     <img id="vinta1" class="vinta1" src="assets/images/landing/vinta.png">
                     <img id="vinta2" class="vinta2" src="assets/images/landing/vinta.png">
+                    <img id="dmc" class="dmc" src="assets/images/landing/dmc.png">
                 </div>
 
                 <div v-else>

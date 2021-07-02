@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
             VueSlickCarousel : window['vue-slick-carousel'] 
         },
         data: {
-            type : 'main',
+            type : '',
             link: '',
             date: '',
             title: '',
@@ -75,6 +75,7 @@ document.addEventListener('DOMContentLoaded', function () {
             },
 
             desc(val){
+                this.type = val;
                 $("#desc").modal('show');
             },
 

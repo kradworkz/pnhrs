@@ -90,14 +90,32 @@
 
 .island2 {
     right: -100px;
-    top: 450px;
-    width: 380px;
-    height:89px;
+    top: 400px;
+    width: 351px;
+    height:189px;
     position: absolute;
     transition: transform .5s; 
 }
 
-#island2:hover {
+/* #island2:hover {
+    transform: scale(1.3); 
+    opacity: 1;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+    cursor: pointer;
+    z-index: 50;
+} */
+
+.dmc {
+    right: 60px;
+    top: 470px;
+    width: 120px;
+    height:40px;
+    position: absolute;
+    transition: transform .5s; 
+}
+
+#dmc:hover {
     transform: scale(1.3); 
     opacity: 1;
     -webkit-filter: drop-shadow(5px 5px 5px #222);
