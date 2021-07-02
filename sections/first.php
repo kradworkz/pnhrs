@@ -5,7 +5,7 @@
 
         <div class="row align-items-center">
             <div class="col-lg-12 mb-5" style="margin-top: -130px;">
-                <!-- <div style="float: right;">
+                <div style="float: right;">
                     <ul class="list-inline user-chat-nav text-right" style="margin-top: 10px; float: right;">
                         <li class="list-inline-item">
                         <img src="assets/images/krad/pnhrs.jpg" alt="" class="rounded" style="width: 80%; height: auto;">
@@ -29,7 +29,7 @@
                         <img src="assets/images/krad/doh.png" alt="" class="rounded avatar-sm" style="height: 2rem; width: 2rem;">
                         </li>
                     </ul>
-                </div> -->
+                </div>
                 <div class="text-white-50">
                     <h1 class="text-white fw-semibold mb-2"><p style="font-size : 18px; color: #ffd311; text-shadow: 1px 1px 1px #404040;">Health R&D in the New Normal :</p><p style="font-size : 24px; color: #ff2960; text-shadow: 1px 1px 2px #000000; margin-top: -15px;"> Moving towards Universal Health Care</p></h1>
                     <p style="margin-top: -12px;  text-shadow: 1px 1px 1px #000000;"><span class="font-size-13 text-white" style="margin-right: 20px;"><i class='bx bx-calendar'></i> August 09-13, 2021 </span>
