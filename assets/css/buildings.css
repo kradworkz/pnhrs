@@ -1,8 +1,8 @@
 .cityhall {
-    left: 580px;
-    top: 220px;
-    width: 200px;
-    height:200px;
+    left: 605px;
+    top: 170px;
+    width: 150px;
+    height:150px;
     position: absolute;
     transition: transform .5s; 
 }
@@ -17,10 +17,10 @@
 }
 
 .terminal {
-    left: 820px;
-    top: 270px;
-    width: 200px;
-    height:150px;
+    left: 850px;
+    top: 220px;
+    width: 150px;
+    height:100px;
     position: absolute;
     transition: transform .5s; 
 }
@@ -36,10 +36,10 @@
 
 
 .airport {
-    left: 960px;
-    top: 270px;
-    width: 200px;
-    height:150px;
+    left: 950px;
+    top: 220px;
+    width: 150px;
+    height:100px;
     position: absolute;
     transition: transform .5s; 
 }
@@ -53,10 +53,10 @@
 }
 
 .port {
-    left: 1090px;
-    top: 270px;
-    width: 200px;
-    height:150px;
+    left: 1050px;
+    top: 220px;
+    width: 150px;
+    height:100px;
     position: absolute;
     transition: transform .5s; 
 }
@@ -87,4 +87,43 @@
     cursor: pointer;
     z-index: 50;
 }
+
+.vinta1 {
+    left: 300px;
+    top: 430px;
+    width: 100px;
+    height:100px;
+    position: absolute;
+    transition: transform .5s; 
+}
+
+#vinta1:hover {
+    transform: scale(1.3); 
+    opacity: 1;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+    cursor: pointer;
+    z-index: 50;
+}
+
+.vinta2 {
+    left: 850px;
+    top: 400px;
+    width: 60px;
+    height:60px;
+    position: absolute;
+    transition: transform .5s; 
+}
+
+#vinta2:hover {
+    transform: scale(1.3); 
+    opacity: 1;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+    cursor: pointer;
+    z-index: 50;
+}
+
+
+
 

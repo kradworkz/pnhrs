@@ -5,7 +5,7 @@
             <div class="col-xl-12 mb-3">
                 <div class="blog-box mb-4 mb-xl-0">
                     <div class="mt-4 text-muted">
-                        <h5 class="text-primary mb-0"><i class="bx bx-news me-1"></i> SATTELITE SESSIONS (03 -06 August 2021)</h5>
+                        <h5 class="text-primary mb-0"><i class="bx bx-news me-1"></i> SATELLITE SESSIONS (03 -06 August 2021)</h5>
                         <div class="table-responsive mt-3" style="cursor:pointer">
                             <table class="table table-centered table-nowrap table-hover mb-0">
                                 <tbody>

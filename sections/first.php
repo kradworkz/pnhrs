@@ -57,7 +57,7 @@
 
                     <div class="slide-2">
                         <div class="text-white-50">
-                            <h4 class="gratext fw-semibold mb-4">Sattelite Sessions :</h4><hr>
+                            <h4 class="gratext fw-semibold mb-4">Satellite Sessions :</h4><hr>
                             <div v-for="(list,index) in lists.first" v-bind:key="list.index" class="text-white mt-2 para" style="cursor:pointer">
                                 <span class="first mb-2 text-truncate" >- &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;{{ list.date }} (<span class="font-size-12">{{list.time}}</span>)</span> <span @click="openmodal(list.link)"><i class='bx bxs-caret-right-circle text-warning'></i> {{list.title}}</span>
                             </div>
