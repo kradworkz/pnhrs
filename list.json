@@ -100,14 +100,7 @@
     "third" : [
         [
             {
-                "title" : "14th PNHRS Week Celebration Opening Ceremonies",
-                "option" : "",
-                "time" : "8AM - 10:30AM",
-                "date" : "August 12, 2021",
-                "link" : "https://us02web.zoom.us/webinar/register/WN_5aRz2YXGQBa_bxW6RRTdJg"
-            },
-            {
-                "title" : "Plenary 1: Changing Landscape of Universal Health Care: Paradigm Shifts in Health R&D",
+                "title" : "14th PNHRS Week Celebration Opening Ceremonies and Plenary 1: Changing Landscape of Universal Health Care: Paradigm Shifts in Health R&D",
                 "option" : "",
                 "time" : "10:30AM - 12:00NN",
                 "date" : "August 12, 2021",
@@ -138,17 +131,11 @@
         ],
         [
             {
-                "title" : "Plenary 2: LGU COVID-19 Response: Sharing of Collaborative Practices in Disease Prevention and Control",
+                "title" : "Plenary 2: LGU COVID-19 Response: Sharing of Collaborative Practices in Disease Prevention and Control, and Closing and Awarding Ceremonies",
                 "option" : "",
                 "time" : "8:15AM - 10AM",
                 "date" : "August 13, 2021",
                 "link" : "https://us02web.zoom.us/webinar/register/WN_s8n4xox2Sq25zNmwON-uTw"
-            },
-            {
-                "title" : "Closing and Awarding Ceremonies",
-                "option" : "",
-                "date" : "August 13, 2021",
-                "time" : "10:30AM - 10:45AM"
             }
         ]
     ],
@@ -222,13 +209,7 @@
 
        "fifth" : [
             {
-                "title" : "14th PNHRS Week Celebration Opening Ceremonies",
-                "option" : "",
-                "color" : "warning",
-                "link" : "https://us02web.zoom.us/webinar/register/WN_5aRz2YXGQBa_bxW6RRTdJg"
-            },
-            {
-                "title" : "Plenary 1: Changing Landscape of Universal Health Care: Paradigm Shifts in Health R&D",
+                "title" : "14th PNHRS Week Celebration Opening Ceremonies and Plenary 1: Changing Landscape of Universal Health Care: Paradigm Shifts in Health R&D",
                 "option" : "",
                 "color" : "warning",
                 "link" : "https://us02web.zoom.us/webinar/register/WN_5aRz2YXGQBa_bxW6RRTdJg"
@@ -252,13 +233,7 @@
                 "link" : "https://us02web.zoom.us/meeting/register/tZMpdOqupz0sE93vzwng7HAXBcziWyH68Fhb"
             },
             {
-                "title" : "Plenary 2: LGU COVID-19 Response: Sharing of Collaborative Practices in Disease Prevention and Control",
-                "option" : "",
-                "color" : "danger",
-                "link" : "https://us02web.zoom.us/webinar/register/WN_s8n4xox2Sq25zNmwON-uTw"
-            },
-            {
-                "title" : "Closing and Awarding Ceremonies",
+                "title" : "Plenary 2: LGU COVID-19 Response: Sharing of Collaborative Practices in Disease Prevention and Control, and Closing and Awarding Ceremonies",
                 "option" : "",
                 "color" : "danger",
                 "link" : "https://us02web.zoom.us/webinar/register/WN_s8n4xox2Sq25zNmwON-uTw"
