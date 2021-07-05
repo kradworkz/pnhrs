@@ -54,17 +54,6 @@
         <section class="section" v-bind:class="(show) ? 'bgback' : 'nobgback'" style="height: 100vh;">
             <transition name="fade">
                 <div v-if="show">
-
-                <header>
-  <input type="checkbox" id="chk" />
-  <label for="chk">!</label>
-  <div class="message-wrapper">
-    <p class="message">
-      I learned how to create this from <a class="name" href="https://codepen.io/chriscourses" target="=" _blank>CHRISCOURSES ❤</a> <br />
-      See his full tutorial YOUTUBE <a href="https://www.youtube.com/watch?v=EO6OkltgudE&list=PLpPnRKq7eNW3We9VdCfx9fprhqXHwTPXL" target="=" _blank>👉here</a>
-    </p>
-  </div>
-</header>
                     <div class="container-sun">
                         <svg class="svg-sun" version="1.1" viewBox="0 0 100 100" preserveAspectRatio="xMinYMin meet">
                             <circle cx="50" cy="50" r="35" id="sun"></circle>
