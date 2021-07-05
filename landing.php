@@ -50,10 +50,21 @@
     <body data-bs-spy="scroll" data-bs-target="#topnav-menu" data-bs-offset="60">
         <div id="sg1">
       
-
+        
         <section class="section" v-bind:class="(show) ? 'bgback' : 'nobgback'" style="height: 100vh;">
             <transition name="fade">
                 <div v-if="show">
+
+                <header>
+  <input type="checkbox" id="chk" />
+  <label for="chk">!</label>
+  <div class="message-wrapper">
+    <p class="message">
+      I learned how to create this from <a class="name" href="https://codepen.io/chriscourses" target="=" _blank>CHRISCOURSES ❤</a> <br />
+      See his full tutorial YOUTUBE <a href="https://www.youtube.com/watch?v=EO6OkltgudE&list=PLpPnRKq7eNW3We9VdCfx9fprhqXHwTPXL" target="=" _blank>👉here</a>
+    </p>
+  </div>
+</header>
                     <div class="container-sun">
                         <svg class="svg-sun" version="1.1" viewBox="0 0 100 100" preserveAspectRatio="xMinYMin meet">
                             <circle cx="50" cy="50" r="35" id="sun"></circle>
@@ -68,10 +79,11 @@
                         <div class="cloud x5"></div>
                     </div>
 
+                    
                     <!-- <img @click="openmodal('Zamboanga Port')" id="port" class="port" src="assets/images/landing/port.png">
                     <img id="airport" class="airport" src="assets/images/landing/airport.png">
-                    <img id="terminal" class="terminal" src="assets/images/landing/terminal.png">
-                    <img id="cityhall" class="cityhall" src="assets/images/landing/cityhall.png"> -->
+                    <img id="terminal" class="terminal" src="assets/images/landing/terminal.png"> -->
+                    <img id="cityhall" class="cityhall" src="assets/images/landing/cityhall.png">
                     <!-- <img id="island" class="island" src="assets/images/landing/island.png"> -->
                     <!-- <img id="island2" class="island2" src="assets/images/landing/island2.png"> -->
                     <img id="vinta1" class="vinta1" src="assets/images/landing/vinta.png">
