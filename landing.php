@@ -1,4 +1,6 @@
-<!doctype html>
+<h3><3</h3>
+
+<!-- <!doctype html>
 <html lang="en">
 
 <head>
@@ -59,7 +61,12 @@
                             <circle cx="50" cy="50" r="35" id="sun"></circle>
                         </svg>
                     </div>
-                
+                    
+                    <div class="pyro"> 
+                        <div class="before"></div>
+                        <div class="after"></div>
+                    </div>
+
                     <div id="clouds">
                         <div class="cloud x1"></div>
                         <div class="cloud x2"></div>
@@ -69,15 +76,15 @@
                     </div>
 
                     
-                    <!-- <img @click="openmodal('Zamboanga Port')" id="port" class="port" src="assets/images/landing/port.png">
+                    <img @click="openmodal('Zamboanga Port')" id="port" class="port" src="assets/images/landing/port.png">
                     <img id="airport" class="airport" src="assets/images/landing/airport.png">
-                    <img id="terminal" class="terminal" src="assets/images/landing/terminal.png"> -->
+                    <img id="terminal" class="terminal" src="assets/images/landing/terminal.png">
                     <img id="cityhall" class="cityhall" src="assets/images/landing/cityhall.png">
-                    <!-- <img id="island" class="island" src="assets/images/landing/island.png"> -->
-                    <!-- <img id="island2" class="island2" src="assets/images/landing/island2.png"> -->
+                    <img id="island" class="island" src="assets/images/landing/island.png">
+                    <img id="island2" class="island2" src="assets/images/landing/island2.png">
                     <img id="vinta1" class="vinta1" src="assets/images/landing/vinta.png">
                     <img id="vinta2" class="vinta2" src="assets/images/landing/vinta.png">
-                    <!-- <img id="dmc" class="dmc" src="assets/images/landing/dmc.png"> -->
+                    <img id="dmc" class="dmc" src="assets/images/landing/dmc.png">
                 </div>
 
                 <div v-else>
@@ -161,4 +168,4 @@
         </style>
         </div>
     </body>
-</html>
+</html> -->
