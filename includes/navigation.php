@@ -39,7 +39,7 @@
                     <a class="nav-link active" href="#home">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#about">Sessions</a>
+                    <a class="nav-link" href="#about">Register</a>
                 </li>
             </ul>
         </div>
