@@ -1,6 +1,4 @@
-<h3><3</h3>
-
-<!-- <!doctype html>
+<!doctype html>
 <html lang="en">
 
 <head>
@@ -80,11 +78,11 @@
                     <img id="airport" class="airport" src="assets/images/landing/airport.png">
                     <img id="terminal" class="terminal" src="assets/images/landing/terminal.png">
                     <img id="cityhall" class="cityhall" src="assets/images/landing/cityhall.png">
-                    <img id="island" class="island" src="assets/images/landing/island.png">
-                    <img id="island2" class="island2" src="assets/images/landing/island2.png">
-                    <img id="vinta1" class="vinta1" src="assets/images/landing/vinta.png">
-                    <img id="vinta2" class="vinta2" src="assets/images/landing/vinta.png">
-                    <img id="dmc" class="dmc" src="assets/images/landing/dmc.png">
+                    <!-- <img id="island" class="island" src="assets/images/landing/island.png"> -->
+                    <!-- <img id="island2" class="island2" src="assets/images/landing/island2.png"> -->
+                    <!-- <img id="vinta1" class="vinta1" src="assets/images/landing/vinta.png"> -->
+                    <img id="vinta2"  class="vinta2" src="assets/images/landing/vinta.png">
+                    <!-- <img id="dmc" class="dmc" src="assets/images/landing/dmc.png"> -->
                 </div>
 
                 <div v-else>
@@ -160,12 +158,12 @@
         <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet' defer>
         <style>
             .fade-enter-active, .fade-leave-active {
-  transition: opacity .5s;
-}
-.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
-  opacity: 0;
-}
+            transition: opacity .5s;
+            }
+            .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+            opacity: 0;
+            }
         </style>
         </div>
     </body>
-</html> -->
+</html>

@@ -150,7 +150,16 @@
     height:60px;
     position: absolute;
     transition: transform .5s; 
-}
+    -webkit-animation:linear infinite alternate;
+    -webkit-animation-name: run;
+    -webkit-animation-duration: 50s;
+  }@-webkit-keyframes run {
+    0% { left: 30%;
+    50%{ left : 20%;}
+    100%{ left: 0;}
+  }
+
+
 
 #vinta2:hover {
     transform: scale(1.2); 

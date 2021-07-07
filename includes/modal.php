@@ -49,8 +49,8 @@
                                 The ring symbolizes the unity and harmony of the PNHRS in working towards holistic health care for the Filipino people. It encircles the entire logo to highlight the significance of health research in achieving universal health care in the Philippines.
                                 .</p>
                             </div>
-                            <div v-else>
-                                Not yet Available
+                            <div v-else class="card-title-desc">
+                                The theme highlights the important role of health research as we navigate through the CoViD-19 defined course of the new normal towards achieving Universal Health Care. Embedded in it are research projects that aspire to bring the goal of UHC to fruition as we engage relevant sectors/stakeholders on latest information, initiate expert discussions on recent and pressing health data/problems, and stimulate dynamic exchange of ideas, and sharing of best practices and experiences. 
                             </div>
                         </div>
                     </div>
