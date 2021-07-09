@@ -2,6 +2,12 @@
     <div class="container">
 
         <div class="row">
+            <div class="col-xl-12 mb-1">
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                <i class='bx bxs-alarm-exclamation font-size-12 mr-4' ></i>
+                    Please choose one of the sessions and click for the <b>REGISTRATION LINK</b>.
+                </div>
+            </div>
             <div class="col-xl-12 mb-3">
                 <div class="blog-box mb-4 mb-xl-0">
                     <div class="mt-4 text-muted">
