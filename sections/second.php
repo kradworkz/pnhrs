@@ -9,7 +9,7 @@
                         <i class='bx bx-lg bxs-alarm-exclamation bx-tada mr-4' ></i>
                         </div>
                         <div class="col-md-11" style="margin-top: 5px;">
-                            <p>You may register by clicking the session/s you wish to attend. Please note the you are free to register for multiple sessions. </p><p>Zoom webinar and session details will be sent upon receipt of the accomplished registration form/s.</p>
+                            You may register by clicking the session/s you wish to attend. Please note the you are free to register for multiple sessions. <br>Zoom webinar and session details will be sent upon receipt of the accomplished registration form/s.
                         </div>
                     </div>
                 </div>
