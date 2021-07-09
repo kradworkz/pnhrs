@@ -4,8 +4,14 @@
         <div class="row">
             <div class="col-xl-12 mb-1">
                 <div class="alert alert-danger alert-dismissible fade show" role="alert">
-                <i class='bx bxs-alarm-exclamation font-size-12 mr-4' ></i>
-                    Please choose one of the sessions and click for the <b>REGISTRATION LINK</b>.
+                    <div class="row">
+                        <div class="col-md-1">
+                        <i class='bx bx-lg bxs-alarm-exclamation bx-tada mr-4' ></i>
+                        </div>
+                        <div class="col-md-11" style="margin-top: 5px;">
+                            <p>You may register by clicking the session/s you wish to attend. Please note the you are free to register for multiple sessions. </p><p>Zoom webinar and session details will be sent upon receipt of the accomplished registration form/s.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-xl-12 mb-3">
