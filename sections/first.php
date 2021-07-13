@@ -4,7 +4,7 @@
     <div class="container">
 
         <div class="row align-items-center" >
-            <div class="col-lg-12 mb-5" v-bind:style="[!isMobile() ? {'margin-top' : '-130px'} : {}]">
+            <div class="col-lg-12 mb-5" v-if="!isMobile()">
                 <div style="float: right;">
                     <ul class="list-inline user-chat-nav text-right" style="margin-top: 10px; float: right;">
                         <li class="list-inline-item" style="margin-right: -30px;">
@@ -36,7 +36,32 @@
                     <p style="margin-top: -12px;  text-shadow: 1px 1px 1px #000000;"><span class="font-size-13 text-white" style="margin-right: 20px;"><i class='bx bx-calendar'></i> August 09-13, 2021 </span>
                     <span class="font-size-13 text-white"><i class='bx bx-map-pin'></i> Zamboanga City</span></p>
                 </div>
-               
+            </div>
+            <div v-else class="">
+            <ul class="list-inline user-chat-nav text-right" style="margin-top: 10px; float: right;">
+                    <li class="list-inline-item" style="margin-right: -30px;">
+                    <img src="assets/images/krad/pnhrs.jpg" alt="" class="rounded" style="width: 80%; height: auto;">
+                    </li>
+                    <br v-if="isMobile()">
+                    <li class="list-inline-item">
+                    <img src="assets/images/krad/dost.png" alt="" class="rounded avatar-sm" style="height: 2rem; width: 2rem;">
+                    </li>
+                    <li class="list-inline-item">
+                        <img src="assets/images/krad/pchrd.png" alt="" class="rounded avatar-sm" style="height: 2rem; width: 2rem;">
+                    </li>
+                    <li class="list-inline-item">
+                        <img src="assets/images/krad/zchrd.png" alt="" class="rounded avatar-sm" style="height: 2rem; width: 2rem;">
+                    </li>
+                    <li class="list-inline-item">
+                        <img src="assets/images/krad/ched.png" alt="" class="rounded avatar-sm" style="height: 2rem; width: 2rem;">
+                    </li>
+                    <li class="list-inline-item">
+                        <img src="assets/images/krad/up.png" alt="" class="rounded avatar-sm" style="height: 2rem; width: 2rem;">
+                    </li>
+                    <li class="list-inline-item">
+                    <img src="assets/images/krad/doh.png" alt="" class="rounded avatar-sm" style="height: 2rem; width: 2rem;">
+                    </li>
+                </ul>
             </div>
         </div>
 
