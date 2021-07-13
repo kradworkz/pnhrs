@@ -36,7 +36,7 @@
                     <span class="font-size-13 text-white"><i class='bx bx-map-pin'></i> Zamboanga City</span></p>
                 </div>
             </div>
-            <div v-else class="">
+            <div v-else style="margin-top: -100px;">
                 <ul class="list-inline user-chat-nav text-right">
                     <li class="list-inline-item" style="margin-bottom: 10px;">
                     <img src="assets/images/krad/pnhrs.jpg" alt="" class="rounded" style="width: 100%; height: auto;">
