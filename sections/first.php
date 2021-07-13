@@ -3,8 +3,8 @@
     <div class="bg-overlay bg-info"></div>
     <div class="container">
 
-        <div class="row align-items-center">
-            <div class="col-lg-12 mb-5" style="margin-top: -130px;">
+        <div class="row align-items-center" >
+            <div class="col-lg-12 mb-5" v-bind:style="[!isMobile() ? {'margin-top' : '-130px'} : {}]">
                 <div style="float: right;">
                     <ul class="list-inline user-chat-nav text-right" style="margin-top: 10px; float: right;">
                         <li class="list-inline-item" style="margin-right: -30px;">
