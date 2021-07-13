@@ -4,7 +4,7 @@
     <div class="container">
 
         <div class="row align-items-center" >
-            <div class="col-lg-12 mb-5" style="margin-top: -130px;">
+            <div class="col-lg-12 mb-5" style="margin-top: -130px;" v-if="!isMobile()">
                 <div style="float: right;">
                     <ul class="list-inline user-chat-nav text-right" style="margin-top: 10px; float: right;">
                         <li class="list-inline-item" style="margin-right: -30px;">
@@ -37,7 +37,7 @@
                 </div>
             </div>
             <div v-else class="">
-                <ul class="list-inline user-chat-nav text-right" style="margin-top: 10px; float: right;">
+                <ul class="list-inline user-chat-nav text-right">
                     <li class="list-inline-item" style="margin-right: -30px;">
                     <img src="assets/images/krad/pnhrs.jpg" alt="" class="rounded" style="width: 80%; height: auto;">
                     </li>
