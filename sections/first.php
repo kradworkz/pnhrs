@@ -124,6 +124,15 @@
                 </vue-slick-carousel>
             </div>
         </div>
+        <div class="row align-items-center" style="margin-top: 20px;" v-else>
+            <div class="col-lg-12">
+                <div class="text-white-50">
+                    <div class="" style="cursor: pointer;" @click="desc('logo')">
+                        <img src="assets/images/krad/logo.png" class="img-fluid" alt="Responsive image" style="max-width: 85%; height: auto;">
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </div>
                 
