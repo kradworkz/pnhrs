@@ -40,7 +40,29 @@
             <script src="assets/libs/owl.carousel/owl.carousel.min.js"></script>
             <script src="assets/js/pages/ico-landing.init.js"></script>
             <script src="assets/js/app.js"></script>
+            <script>
+            var heightSlider = $('.hero-section').height();
+            if(heightSlider < 250){
+                $('.hero-section').css({ paddingTop : '230px' });
+            }else if(heightSlider < 420){
+                $('.hero-section').css({ paddingTop : '265px' });
+            }else{
+                $('.hero-section').css({ paddingTop : '300px' });
+            }
+
+            $(window).resize(function(){
+                var heightSlider = $('.hero-section').height();
+                if(heightSlider < 250){
+                    $('.hero-section').css({ paddingTop : '230px' });
+                }else if(heightSlider < 420){
+                    $('.hero-section').css({ paddingTop : '2650px' });
+                }else{
+                    $('.hero-section').css({ paddingTop : '300px' });
+                }
+            });
+        </script>
             <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet' defer>
         </div>
     </body>
+    
 </html>
