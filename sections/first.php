@@ -10,6 +10,7 @@
                         <li class="list-inline-item" style="margin-right: -30px;">
                         <img src="assets/images/krad/pnhrs.jpg" alt="" class="rounded" style="width: 80%; height: auto;">
                         </li>
+                        <br v-if="isMobile()">
                         <li class="list-inline-item">
                         <img src="assets/images/krad/dost.png" alt="" class="rounded avatar-sm" style="height: 2rem; width: 2rem;">
                         </li>
