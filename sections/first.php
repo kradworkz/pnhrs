@@ -39,7 +39,7 @@
             </div>
         </div>
 
-        <div class="row align-items-center" style="margin-top: 20px;">
+        <div class="row align-items-center" style="margin-top: 20px;" v-if="!isMobile()">
             <div class="col-lg-4">
                 <div class="text-white-50">
                     <div class="" style="cursor: pointer;" @click="desc('logo')">
