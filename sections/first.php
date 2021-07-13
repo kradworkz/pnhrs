@@ -38,10 +38,10 @@
             </div>
             <div v-else class="">
                 <ul class="list-inline user-chat-nav text-right">
-                    <li class="list-inline-item" style="margin-right: -30px;">
-                    <img src="assets/images/krad/pnhrs.jpg" alt="" class="rounded" style="width: 80%; height: auto;">
+                    <li class="list-inline-item" style="margin-bottom: 10px;">
+                    <img src="assets/images/krad/pnhrs.jpg" alt="" class="rounded" style="width: 100%; height: auto;">
                     </li>
-                    <br v-if="isMobile()">
+                    <br>
                     <li class="list-inline-item">
                     <img src="assets/images/krad/dost.png" alt="" class="rounded avatar-sm" style="height: 2rem; width: 2rem;">
                     </li>
