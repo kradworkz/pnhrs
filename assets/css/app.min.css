@@ -4796,9 +4796,10 @@ table.dataTable.dtr-inline.collapsed>tbody>tr>td.dtr-control:before {
 }
 
 .bgback {
-    background-image: url(../images/landing/bg.jpg);
+    /* background-image: url(../images/landing/bg.jpg);
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;  */
+    background-color: #4ea8ff;
 }
 
 .nobgback{

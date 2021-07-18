@@ -116,6 +116,8 @@
 
 .container-sun{
 text-align:center;
+margin-top: -20px;
+margin-left: -170px;
 }
 /* the svg element */
 .svg-sun{

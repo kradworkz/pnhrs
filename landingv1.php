@@ -67,21 +67,22 @@
 
                   
 
-                    <img id="bg" class="bg" src="assets/images/landing/bg.png">
-
-                    <img id="cityhall" class="cityhall" src="assets/images/landing/new/cityhall.png">
-                    <img id="bush1" class="bush1" src="assets/images/landing/new/bush.png">
-                    <img id="bush2" class="bush2" src="assets/images/landing/new/bush.png">
-                    <img id="garden" class="garden" src="assets/images/landing/new/garden.png">
-
-                    <img id="store" class="store" src="assets/images/landing/new/store.png">
-                    <img id="sm" class="sm" src="assets/images/landing/new/sm.png">
-                    <img id="kcc" class="kcc" src="assets/images/landing/new/kcc.png">
-                    <img id="barter" class="barter" src="assets/images/landing/new/barter.png">
-                    <img id="adzu" class="adzu" src="assets/images/landing/new/adzu.png">
-                    <img id="dmc" class="dmc" src="assets/images/landing/new/dmc.png">
-                    <img id="airport" class="airport" src="assets/images/landing/new/airport.png">
-                    <img id="zcmc" class="zcmc" src="assets/images/landing/new/zcmc.png">
+                    <img id="bg" class="bg" src="assets/images/landing/bg2.png">
+                    <!-- <img @click="openmodal('Zamboanga Port')" id="port" class="port" src="assets/images/landing/kcc.png"> -->
+                    <!-- <img id="merloquet" class="merloquet" src="assets/images/landing/merloquet.png">
+                    <img id="airport" class="airport" src="assets/images/landing/airport.png">
+                    <img id="terminal" class="terminal" src="assets/images/landing/terminal.png">
+                    <img id="fortpilar" class="fortpilar" src="assets/images/landing/fortpilar.png">
+                    <img id="cityhall" class="cityhall" src="assets/images/landing/cityhall.png">
+                    <img id="yakan" class="yakan" src="assets/images/landing/yakan.png">
+                    <img id="treehouse" class="treehouse" src="assets/images/landing/treehouse.png">
+                    <img id="plaza" class="plaza" src="assets/images/landing/plaza.png"> -->
+                    <!-- <img id="island" class="island" src="assets/images/landing/island.png"> -->
+                    <!-- <img id="dipolog" class="dipolog" src="assets/images/landing/island2.png">
+                    <img id="basilan" class="basilan" src="assets/images/landing/basilan.png"> -->
+                    <!-- <img id="vinta1" class="vinta1" src="assets/images/landing/vinta.png"> -->
+                    <!-- <img id="vinta2"  class="vinta2" src="assets/images/landing/vinta.png">
+                    <img id="dmc" class="dmc" src="assets/images/landing/dmc.png"> -->
 
                     <div id="clouds">
                         <div class="cloud x1"></div>

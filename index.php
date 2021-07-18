@@ -18,6 +18,8 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/vue-slick-carousel@1.0.6/dist/vue-slick-carousel.umd.min.js"></script>
         <script src="./js/main.js"></script>
+        <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v11.0&appId=258059077674129&autoLogAppEvents=1" nonce="KXzFAhvD"></script>
     </head>
 
     <body data-bs-spy="scroll" data-bs-target="#topnav-menu" data-bs-offset="60">

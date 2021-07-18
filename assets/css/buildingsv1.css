@@ -7,16 +7,70 @@
   transition: transform .5s; 
 }
 
+.plaza {
+  left: 600px;
+  top: 325px;
+  width: 150px;
+  height:130px;
+  position: absolute;
+  transition: transform .5s; 
+}
+
+#plaza:hover {
+  transform: scale(1.3); 
+  opacity: 1;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+  cursor: pointer;
+  z-index: 50;
+}
+
+.treehouse {
+  left: 570px;
+  top: 390px;
+  width: 80px;
+  height:60px;
+  position: absolute;
+  transition: transform .5s; 
+}
+
+#treehouse:hover {
+  transform: scale(1.3); 
+  opacity: 1;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+  cursor: pointer;
+  z-index: 50;
+}
+
 .cityhall {
-    left: 841px;
-    top: 130px;
-    width: 153px;
-    height: auto;
+    left: 615px;
+    top: 190px;
+    width: 100px;
+    height:100px;
     position: absolute;
     transition: transform .5s; 
 }
 
 #cityhall:hover {
+    transform: scale(1.3); 
+    opacity: 1;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+    cursor: pointer;
+    z-index: 50;
+}
+
+.yakan {
+  left: 500px;
+  top: 200px;
+  width: 100px;
+  height:100px;
+  position: absolute;
+  transition: transform .5s; 
+}
+
+#yakan:hover {
   transform: scale(1.3); 
   opacity: 1;
   -webkit-filter: drop-shadow(5px 5px 5px #222);
@@ -25,43 +79,70 @@
   z-index: 50;
 }
 
-.bush1 {
-  left: 816px;
-  top: 178px;
-  width: 30px;
-  height:auto;
+.terminal {
+    left: 880px;
+    top: 405px;
+    width: 150px;
+    height:90px;
+    position: absolute;
+    transition: transform .5s; 
+}
+
+#terminal:hover {
+    transform: scale(1.3); 
+    opacity: 1;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+    cursor: pointer;
+    z-index: 50;
+}
+
+
+.airport {
+    left:865px;
+    top: 245px;
+    width: 110px;
+    height:60px;
+    position: absolute;
+    transition: transform .5s; 
+}
+#airport:hover {
+    transform: scale(1.3); 
+    opacity: 1;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+    cursor: pointer;
+    z-index: 50;
+}
+
+.port {
+    left: 830px;
+    top: 260px;
+    width: 150px;
+    height:100px;
+    position: absolute;
+    transition: transform .5s; 
+}
+
+#port:hover {
+    transform: scale(1.3); 
+    opacity: 1;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+    cursor: pointer;
+    z-index: 50;
+}
+
+.merloquet {
+  left: 1050px;
+  top: 260px;
+  width: 80px;
+  height:50px;
   position: absolute;
   transition: transform .5s; 
 }
 
-.bush2 {
-  left: 949px;
-  top: 254px;
-  width: 30px;
-  height:auto;
-  position: absolute;
-  transition: transform .5s; 
-}
-
-.garden {
-  left: 800px;
-  top: 207px;
-  width: 115px;
-  height:auto;
-  position: absolute;
-  transition: transform .5s; 
-}
-
-.sm {
-  left: 703px;
-  top: 168px;
-  width: 121px;
-  height:auto;
-  position: absolute;
-  transition: transform .5s; 
-}
-
-#sm:hover {
+#merloquet:hover {
   transform: scale(1.3); 
   opacity: 1;
   -webkit-filter: drop-shadow(5px 5px 5px #222);
@@ -70,149 +151,133 @@
   z-index: 50;
 }
 
-.store {
-  left: 677px;
-  top: 184px;
-  width: 45px;
-  height:auto;
+
+.fortpilar {
+  left: 320px;
+  top: 245px;
+  width: 150px;
+  height:100px;
   position: absolute;
   transition: transform .5s; 
 }
 
-/* #store:hover {
+#fortpilar:hover {
   transform: scale(1.3); 
   opacity: 1;
   -webkit-filter: drop-shadow(5px 5px 5px #222);
   filter: drop-shadow(5px 5px 5px #222);
   cursor: pointer;
   z-index: 50;
+}
+
+.island {
+    left: -100px;
+    top: 370px;
+    width: 300px;
+    height:200px;
+    position: absolute;
+    transition: transform .5s; 
+}
+
+#island:hover {
+    transform: scale(1.3); 
+    opacity: 1;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+    cursor: pointer;
+    z-index: 50;
+}
+
+.dipolog {
+    right: -100px;
+    top: 50px;
+    width: 301px;
+    height:139px;
+    position: absolute;
+    transition: transform .5s; 
+}
+
+.basilan {
+  left: -100px;
+  top: 50px;
+  width: 301px;
+  height:139px;
+  position: absolute;
+  transition: transform .5s; 
+}
+
+/* #island2:hover {
+    transform: scale(1.3); 
+    opacity: 1;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+    cursor: pointer;
+    z-index: 50;
 } */
 
-.kcc {
-  left: 879px;
-  top: 253px;
-  width: 128px;
-  height:auto;
-  position: absolute;
-  transition: transform .5s; 
-}
-
-#kcc:hover {
-  transform: scale(1.3); 
-  opacity: 1;
-  -webkit-filter: drop-shadow(5px 5px 5px #222);
-  filter: drop-shadow(5px 5px 5px #222);
-  cursor: pointer;
-  z-index: 50;
-}
-
-.barter {
-  left: 623px;
-  top: 226px;
-  width: 103px;
-  height:auto;
-  position: absolute;
-  transition: transform .5s; 
-}
-
-#barter:hover {
-  transform: scale(1.3); 
-  opacity: 1;
-  -webkit-filter: drop-shadow(5px 5px 5px #222);
-  filter: drop-shadow(5px 5px 5px #222);
-  cursor: pointer;
-  z-index: 50;
-}
-
-.adzu {
-  left: 708px;
-  top: 262px;
-  width: 213px;
-  height:auto;
-  position: absolute;
-  transition: transform .5s; 
-}
-
-#adzu:hover {
-  transform: scale(1.3); 
-  opacity: 1;
-  -webkit-filter: drop-shadow(5px 5px 5px #222);
-  filter: drop-shadow(5px 5px 5px #222);
-  cursor: pointer;
-  z-index: 50;
-}
-
-
 .dmc {
-  left: 513px;
-  top: 144px;
-  width: 171px;
-  height:auto;
-  position: absolute;
-  transition: transform .5s; 
+    right: 60px;
+    top: 102px;
+    width: 110px;
+    height:30px;
+    position: absolute;
+    transition: transform .5s; 
 }
 
 #dmc:hover {
-  transform: scale(1.3); 
-  opacity: 1;
-  -webkit-filter: drop-shadow(5px 5px 5px #222);
-  filter: drop-shadow(5px 5px 5px #222);
-  cursor: pointer;
-  z-index: 50;
-}
-
-.airport {
-  left: 328px;
-  top: 164px;
-  width: 152px;
-  height:auto;
-  position: absolute;
-  transition: transform .5s; 
-}
-
-#airport:hover {
-  transform: scale(1.3); 
-  opacity: 1;
-  -webkit-filter: drop-shadow(5px 5px 5px #222);
-  filter: drop-shadow(5px 5px 5px #222);
-  cursor: pointer;
-  z-index: 50;
-}
-
-.zcmc {
-  left: 257px;
-  top: 229px;
-  width: 145px;
-  height:auto;
-  position: absolute;
-  transition: transform .5s; 
-}
-
-#zcmc:hover {
-  transform: scale(1.3); 
-  opacity: 1;
-  -webkit-filter: drop-shadow(5px 5px 5px #222);
-  filter: drop-shadow(5px 5px 5px #222);
-  cursor: pointer;
-  z-index: 50;
+    transform: scale(1.3); 
+    opacity: 1;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+    cursor: pointer;
+    z-index: 50;
 }
 
 
+.vinta1 {
+    left: 300px;
+    top: 430px;
+    width: 100px;
+    height:100px;
+    position: absolute;
+    transition: transform .5s; 
+}
+
+#vinta1:hover {
+    transform: scale(1.2); 
+    opacity: 1;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+    cursor: pointer;
+    z-index: 50;
+}
+
+.vinta2 {
+    left: 850px;
+    top: 540px;
+    width: 60px;
+    height:60px;
+    position: absolute;
+    transition: transform .5s; 
+    -webkit-animation:linear infinite alternate;
+    -webkit-animation-name: run;
+    -webkit-animation-duration: 50s;
+  }@-webkit-keyframes run {
+    0% { left: 30%;
+    50%{ left : 30%;}
+    100%{ left: 0;}
+  }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+#vinta2:hover {
+    transform: scale(1.2); 
+    opacity: 1;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+    cursor: pointer;
+    z-index: 50;
+}
 
 .pyro > .before, .pyro > .after {
     position: absolute;

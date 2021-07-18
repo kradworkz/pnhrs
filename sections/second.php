@@ -1,6 +1,5 @@
 <section class="section bg-white" id="about">
     <div class="container">
-
         <div class="row">
             <div class="col-xl-12 mb-1">
                 <div class="alert alert-danger alert-dismissible fade show" role="alert">
