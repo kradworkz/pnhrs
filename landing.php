@@ -21,6 +21,8 @@
         <script src="./js/landing.js"></script>
         <link href="assets/css/animation.css" id="app-style" rel="stylesheet" type="text/css" />
         <link href="assets/css/buildings.css" id="app-style" rel="stylesheet" type="text/css" />
+        <link href="assets/css/designs.css" id="app-style" rel="stylesheet" type="text/css" />
+        <link href="assets/css/police.css" id="app-style" rel="stylesheet" type="text/css" />
         <style>
             body {
                 background-color: #4ea8ff;
@@ -69,6 +71,12 @@
 
                     <img id="bg" class="bg" src="assets/images/landing/bg.png">
 
+
+                    
+                    <img class="coconut" src="assets/images/landing/new/designs/coconut.png">
+                    <img class="jungle" src="assets/images/landing/new/designs/jungle.png">
+                    <img class="camping" src="assets/images/landing/new/designs/camping.png">
+
                     <img id="cityhall" class="cityhall" src="assets/images/landing/new/cityhall.png">
                     <img id="bush1" class="bush1" src="assets/images/landing/new/bush.png">
                     <img id="bush2" class="bush2" src="assets/images/landing/new/bush.png">
@@ -82,6 +90,52 @@
                     <img id="dmc" class="dmc" src="assets/images/landing/new/dmc.png">
                     <img id="airport" class="airport" src="assets/images/landing/new/airport.png">
                     <img id="zcmc" class="zcmc" src="assets/images/landing/new/zcmc.png">
+                    <img id="brent" class="brent" src="assets/images/landing/new/brent.png">
+                    <img id="dswd" class="dswd" src="assets/images/landing/new/dswd.png">
+                    <img id="ciudad" class="ciudad" src="assets/images/landing/new/ciudad.png">
+                    <img id="psa" class="psa" src="assets/images/landing/new/psa.png">
+                    <img id="ched" class="ched" src="assets/images/landing/new/ched.png">
+                    <img id="doh" class="doh" src="assets/images/landing/new/doh.png">
+                    <img id="seaport" class="seaport" src="assets/images/landing/new/seaport.png">
+                    <img id="treehouse" class="treehouse" src="assets/images/landing/new/treehouse.png">
+                    <img id="merloquet" class="merloquet" src="assets/images/landing/new/merloquet.png">
+                    <img id="yakan" class="yakan" src="assets/images/landing/new/yakan.png">
+                    <img id="cho" class="cho" src="assets/images/landing/new/cho.png">
+                    <img id="uz" class="uz" src="assets/images/landing/new/uz.png">
+                    <img id="church" class="church" src="assets/images/landing/new/church.png">
+                    <img id="mosque" class="mosque" src="assets/images/landing/new/mosque.png">
+                    <img id="gas" class="gas" src="assets/images/landing/new/gas.png">
+                    <img id="bus" class="bus" src="assets/images/landing/new/bus.png">
+                    <img id="fire" class="fire" src="assets/images/landing/new/fire.png">
+                    <img id="police" class="police" src="assets/images/landing/new/police.png">
+                    <img id="policetree" class="policetree" src="assets/images/landing/new/policetree.png">
+
+
+
+                    
+                    <img class="cityhalllyt" src="assets/images/landing/new/designs/lytscityhall.png">
+                    <img class="solo1" src="assets/images/landing/new/designs/solo.png">
+                    <img class="solo2" src="assets/images/landing/new/designs/solo.png">
+                    <img class="double1" src="assets/images/landing/new/designs/double.png">
+                    <img class="double2" src="assets/images/landing/new/designs/double.png">
+                    <img class="sign1" src="assets/images/landing/new/designs/sign.png">
+                    <img class="pot1" src="assets/images/landing/new/designs/pot.png">
+                    <img class="policecar1" src="assets/images/landing/new/designs/policecar.png">
+                    <img class="policecar2" src="assets/images/landing/new/designs/policecar.png">
+                    <img class="ambulance1" src="assets/images/landing/new/designs/ambulance.png">
+                    <img class="firetruck1" src="assets/images/landing/new/designs/firetruck.png">
+                    <img class="policemotor1" src="assets/images/landing/new/designs/policemotor.png">
+                    <img class="policemotor2" src="assets/images/landing/new/designs/policemotor2.png">
+
+                    <img class="police1" src="assets/images/landing/new/designs/police.png">
+                    <img class="police2" src="assets/images/landing/new/designs/police.png">
+                    <img class="police3" src="assets/images/landing/new/designs/police.png">
+                    <img class="police4" src="assets/images/landing/new/designs/police.png">
+                    <img class="police5" src="assets/images/landing/new/designs/police.png">
+                    
+                    <img class="policeshield1" src="assets/images/landing/new/designs/policeshield2.png">
+                    <img class="policeshield2" src="assets/images/landing/new/designs/policeshield2.png">
+                    <img class="policeshield3" src="assets/images/landing/new/designs/policeshield2.png">
 
                     <div id="clouds">
                         <div class="cloud x1"></div>

@@ -1,9 +1,10 @@
 
 
+@media screen and (max-width: 1920px) {
   :root {
     --left: 250px;
   }
-
+}
 
 .bg {
   left: calc(110px + var(--left));
