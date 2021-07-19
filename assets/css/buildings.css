@@ -4,7 +4,6 @@
     --left: 320px;
   }
 
-
 .bg {
   left: calc(110px + var(--left));
   top: 0px;

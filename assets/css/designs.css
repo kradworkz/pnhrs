@@ -1,3 +1,21 @@
+.stone1{
+  left: calc(441px + var(--left));
+  top: 402px;
+  width: 26px;
+  height:auto;
+  position: absolute;
+  transition: transform .5s; 
+}
+
+.stone2{
+  left: calc(665px + var(--left));
+  top: 529px;
+  width: 26px;
+  height:auto;
+  position: absolute;
+  transition: transform .5s; 
+}
+
 .cityhalllyt{
     left: calc(834px + var(--left));
     top: 169px;
@@ -143,4 +161,70 @@
     height:auto;
     position: absolute;
     transition: transform .5s; 
+  }
+
+  .vinta2 {
+    left: 850px;
+    top: 540px;
+    width: 4%;
+    height:auto;
+    position: absolute;
+    transition: transform .5s; 
+    animation: nudge 40s linear infinite alternate;
+  }
+
+  .vinta3 {
+    top: 420px;
+    left: 450px;
+    width: 2%;
+    height:auto;
+    position: absolute;
+    transition: transform .5s;  
+    animation: nudge2 20s linear infinite alternate;
+    transform: scaleX(-1);
+  }
+
+  .plane {
+    top: 150px;
+    width: 25%;
+    height:auto;
+    position: absolute;
+    animation: slide 10s 1 linear forwards;
+  }
+
+  @keyframes slide {
+    100% {
+     left: 0%;
+    opacity: 0;
+    }
+    90% {
+      opacity: 1;
+    }
+    50% {
+      left: 50%;
+      opacity: 1;
+    }
+    0% {
+      left: 100%;
+      opacity: 1;
+      display: none;
+    }
+  }
+
+  @keyframes nudge {
+    0%{
+      left: 40%;
+    }
+    50% {
+     left: 70%
+    }
+  }
+
+  @keyframes nudge2 {
+    0%{
+      left: 40%;
+    }
+    50% {
+     left: 33%
+    }
   }

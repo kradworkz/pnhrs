@@ -126,6 +126,8 @@
                     <img class="firetruck1" src="assets/images/landing/new/designs/firetruck.png">
                     <img class="policemotor1" src="assets/images/landing/new/designs/policemotor.png">
                     <img class="policemotor2" src="assets/images/landing/new/designs/policemotor2.png">
+                    <img class="stone1" src="assets/images/landing/new/designs/stones.png">
+                    <img class="stone2" src="assets/images/landing/new/designs/stones.png">
 
                     <img class="police1" src="assets/images/landing/new/designs/police.png">
                     <img class="police2" src="assets/images/landing/new/designs/police.png">
@@ -137,6 +139,9 @@
                     <img class="policeshield2" src="assets/images/landing/new/designs/policeshield2.png">
                     <img class="policeshield3" src="assets/images/landing/new/designs/policeshield2.png">
 
+                    <img class="vinta2" src="assets/images/landing/vinta.png">
+                    <img class="vinta3" src="assets/images/landing/vinta.png">
+
                     <div id="clouds">
                         <div class="cloud x1"></div>
                         <div class="cloud x2"></div>
@@ -144,6 +149,8 @@
                         <div class="cloud x4"></div>
                         <div class="cloud x5"></div>
                     </div>
+
+                    <img class="plane" src="assets/images/landing/new/designs/plane.png">
                 </div>
 
                 <div v-else>
