@@ -139,6 +139,8 @@
                     <img class="policeshield2" src="assets/images/landing/new/designs/policeshield2.png">
                     <img class="policeshield3" src="assets/images/landing/new/designs/policeshield2.png">
 
+                    <img id="dipolog" class="dipolog" src="assets/images/landing/island2.png">
+
                     <img class="vinta2" src="assets/images/landing/vinta.png">
                     <img class="vinta3" src="assets/images/landing/vinta.png">
 

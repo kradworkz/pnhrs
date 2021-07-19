@@ -1,8 +1,15 @@
 
-
+@media only screen and (max-width: 1920px) {
   :root {
     --left: 320px;
   }
+}
+
+@media only screen and (max-width: 1280px) {
+  :root {
+    --left: 10px;
+  }
+}
 
 .bg {
   left: calc(110px + var(--left));
@@ -538,7 +545,23 @@
 }
 
 
+.dipolog {
+  right: -100px;
+  top: 50px;
+  width: 301px;
+  height:139px;
+  position: absolute;
+  transition: transform .5s; 
+}
 
+.basilan {
+left: -100px;
+top: 50px;
+width: 301px;
+height:139px;
+position: absolute;
+transition: transform .5s; 
+}
 
 
 

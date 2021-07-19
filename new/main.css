@@ -1,0 +1,9 @@
+ul#offices{
+	list-style: none;
+	width: 1000px;
+	height: 450px;
+	position: relative;
+	background: url(assets/images/landing/bg.png) no-repeat center;
+	background-size: contain;
+	margin: auto;
+}
