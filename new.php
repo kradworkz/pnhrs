@@ -45,10 +45,8 @@
             
 
                     <ul id="map">
-                        <li class="cityhall zoom">
-                          
-                        </li>
-
+                        <li class="cityhall zoom"></li>
+                        <li class="sm zoom"></li>
                     </ul>
 
 

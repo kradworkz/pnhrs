@@ -28,22 +28,6 @@
                 background-color: #4ea8ff;
                 overflow: hidden;
             }
-            .slick-prev {
-                margin-left: -25px;
-            }
-            .slick-next {
-                margin-right: -25px;
-            }
-
-            .slide-2 p {
-                cursor: pointer;
-            }
-            .slide-3 p {
-                cursor: pointer;
-            }
-            .slide-4 p {
-                cursor: pointer;
-            }
         </style>
 
     
@@ -68,10 +52,12 @@
                     </div>
 
                   
+                    <img id="dipolog" class="dipolog" src="assets/images/landing/island2.png">
 
                     <img id="bg" class="bg" src="assets/images/landing/bg.png">
 
 
+                        
                     
                     <img class="coconut" src="assets/images/landing/new/designs/coconut.png">
                     <img class="jungle" src="assets/images/landing/new/designs/jungle.png">
@@ -139,7 +125,6 @@
                     <img class="policeshield2" src="assets/images/landing/new/designs/policeshield2.png">
                     <img class="policeshield3" src="assets/images/landing/new/designs/policeshield2.png">
 
-                    <img id="dipolog" class="dipolog" src="assets/images/landing/island2.png">
 
                     <img class="vinta2" src="assets/images/landing/vinta.png">
                     <img class="vinta3" src="assets/images/landing/vinta.png">

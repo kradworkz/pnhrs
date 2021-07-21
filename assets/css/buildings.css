@@ -16,12 +16,14 @@
 @media only screen and (max-width: 1366px) {
   :root {
     --left: 25px;
+    margin-top: -1px;
   }
 }
 
 @media only screen and (max-width: 1536px) {
   :root {
     --left: 35px;
+     -moz-transform: scale(1.1);
   }
 }
 
@@ -568,8 +570,8 @@
 
 
 .dipolog {
-  right: -100px;
-  top: 50px;
+  left: 1300px;
+  top: 3ew0px;
   width: 301px;
   height:139px;
   position: absolute;

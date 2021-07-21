@@ -13,7 +13,7 @@ ul#map{
 	height: 570px;
     position: relative;
     background-color: red;
-	background: url(../../assets/images/landing/bg.png) no-repeat center;
+	background: url(../../assets/images/landing/bg2.png) no-repeat center;
 	background-size: contain;
 	margin: auto;
 }
@@ -23,19 +23,34 @@ ul#map li{
 }
 
 .cityhall {
-	width: 200px;
-	height: 150px;
-	bottom: 251px;
-    left: 756px;
-    background-color: red;
-    opacity: .5;
+	width: 150px;
+	height: 140px;
+	bottom: 305px;
+    left: 810px;
 }
 
-ul#map li.cityhall:hover{
+ul#map li.cityhall:hover {
     /* background-position: 0 -950px; */
-    width: 150px;
-    height: 100px;
+    width: 140px;
+    height: 130px;
     background-image: url(../../assets/images/landing/new/cityhall.png);
+	background-size: cover;
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+	filter: drop-shadow(5px 5px 5px #222);
+}
+
+.sm {
+	width: 130px;
+	height: 120px;
+	bottom: 315px;
+	left: 670px;
+}
+
+ul#map li.sm:hover {
+    /* background-position: 0 -950px; */
+    width: 120px;
+    height:85px;
+    background-image: url(../../assets/images/landing/new/sm.png);
 	background-size: cover;
 	-webkit-filter: drop-shadow(5px 5px 5px #222);
 	filter: drop-shadow(5px 5px 5px #222);
