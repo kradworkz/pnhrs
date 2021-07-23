@@ -45,7 +45,27 @@
         "id" : 8,
         "name" : "Zamboanga Cityhall",
         "type" : "Infrastructure",
-        "description" : "Zamboanga City Hall or the \"CITY HALL\" it exhibits its old world charm and it is a significant landmark in the history of Zamboanga and in the entire Mindanao. Most people say that it was build during \"SPANISH-COLONIAL ERA\" but they were mistaken about it. It was build in 1905, when the United States colonized the Philippine islands. The City Hall was located at the main town or \"EL PUEBLO\" in chavacano. In the year 1914, it became the seat power of the department of Zamboanga and Sulu. By the time of President Manuel L. Quezon. Today, City Hall still stands proud as the reminder of the Zamboangeño heritage. This structure is unique among the neoclassical contemporaries. The tower now is where the siren is blared at certain time of the day. Every December the city government start to decorate the tower and it turns into a showcase of lights, many families and friends come and spend a cool Christmas night in the plaza complex of the City Hall."
+        "description" : "Zamboanga City Hall or the \"CITY HALL\" it exhibits its old world charm and it is a significant landmark in the history of Zamboanga and in the entire Mindanao. Most people say that it was build during \"SPANISH-COLONIAL ERA\" but they were mistaken about it. It was build in 1905, when the United States colonized the Philippine islands. The City Hall was located at the main town or \"EL PUEBLO\" in chavacano. In the year 1914, it became the seat power of the department of Zamboanga and Sulu. By the time of President Manuel L. Quezon. Today, City Hall still stands proud as the reminder of the Zamboangeño heritage. This structure is unique among the neoclassical contemporaries. The tower now is where the siren is blared at certain time of the day. Every December the city government start to decorate the tower and it turns into a showcase of lights, many families and friends come and spend a cool Christmas night in the plaza complex of the City Hall.",
+        "images" : [
+            {
+                "name" : "assets/images/landing/images/cityhall/1.jpg"
+            },
+            {
+                "name" : "assets/images/landing/images/cityhall/2.jpg"
+            },
+            {
+                "name" : "assets/images/landing/images/cityhall/3.jpg"
+            },
+            {
+                "name" : "assets/images/landing/images/cityhall/4.jpg"
+            }, 
+            {
+                "name" : "assets/images/landing/images/cityhall/5.jpg"
+            },
+            {
+                "name" : "assets/images/landing/images/cityhall/6.jpg"
+            }
+        ]
     },  
     {
         "id" : 9,

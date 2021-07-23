@@ -26,12 +26,12 @@ ul#map li{
 	width: 150px;
 	height: 140px;
 	bottom: 305px;
-    left: 810px;
+	left: 789px;
 }
 
-ul#map li.cityhall:hover {
+ul#map li.cityhall:hover{
     /* background-position: 0 -950px; */
-    width: 140px;
+    width: 150px;
     height: 130px;
     background-image: url(../../assets/images/landing/new/cityhall.png);
 	background-size: cover;
@@ -43,7 +43,7 @@ ul#map li.cityhall:hover {
 	width: 130px;
 	height: 120px;
 	bottom: 315px;
-	left: 670px;
+	left: 649px;
 }
 
 ul#map li.sm:hover {
@@ -51,6 +51,347 @@ ul#map li.sm:hover {
     width: 120px;
     height:85px;
     background-image: url(../../assets/images/landing/new/sm.png);
+	background-size: cover;
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+	filter: drop-shadow(5px 5px 5px #222);
+}
+
+.kcc {
+	width: 130px;
+	height: 95px;
+	bottom: 221px;
+	left: 827px;
+}
+
+ul#map li.kcc:hover {
+    /* background-position: 0 -950px; */
+    width: 130px;
+    height:95px;
+    background-image: url(../../assets/images/landing/new/kcc.png);
+	background-size: cover;
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+	filter: drop-shadow(5px 5px 5px #222);
+}
+
+.adzu {
+	width: 130px;
+	height: 95px;
+	bottom: 171px;
+	left: 653px;
+}
+
+ul#map li.adzu:hover {
+    /* background-position: 0 -950px; */
+    width: 219px;
+    height:137px;
+    background-image: url(../../assets/images/landing/new/adzu.png);
+	background-size: cover;
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+	filter: drop-shadow(5px 5px 5px #222);
+}
+
+.barter {
+	width: 112px;
+	height: 82px;
+	bottom: 278px;
+	left: 570px;
+}
+
+ul#map li.barter:hover {
+    /* background-position: 0 -950px; */
+   bottom: 261px;
+	left: 562px;
+    background-image: url(../../assets/images/landing/new/barter.png);
+	background-size: cover;
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+	filter: drop-shadow(5px 5px 5px #222);
+}
+
+.police {
+	width: 62px;
+	height: 74px;
+	bottom: 202px;
+	left: 917px;
+}
+
+ul#map li.police:hover {
+    /* background-position: 0 -950px; */
+   	bottom: 202px;
+	left: 917px;
+    background-image: url(../../assets/images/landing/new/police.png);
+	background-size: cover;
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+	filter: drop-shadow(5px 5px 5px #222);
+}
+
+.airport {
+	width: 155px;
+	height: 86px;
+	bottom: 318px;
+	left: 268px;
+}
+
+ul#map li.airport:hover {
+    /* background-position: 0 -950px; */
+   	bottom: 318px;
+	left: 268px;
+    background-image: url(../../assets/images/landing/new/airport.png);
+	background-size: cover;
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+	filter: drop-shadow(5px 5px 5px #222);
+}
+
+.zcmc {
+	width: 158px;
+	height: 109px;
+	bottom: 238px;
+	left: 192px;
+}
+
+ul#map li.zcmc:hover {
+    /* background-position: 0 -950px; */
+   	bottom: 238px;
+	left: 192px;
+    background-image: url(../../assets/images/landing/new/zcmc.png);
+	background-size: cover;
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+	filter: drop-shadow(5px 5px 5px #222);
+}
+
+.brent {
+	width: 139px;
+	height: 84px;
+	bottom: 187px;
+	left: 306px;
+}
+
+ul#map li.brent:hover {
+    /* background-position: 0 -950px; */
+   	bottom: 187px;
+	left: 306px;
+    background-image: url(../../assets/images/landing/new/brent.png);
+	background-size: cover;
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+	filter: drop-shadow(5px 5px 5px #222);
+}
+
+.ciudad {
+	width: 139px;
+	height: 98px;
+	bottom: 163px;
+	left: 408px;
+}
+
+ul#map li.ciudad:hover {
+    /* background-position: 0 -950px; */
+   	bottom: 163px;
+	left: 408px;
+    background-image: url(../../assets/images/landing/new/ciudad.png);
+	background-size: cover;
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+	filter: drop-shadow(5px 5px 5px #222);
+}
+
+.cho {
+	width: 81px;
+	height: 61px;
+	bottom: 262px;
+	left: 379px;
+}
+
+ul#map li.cho:hover {
+    /* background-position: 0 -950px; */
+   	bottom: 262px;
+	left: 379px;
+    background-image: url(../../assets/images/landing/new/cho.png);
+	background-size: cover;
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+	filter: drop-shadow(5px 5px 5px #222);
+}
+
+.mosque{
+	width: 63px;
+	height: 67px;
+	bottom: 246px;
+	left: 435px;
+}
+
+ul#map li.mosque:hover {
+    /* background-position: 0 -950px; */
+   	bottom: 246px;
+	left: 435px;
+    background-image: url(../../assets/images/landing/new/mosque.png);
+	background-size: cover;
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+	filter: drop-shadow(5px 5px 5px #222);
+}
+
+
+.church{
+	width: 54px;
+	height: 62px;
+	bottom: 264px;
+	left: 486px;
+}
+
+ul#map li.church:hover {
+    /* background-position: 0 -950px; */
+   	bottom: 264px;
+	left: 486px;
+    background-image: url(../../assets/images/landing/new/church.png);
+	background-size: cover;
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+	filter: drop-shadow(5px 5px 5px #222);
+}
+
+.uz{
+	width: 84px;
+	height: 81px;
+	bottom: 288px;
+	left: 418px;
+}
+
+ul#map li.uz:hover {
+    /* background-position: 0 -950px; */
+   	bottom: 288px;
+	left: 418px;
+    background-image: url(../../assets/images/landing/new/uz.png);
+	background-size: cover;
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+	filter: drop-shadow(5px 5px 5px #222);
+}
+
+.dswd{
+	width: 85px;
+	height: 66px;
+	bottom: 226px;
+	left: 522px;
+}
+
+ul#map li.dswd:hover {
+    /* background-position: 0 -950px; */
+   	bottom: 226px;
+	left: 522px;
+    background-image: url(../../assets/images/landing/new/dswd.png);
+	background-size: cover;
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+	filter: drop-shadow(5px 5px 5px #222);
+}
+
+.bus{
+	width: 93px;
+	height: 99px;
+	bottom: 88px;
+	left: 475px;
+}
+
+ul#map li.bus:hover {
+    /* background-position: 0 -950px; */
+   	bottom: 88px;
+	left: 475px;
+    background-image: url(../../assets/images/landing/new/bus.png);
+	background-size: cover;
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+	filter: drop-shadow(5px 5px 5px #222);
+}
+
+.psa{
+	width: 85px;
+	height: 71px;
+	bottom: 198px;
+	left: 590px;
+}
+
+ul#map li.psa:hover {
+    /* background-position: 0 -950px; */
+   	bottom: 198px;
+	left: 590px;
+    background-image: url(../../assets/images/landing/new/psa.png);
+	background-size: cover;
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+	filter: drop-shadow(5px 5px 5px #222);
+}
+
+.ched{
+	width: 95px;
+	height: 71px;
+	bottom: 158px;
+	left: 633px;
+}
+
+ul#map li.ched:hover {
+    /* background-position: 0 -950px; */
+   	bottom: 158px;
+	left: 633px;
+    background-image: url(../../assets/images/landing/new/ched.png);
+	background-size: cover;
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+	filter: drop-shadow(5px 5px 5px #222);
+}
+
+.doh{
+	width: 121px;
+	height: 84px;
+	bottom: 103px;
+	left: 675px;
+}
+
+ul#map li.doh:hover {
+    /* background-position: 0 -950px; */
+   	bottom: 103px;
+	left: 675px;
+    background-image: url(../../assets/images/landing/new/doh.png);
+	background-size: cover;
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+	filter: drop-shadow(5px 5px 5px #222);
+}
+
+.seaport{
+	width: 128px;
+	height: 112px;
+	bottom: 76px;
+	left: 742px;
+}
+
+ul#map li.seaport:hover{
+    /* background-position: 0 -950px; */
+   	bottom: 76px;
+	left: 742px;
+    background-image: url(../../assets/images/landing/new/seaport.png);
+	background-size: cover;
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+	filter: drop-shadow(5px 5px 5px #222);
+}
+
+.fire{
+	width: 80px;
+	height: 80px;
+	bottom: 123px;
+	left: 571px;
+}
+
+ul#map li.fire:hover {
+    /* background-position: 0 -950px; */
+   	bottom: 123px;
+	left: 571px;
+    background-image: url(../../assets/images/landing/new/fire.png);
+	background-size: cover;
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+	filter: drop-shadow(5px 5px 5px #222);
+}
+
+.treehouse{
+	width: 45px;
+	height: 39px;
+	bottom: 92px;
+	left: 633px;
+}
+
+ul#map li.treehouse:hover {
+    /* background-position: 0 -950px; */
+   	bottom: 92px;
+	left: 633px;
+    background-image: url(../../assets/images/landing/new/treehouse.png);
 	background-size: cover;
 	-webkit-filter: drop-shadow(5px 5px 5px #222);
 	filter: drop-shadow(5px 5px 5px #222);

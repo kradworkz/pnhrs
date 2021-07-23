@@ -25,7 +25,7 @@
         <link href="assets/css/police.css" id="app-style" rel="stylesheet" type="text/css" />
         <style>
             body {
-                background-color: #4ea8ff;
+                /* background-color: #4ea8ff; */
                 overflow: hidden;
             }
         </style>
@@ -34,7 +34,7 @@
     </head>
 
     <body data-bs-spy="scroll" data-bs-target="#topnav-menu" data-bs-offset="60">
-        <div id="sg1">
+        <div id="sg1" :style="myStyle">
       
         
         <section class="section" v-bind:class="(show) ? 'bgback' : 'nobgback'" style="height: 100vh;">

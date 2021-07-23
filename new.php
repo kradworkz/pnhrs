@@ -14,19 +14,19 @@
         <link href="assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
         <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
         <link href="assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+        <link href="assets/css/animation.css" id="app-style" rel="stylesheet" type="text/css" />
+        <link href="assets/css/main.css" id="app-style" rel="stylesheet" type="text/css" />
         <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" rel="stylesheet" type="text/css" />
         <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" rel="stylesheet" type="text/css" />
         <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/vue-slick-carousel@1.0.6/dist/vue-slick-carousel.umd.min.js"></script>
         <script src="./js/landing.js"></script>
-        <link href="assets/css/animation.css" id="app-style" rel="stylesheet" type="text/css" />
-        <!-- <link href="assets/css/buildings.css" id="app-style" rel="stylesheet" type="text/css" />
-        <link href="assets/css/designs.css" id="app-style" rel="stylesheet" type="text/css" />
-        <link href="assets/css/police.css" id="app-style" rel="stylesheet" type="text/css" /> -->
-        <link href="assets/css/main.css" id="app-style" rel="stylesheet" type="text/css" />
+        <link href="assets/css/plane.css" id="app-style" rel="stylesheet" type="text/css" />
         <style>
             body {
-                background-color: #4ea8ff;
+                /* background-color: #4ea8ff; */
+                background-image: url('assets/images/landing/images/bg.png'); background-size: contain;
                 overflow: hidden;
             }
         </style>
@@ -34,52 +34,88 @@
     
     </head>
 
-    <body data-bs-spy="scroll" data-bs-target="#topnav-menu" data-bs-offset="60">
+    <body data-bs-spy="scroll" data-bs-target="#topnav-menu" data-bs-offset="60" >
         <div id="sg1">
-      
-        
-        <section class="section" v-bind:class="(show) ? 'bgback' : 'nobgback'" style="height: 100vh;">
-            <transition name="fade">
-                <div v-if="show" style="margin-top: -50px;">
-             
-            
-
-                    <ul id="map">
-                        <li class="cityhall zoom"></li>
-                        <li class="sm zoom"></li>
-                    </ul>
-
-
-
-                </div>
-
-                <div v-else>
-                    <div class="row align-items-center pt-4">
-                        <div class="col-md-6 col-sm-8">
-                            <div>
-                                <img @click="openmodal('test')" src="assets/images/landing/3d/port.png" alt="" class="img-fluid mx-auto d-block">
-                            </div>
+            <section class="section" v-bind:class="(show) ? 'bgback' : 'nobgback'" style="height: 100vh;">
+                <transition name="fade">
+                    <div v-if="show" style="margin-top: -50px;">
+                        <div class="container-sun">
+                            <svg class="svg-sun" version="1.1" viewBox="0 0 100 100" preserveAspectRatio="xMinYMin meet">
+                                <circle cx="50" cy="50" r="35" id="sun"></circle>
+                            </svg>
                         </div>
-                        <div class="col-md-5 ml-auto">
-                            <div class="mt-4 mt-md-auto">
-                                <div class="d-flex align-items-center mb-2">
-                                    <div class="features-number font-weight-semibold display-4 mr-3">01</div>
-                                    <h4 class="mb-0">Lending</h4>
+                        
+                        <div class="pyro"> 
+                            <div class="before"></div>
+                            <div class="after"></div>
+                        </div>
+
+                        <ul id="map" style="margin-top: -100px;">
+                            <li @click="openmodal(8)" class="cityhall zoom"></li>
+                            <li class="sm zoom"></li>
+                            <li class="kcc zoom"></li>
+                            <li class="adzu zoom"></li>
+                            <li class="barter zoom"></li>
+                            <li class="police zoom"></li>
+                            <li class="airport zoom"></li>
+                            <li class="zcmc zoom"></li>
+                            <li class="brent zoom"></li>
+                            <li class="ciudad zoom"></li>
+                            <li class="cho zoom"></li>
+                            <li class="mosque zoom"></li>
+                            <li class="church zoom"></li>
+                            <li class="uz zoom"></li>
+                            <li class="dswd zoom"></li>
+                            <li class="bus zoom"></li>
+                            <li class="psa zoom"></li>
+                            <li class="ched zoom"></li>
+                            <li class="doh zoom"></li>
+                            <li class="seaport zoom"></li>
+                            <li class="fire zoom"></li>
+                            <li class="treehouse zoom"></li>
+                        </ul>
+
+                        <div id="clouds" style="margin-top: -350px;">
+                            <div class="cloud x1"></div>
+                            <div class="cloud x2"></div>
+                            <div class="cloud x3"></div>
+                            <div class="cloud x4"></div>
+                            <div class="cloud x5"></div>
+                        </div>
+
+                        <img class="plane" src="assets/images/landing/new/designs/plane.png">
+                        
+                    </div>
+
+                    <div v-else style="background-image: url('assets/images/landing/images/bg.png'); background-size: contain;">
+                        <div class="row align-items-center pt-4">
+                            <div class="col-md-1"></div>
+                            <div class="col-md-5">
+                                <!-- <div>
+                                    <img @click="openmodal('test')" src="assets/images/landing/3d/port.png" alt="" class="img-fluid mx-auto d-block">
+                                </div> -->
+                                <div class="mt-4 mt-md-0">
+                                    <vue-slick-carousel :autoplay="true" :autoplaySpeed="10000" :dots="true" :options="slickOptions">
+                                        <div v-for="(land,index) in landmark.images" :class="'slide-'+index">
+                                            <img :src="land.name" class="rounded img-fluid" alt="..">
+                                        </div>
+                                    </vue-slick-carousel>
                                 </div>
-                                <p class="text-muted">If several languages coalesce, the grammar of the resulting language is more simple and regular than of the individual will be more simple and regular than the existing.</p>
-                                <div class="text-muted mt-4">
-                                    <p class="mb-2"><i class="mdi mdi-circle-medium text-success mr-1"></i>Donec pede justo vel aliquet</p>
-                                    <p><i class="mdi mdi-circle-medium text-success mr-1"></i>Aenean et nisl sagittis</p>
+                            </div>
+                            <div class="col-md-1"></div>
+                            <div class="col-md-5" style="margin-left: -60px;">
+                                <div style="margin-right: 50px;">
+                                    <div class="d-flex align-items-center mb-2">
+                                        <div class="features-number font-weight-semibold display-4 mr-3">ZC</div>
+                                        <h4 class="mb-0 text-white">{{landmark.name}}</h4>
+                                    </div>
+                                    <p class="text-white">{{landmark.description}}</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </transition>
-        </section>
-     
-    
-        
+                </transition>
+            </section>
 
         <script src="assets/libs/jquery/jquery.min.js"></script>
         <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
