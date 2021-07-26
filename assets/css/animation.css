@@ -40,7 +40,7 @@
     -webkit-transform: scale(0.5);
     -moz-transform: scale(0.5);
     transform: scale(0.5);
-
+    opacity: 0.4;
     -webkit-animation: moveclouds 15s linear infinite;
     -moz-animation: moveclouds 15s linear infinite;
     -o-animation: moveclouds 15s linear infinite;
@@ -68,7 +68,7 @@
     -webkit-transform: scale(0.4);
     -moz-transform: scale(0.4);
     transform: scale(0.4);
-    opacity: 0.8; /*opacity proportional to the size*/
+    opacity: 0.4; /*opacity proportional to the size*/
     
     -webkit-animation: moveclouds 20s linear infinite;
     -moz-animation: moveclouds 20s linear infinite;
@@ -81,7 +81,7 @@
     -webkit-transform: scale(0.5);
     -moz-transform: scale(0.5);
     transform: scale(0.5);
-    opacity: 0.75; /*opacity proportional to the size*/
+    opacity: 0.4; /*opacity proportional to the size*/
     
     -webkit-animation: moveclouds 18s linear infinite;
     -moz-animation: moveclouds 18s linear infinite;
@@ -94,7 +94,7 @@
     -webkit-transform: scale(0.3);
     -moz-transform: scale(0.3);
     transform: scale(0.3);
-    opacity: 0.8; /*opacity proportional to the size*/
+    opacity: 0.3; /*opacity proportional to the size*/
     
     -webkit-animation: moveclouds 20s linear infinite;
     -moz-animation: moveclouds 20s linear infinite;

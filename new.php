@@ -81,19 +81,23 @@
                             <div class="cloud x3"></div>
                             <div class="cloud x4"></div>
                             <div class="cloud x5"></div>
-                        </div>
+                        </div>  
 
+                        <img class="logo" src="assets/images/landing/logo.png">
+                        <img class="logos" src="assets/images/landing/logos.png">
                         <img class="plane" src="assets/images/landing/new/designs/plane.png">
                         
                     </div>
 
-                    <div v-else style="background-image: url('assets/images/landing/images/bg.png'); background-size: contain;">
+                    <div v-else>
+                    <img class="top-left" src="assets/images/landing/images/bg.png">
+                    <!-- <img class="top-right" src="assets/images/landing/images/top-right.png">
+
+                    <img class="bottom-right" src="assets/images/landing/images/bottom-right.png">
+                    <img class="bottom-left" src="assets/images/landing/images/bottom-left.png"> -->
                         <div class="row align-items-center pt-4">
                             <div class="col-md-1"></div>
                             <div class="col-md-5">
-                                <!-- <div>
-                                    <img @click="openmodal('test')" src="assets/images/landing/3d/port.png" alt="" class="img-fluid mx-auto d-block">
-                                </div> -->
                                 <div class="mt-4 mt-md-0">
                                     <vue-slick-carousel :autoplay="true" :autoplaySpeed="10000" :dots="true" :options="slickOptions">
                                         <div v-for="(land,index) in landmark.images" :class="'slide-'+index">
@@ -105,14 +109,23 @@
                             <div class="col-md-1"></div>
                             <div class="col-md-5" style="margin-left: -60px;">
                                 <div style="margin-right: 50px;">
-                                    <div class="d-flex align-items-center mb-2">
-                                        <div class="features-number font-weight-semibold display-4 mr-3">ZC</div>
-                                        <h4 class="mb-0 text-white">{{landmark.name}}</h4>
+                                <div class="page-title-box d-flex align-items-center justify-content-between">
+                                    <h4 class="mb-0" style="color: #fdd200; text-shadow: rgb(0, 0, 0) 1px 1px 1px;">"{{landmark.name}}"</h4>
+
+                                    <div class="page-title-right">
+                                        <ol class="breadcrumb m-0">
+                                          <i @click="openmodal('test')" style="text-shadow: rgb(0, 0, 0) 1px 1px 1px;" class='font-size-24 bx bx-scan text-white'></i>
+                                        </ol>
                                     </div>
-                                    <p class="text-white">{{landmark.description}}</p>
+
+                                </div>
+                               
+                                    <p class="text-white" style="text-indent: 50px;  text-align: justify; text-justify: inter-word;">{{landmark.description}}</p>
                                 </div>
                             </div>
                         </div>
+
+                        
                     </div>
                 </transition>
             </section>

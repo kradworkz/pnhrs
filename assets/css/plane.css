@@ -1,17 +1,63 @@
 
 
-  .top {
+
+  .top-left {
+    width: 1100px;
+    height: auto;
+    top: 0;
+    left: 180px;
+    position: absolute;
+  }
+
+  .top-right {
+    width: 400px;
+    height: auto;
     top: 0;
     right: 0;
     position: absolute;
   }
+
+  
+
+  .bottom-left {
+    width: 400px;
+    height: auto;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+  }
+
+  .bottom-right {
+    width: 400px;
+    height: auto;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+  }
+
+  .logo {
+    width:350px;
+    height: auto;
+    top: 0;
+    left: 0px;
+    position: absolute;
+  }
+
+  .logos {
+    width:300px;
+    height: auto;
+    top: 0;
+    right: 0px;
+    position: absolute;
+  }
+
 
   .plane {
     top: 150px;
     width: 25%;
     height:auto;
     position: absolute;
-    animation: slide 10s 1 linear forwards;
+    animation: slide 7s 1 linear forwards;
   }
 
   @keyframes slide {

@@ -9,8 +9,8 @@
 
 ul#map{
 	list-style: none;
-	width: 1150px;
-	height: 570px;
+	width: 1250px;
+	height: 670px;
     position: relative;
     background-color: red;
 	background: url(../../assets/images/landing/bg2.png) no-repeat center;
