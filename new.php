@@ -51,7 +51,7 @@
                         </div>
 
                         <ul id="map" style="margin-top: -100px;">
-                        
+                            <li @click="openmodal(1)" class="dakak zoom"></li>    
                             <li @click="openmodal(1)" class="stacruz zoom"></li>
                             <li class="vinta3"></li>
                             <li @click="openmodal(8)" class="merloquet zoom"></li>

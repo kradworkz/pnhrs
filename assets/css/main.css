@@ -518,6 +518,25 @@ ul#map li.stacruz:hover {
 	filter: drop-shadow(5px 5px 5px #222);
 }
 
+.dakak{
+	width: 170px;
+	height: 95px;
+	bottom: 69px;
+	left: 1002px;
+	background-image: url(../../assets/images/landing/island2.png);
+	background-size: cover;
+}
+
+ul#map li.dakak:hover {
+    /* background-position: 0 -950px; */
+	bottom: 69px;
+	left: 1002px;
+    background-image: url(../../assets/images/landing/island2.png);
+	background-size: cover;
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+	filter: drop-shadow(5px 5px 5px #222);
+}
+
 .vinta2{
 	width: 66px;
 	height: 52px;
