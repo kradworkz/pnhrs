@@ -109,6 +109,23 @@ ul#map li.adzu:hover {
 	filter: drop-shadow(5px 5px 5px #222);
 }
 
+.fortpillar {
+	width: 181px;
+	height: 105px;
+	bottom: 206px;
+	left: 799px;
+}
+
+ul#map li.fortpillar:hover {
+    /* background-position: 0 -950px; */
+	bottom: 206px;
+	left: 799px;
+    background-image: url(../../assets/images/landing/new/fortpillar.png);
+	background-size: cover;
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+	filter: drop-shadow(5px 5px 5px #222);
+}
+
 .barter {
 	width: 108px;
 	height: 77px;

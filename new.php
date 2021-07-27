@@ -56,9 +56,10 @@
                             <li class="vinta3"></li>
                             <li @click="openmodal(8)" class="merloquet zoom"></li>
                             <li @click="openmodal(8)" class="cityhall zoom"></li>
-                            <li class="sm zoom"></li>
-                            <li class="kcc zoom"></li>
+                            <li @click="openmodal(13)" class="sm zoom"></li>
+                            <li @click="openmodal(14)" class="kcc zoom"></li>
                             <li class="adzu zoom"></li>
+                            <li  @click="openmodal(9)" class="fortpillar zoom"></li>
                             <li class="barter zoom"></li>
                             <li class="police zoom"></li>
                             <li @click="openmodal(19)" class="airport zoom"></li>
