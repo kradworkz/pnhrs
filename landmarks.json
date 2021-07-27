@@ -3,7 +3,18 @@
         "id" : 1,
         "name" : "Sta. Cruz Island",
         "type" : "Seascapes",
-        "description" : "Great Santa Cruz Island is a small inhabited island in Zamboanga City in the southern region of the Philippines that is famous for its pink coralline sand. The island, located 4 kilometers south of downtown at the Santa Cruz Bank in the Basilan Strait, boasts the only pink sand beach in the Philippines. The color of the sand comes from the pulverized red organ pipe coral from eons of surf erosion mixed with the white sand."
+        "description" : "Great Santa Cruz Island is a small inhabited island in Zamboanga City in the southern region of the Philippines that is famous for its pink coralline sand. The island, located 4 kilometers south of downtown at the Santa Cruz Bank in the Basilan Strait, boasts the only pink sand beach in the Philippines. The color of the sand comes from the pulverized red organ pipe coral from eons of surf erosion mixed with the white sand.",
+        "images" : [
+            {
+                "name" : "assets/images/landing/images/stacruz/1.jpg"
+            },
+            {
+                "name" : "assets/images/landing/images/stacruz/2.jpg"
+            },
+            {
+                "name" : "assets/images/landing/images/stacruz/3.jpg"
+            }
+        ]
     },
     {
         "id" : 2,
@@ -71,7 +82,18 @@
         "id" : 9,
         "name" : "Fort Pilar",
         "type" : "Infrastructure",
-        "description" : "One of the major historical landmarks here in Zamboanga is the royal fort of our Virgin Lady of the Pillar. Fort Pillar Shrine used to be around 17 centuries old. It was a military defense fortress constructed by the Spanish colonial government in Zamboanga. History says that Fr. Melchor de Vera a Jesuit priest-engineer built the fort in 1635 to protect the city from invaders that include the moros, the dutch and the British. Devotees gather around to attend and hear masses and also light candles. The fortress is considered by far the most splendid in the entire country."
+        "description" : "One of the major historical landmarks here in Zamboanga is the royal fort of our Virgin Lady of the Pillar. Fort Pillar Shrine used to be around 17 centuries old. It was a military defense fortress constructed by the Spanish colonial government in Zamboanga. History says that Fr. Melchor de Vera a Jesuit priest-engineer built the fort in 1635 to protect the city from invaders that include the moros, the dutch and the British. Devotees gather around to attend and hear masses and also light candles. The fortress is considered by far the most splendid in the entire country.",
+        "images" : [
+            {
+                "name" : "assets/images/landing/images/stacruz/1.jpg"
+            },
+            {
+                "name" : "assets/images/landing/images/stacruz/2.jpg"
+            },
+            {
+                "name" : "assets/images/landing/images/stacruz/3.jpg"
+            }
+        ]
     },
     {
         "id" : 10,
@@ -131,7 +153,18 @@
         "id" : 19,
         "name" : "Zamboanga International Airport",
         "type" : "Transportation",
-        "description" : "Zamboanga International Airport is the main airport serving in Zamboanga City. Zamboanga International Airport has one 2,610-meter primary runway. The dimensions of the runway are 2,610 meters in length by 45 meters in width The airport, like all other international airports in the Philippines, has runway lights, which make it possible to support night landings. This makes 24-hour airport operations possible."
+        "description" : "Zamboanga International Airport is the main airport serving in Zamboanga City. Zamboanga International Airport has one 2,610-meter primary runway. The dimensions of the runway are 2,610 meters in length by 45 meters in width The airport, like all other international airports in the Philippines, has runway lights, which make it possible to support night landings. This makes 24-hour airport operations possible.",
+        "images" : [
+            {
+                "name" : "assets/images/landing/images/airport/2.jpg"
+            },
+            {
+                "name" : "assets/images/landing/images/airport/3.jpg"
+            },
+            {
+                "name" : "assets/images/landing/images/airport/1.jpg"
+            }
+        ]
     },
     {
         "id" : 20,

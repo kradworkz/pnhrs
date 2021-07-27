@@ -1,4 +1,5 @@
 
+
 .zoom {
 	/* transition: all .5s ease-in-out; */
 	transition: transform .5s; 
@@ -486,6 +487,8 @@ ul#map li.register {
 	height: 83px;
 	bottom: 128px;
 	left: 108px;
+	background-image: url(../../assets/images/landing/new/stacruz.png);
+	background-size: cover;
 }
 
 ul#map li.stacruz:hover {
