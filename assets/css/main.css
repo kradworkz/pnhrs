@@ -22,11 +22,29 @@ ul#map li{
 	position: absolute;
 }
 
+
+.merloquet {
+	width: 83px;
+	height: 62px;
+	bottom: 441px;
+	left: 924px;
+}
+
+ul#map li.merloquet:hover {
+	/* background-position: 0 -950px; */
+	bottom: 441px;
+	left: 924px;
+    background-image: url(../../assets/images/landing/new/merloquet.png);
+	background-size: cover;
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+	filter: drop-shadow(5px 5px 5px #222);
+}
+
 .cityhall {
 	width: 150px;
 	height: 140px;
-	bottom: 305px;
-	left: 789px;
+	bottom: 386px;
+	left: 805px;
 }
 
 ul#map li.cityhall:hover{
@@ -40,16 +58,16 @@ ul#map li.cityhall:hover{
 }
 
 .sm {
-	width: 130px;
-	height: 120px;
-	bottom: 315px;
-	left: 649px;
+	width: 120px;
+	height: 85px;
+	bottom: 411px;
+	left: 677px;
 }
 
 ul#map li.sm:hover {
     /* background-position: 0 -950px; */
-    width: 120px;
-    height:85px;
+	bottom: 411px;
+	left: 677px;
     background-image: url(../../assets/images/landing/new/sm.png);
 	background-size: cover;
 	-webkit-filter: drop-shadow(5px 5px 5px #222);
@@ -59,11 +77,11 @@ ul#map li.sm:hover {
 .kcc {
 	width: 130px;
 	height: 95px;
-	bottom: 221px;
-	left: 827px;
+	bottom: 309px;
+	left: 843px;
 }
 
-ul#map li.kcc:hover {
+ul#map li.kcc:hover  {
     /* background-position: 0 -950px; */
     width: 130px;
     height:95px;
@@ -74,16 +92,16 @@ ul#map li.kcc:hover {
 }
 
 .adzu {
-	width: 130px;
-	height: 95px;
-	bottom: 171px;
-	left: 653px;
+	width: 213px;
+	height: 133px;
+	bottom: 284px;
+	left: 629px;
 }
 
 ul#map li.adzu:hover {
     /* background-position: 0 -950px; */
-    width: 219px;
-    height:137px;
+	bottom: 284px;
+	left: 629px;
     background-image: url(../../assets/images/landing/new/adzu.png);
 	background-size: cover;
 	-webkit-filter: drop-shadow(5px 5px 5px #222);
@@ -91,16 +109,16 @@ ul#map li.adzu:hover {
 }
 
 .barter {
-	width: 112px;
-	height: 82px;
-	bottom: 278px;
-	left: 570px;
+	width: 108px;
+	height: 77px;
+	bottom: 380px;
+	left: 576px;
 }
 
-ul#map li.barter:hover {
+ul#map li.barter:hover  {
     /* background-position: 0 -950px; */
-   bottom: 261px;
-	left: 562px;
+	bottom: 380px;
+	left: 576px;
     background-image: url(../../assets/images/landing/new/barter.png);
 	background-size: cover;
 	-webkit-filter: drop-shadow(5px 5px 5px #222);
@@ -110,14 +128,14 @@ ul#map li.barter:hover {
 .police {
 	width: 62px;
 	height: 74px;
-	bottom: 202px;
-	left: 917px;
+	bottom: 286px;
+	left: 930px;
 }
 
 ul#map li.police:hover {
     /* background-position: 0 -950px; */
-   	bottom: 202px;
-	left: 917px;
+   	bottom: 286px;
+	left: 930px;
     background-image: url(../../assets/images/landing/new/police.png);
 	background-size: cover;
 	-webkit-filter: drop-shadow(5px 5px 5px #222);
@@ -125,16 +143,16 @@ ul#map li.police:hover {
 }
 
 .airport {
-	width: 155px;
-	height: 86px;
-	bottom: 318px;
-	left: 268px;
+	width: 142px;
+	height: 79px;
+	bottom: 423px;
+	left: 267px;
 }
 
 ul#map li.airport:hover {
     /* background-position: 0 -950px; */
-   	bottom: 318px;
-	left: 268px;
+   	bottom: 423px;
+	left: 267px;
     background-image: url(../../assets/images/landing/new/airport.png);
 	background-size: cover;
 	-webkit-filter: drop-shadow(5px 5px 5px #222);
@@ -142,16 +160,16 @@ ul#map li.airport:hover {
 }
 
 .zcmc {
-	width: 158px;
-	height: 109px;
-	bottom: 238px;
-	left: 192px;
+	width: 118px;
+	height: 78px;
+	bottom: 362px;
+	left: 200px;
 }
 
 ul#map li.zcmc:hover {
     /* background-position: 0 -950px; */
-   	bottom: 238px;
-	left: 192px;
+   	bottom: 362px;
+	left: 202px;
     background-image: url(../../assets/images/landing/new/zcmc.png);
 	background-size: cover;
 	-webkit-filter: drop-shadow(5px 5px 5px #222);
@@ -159,16 +177,16 @@ ul#map li.zcmc:hover {
 }
 
 .brent {
-	width: 139px;
-	height: 84px;
-	bottom: 187px;
-	left: 306px;
+	width: 134px;
+	height: 80px;
+	bottom: 334px;
+	left: 422px;
 }
 
 ul#map li.brent:hover {
     /* background-position: 0 -950px; */
-   	bottom: 187px;
-	left: 306px;
+   	bottom: 334px;
+	left: 422x;
     background-image: url(../../assets/images/landing/new/brent.png);
 	background-size: cover;
 	-webkit-filter: drop-shadow(5px 5px 5px #222);
@@ -176,16 +194,16 @@ ul#map li.brent:hover {
 }
 
 .ciudad {
-	width: 139px;
-	height: 98px;
-	bottom: 163px;
-	left: 408px;
+	width: 135px;
+	height: 97px;
+	bottom: 260px;
+	left: 422px;
 }
 
 ul#map li.ciudad:hover {
     /* background-position: 0 -950px; */
-   	bottom: 163px;
-	left: 408px;
+   	bottom: 260px;
+	left: 422px;
     background-image: url(../../assets/images/landing/new/ciudad.png);
 	background-size: cover;
 	-webkit-filter: drop-shadow(5px 5px 5px #222);
@@ -195,14 +213,14 @@ ul#map li.ciudad:hover {
 .cho {
 	width: 81px;
 	height: 61px;
-	bottom: 262px;
-	left: 379px;
+	bottom: 368px;
+	left: 377px;
 }
 
 ul#map li.cho:hover {
     /* background-position: 0 -950px; */
-   	bottom: 262px;
-	left: 379px;
+   	bottom: 368px;
+	left: 377px;
     background-image: url(../../assets/images/landing/new/cho.png);
 	background-size: cover;
 	-webkit-filter: drop-shadow(5px 5px 5px #222);
@@ -212,15 +230,32 @@ ul#map li.cho:hover {
 .mosque{
 	width: 63px;
 	height: 67px;
-	bottom: 246px;
-	left: 435px;
+	bottom: 296px;
+	left: 372px;
 }
 
 ul#map li.mosque:hover {
     /* background-position: 0 -950px; */
-   	bottom: 246px;
-	left: 435px;
+   	bottom: 296px;
+	left: 372px;
     background-image: url(../../assets/images/landing/new/mosque.png);
+	background-size: cover;
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+	filter: drop-shadow(5px 5px 5px #222);
+}
+
+.dost{
+	width: 116px;
+	height: 97px;
+	bottom: 313px;
+	left: 285px;
+}
+
+ul#map li.dost:hover {
+    /* background-position: 0 -950px; */
+   	bottom: 313px;
+	left: 285px;
+    background-image: url(../../assets/images/landing/new/dost.png);
 	background-size: cover;
 	-webkit-filter: drop-shadow(5px 5px 5px #222);
 	filter: drop-shadow(5px 5px 5px #222);
@@ -228,16 +263,16 @@ ul#map li.mosque:hover {
 
 
 .church{
-	width: 54px;
-	height: 62px;
-	bottom: 264px;
-	left: 486px;
+	width: 52px;
+	height: 57px;
+	bottom: 197px;
+	left: 545px;
 }
 
 ul#map li.church:hover {
     /* background-position: 0 -950px; */
-   	bottom: 264px;
-	left: 486px;
+   	bottom: 197px;
+	left: 545px;
     background-image: url(../../assets/images/landing/new/church.png);
 	background-size: cover;
 	-webkit-filter: drop-shadow(5px 5px 5px #222);
@@ -247,14 +282,14 @@ ul#map li.church:hover {
 .uz{
 	width: 84px;
 	height: 81px;
-	bottom: 288px;
-	left: 418px;
+	bottom: 391px;
+	left: 412px;
 }
 
 ul#map li.uz:hover {
     /* background-position: 0 -950px; */
-   	bottom: 288px;
-	left: 418px;
+   	bottom: 391px;
+	left: 412px;
     background-image: url(../../assets/images/landing/new/uz.png);
 	background-size: cover;
 	-webkit-filter: drop-shadow(5px 5px 5px #222);
@@ -262,16 +297,16 @@ ul#map li.uz:hover {
 }
 
 .dswd{
-	width: 85px;
-	height: 66px;
-	bottom: 226px;
-	left: 522px;
+	width: 80px;
+	height: 60px;
+	bottom: 319px;
+	left: 535px;
 }
 
 ul#map li.dswd:hover {
     /* background-position: 0 -950px; */
-   	bottom: 226px;
-	left: 522px;
+   	bottom: 319px;
+	left: 535px;
     background-image: url(../../assets/images/landing/new/dswd.png);
 	background-size: cover;
 	-webkit-filter: drop-shadow(5px 5px 5px #222);
@@ -279,15 +314,15 @@ ul#map li.dswd:hover {
 }
 
 .bus{
-	width: 93px;
-	height: 99px;
-	bottom: 88px;
+	width: 71px;
+	height: 73px;
+	bottom: 205px;
 	left: 475px;
 }
 
 ul#map li.bus:hover {
     /* background-position: 0 -950px; */
-   	bottom: 88px;
+   	bottom: 205px;
 	left: 475px;
     background-image: url(../../assets/images/landing/new/bus.png);
 	background-size: cover;
@@ -298,13 +333,13 @@ ul#map li.bus:hover {
 .psa{
 	width: 85px;
 	height: 71px;
-	bottom: 198px;
+	bottom: 293px;
 	left: 590px;
 }
 
 ul#map li.psa:hover {
     /* background-position: 0 -950px; */
-   	bottom: 198px;
+   	bottom: 293px;
 	left: 590px;
     background-image: url(../../assets/images/landing/new/psa.png);
 	background-size: cover;
@@ -315,13 +350,13 @@ ul#map li.psa:hover {
 .ched{
 	width: 95px;
 	height: 71px;
-	bottom: 158px;
+	bottom: 255px;
 	left: 633px;
 }
 
 ul#map li.ched:hover {
     /* background-position: 0 -950px; */
-   	bottom: 158px;
+   	bottom: 255px;
 	left: 633px;
     background-image: url(../../assets/images/landing/new/ched.png);
 	background-size: cover;
@@ -330,16 +365,16 @@ ul#map li.ched:hover {
 }
 
 .doh{
-	width: 121px;
-	height: 84px;
-	bottom: 103px;
-	left: 675px;
+	width: 116px;
+	height: 76px;
+	bottom: 205px;
+	left: 703px;
 }
 
 ul#map li.doh:hover {
     /* background-position: 0 -950px; */
-   	bottom: 103px;
-	left: 675px;
+   	bottom: 205px;
+	left: 703px;
     background-image: url(../../assets/images/landing/new/doh.png);
 	background-size: cover;
 	-webkit-filter: drop-shadow(5px 5px 5px #222);
@@ -349,15 +384,32 @@ ul#map li.doh:hover {
 .seaport{
 	width: 128px;
 	height: 112px;
-	bottom: 76px;
-	left: 742px;
+	bottom: 98px;
+	left: 721px;
 }
 
 ul#map li.seaport:hover{
     /* background-position: 0 -950px; */
-   	bottom: 76px;
-	left: 742px;
+   	bottom: 98px;
+	left: 721px;
     background-image: url(../../assets/images/landing/new/seaport.png);
+	background-size: cover;
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+	filter: drop-shadow(5px 5px 5px #222);
+}
+
+.zscmst {
+	width: 189px;
+	height: 112px;
+	bottom: 119px;
+	left: 593px;
+}
+
+ul#map li.zscmst:hover{
+    /* background-position: 0 -950px; */
+	bottom: 119px;
+	left: 593px;
+    background-image: url(../../assets/images/landing/new/zscmst.png);
 	background-size: cover;
 	-webkit-filter: drop-shadow(5px 5px 5px #222);
 	filter: drop-shadow(5px 5px 5px #222);
@@ -366,14 +418,14 @@ ul#map li.seaport:hover{
 .fire{
 	width: 80px;
 	height: 80px;
-	bottom: 123px;
-	left: 571px;
+	bottom: 216px;
+	left: 577px;
 }
 
 ul#map li.fire:hover {
     /* background-position: 0 -950px; */
-   	bottom: 123px;
-	left: 571px;
+   	bottom: 216px;
+	left: 577px;
     background-image: url(../../assets/images/landing/new/fire.png);
 	background-size: cover;
 	-webkit-filter: drop-shadow(5px 5px 5px #222);
@@ -383,16 +435,121 @@ ul#map li.fire:hover {
 .treehouse{
 	width: 45px;
 	height: 39px;
-	bottom: 92px;
-	left: 633px;
+	bottom: 221px;
+	left: 956px;
 }
 
 ul#map li.treehouse:hover {
     /* background-position: 0 -950px; */
-   	bottom: 92px;
-	left: 633px;
+   	bottom: 221px;
+	left: 956px;
     background-image: url(../../assets/images/landing/new/treehouse.png);
 	background-size: cover;
 	-webkit-filter: drop-shadow(5px 5px 5px #222);
 	filter: drop-shadow(5px 5px 5px #222);
 }
+
+.yakan{
+	width: 138px;
+	height: 81px;
+	bottom: 150px;
+	left: 796px;
+}
+
+ul#map li.yakan:hover {
+    /* background-position: 0 -950px; */
+	bottom: 150px;
+	left: 796px;
+    background-image: url(../../assets/images/landing/new/yakan.png);
+	background-size: cover;
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+	filter: drop-shadow(5px 5px 5px #222);
+}
+
+.register{
+	width: 87px;
+	height: 66px;
+	bottom: 443px;
+	left: 179px;
+}
+
+ul#map li.register {
+    /* background-position: 0 -950px; */
+	bottom: 443px;
+	left: 179px;
+    background-image: url(../../assets/images/landing/new/designs/register.png);
+	background-size: cover;
+}
+
+.stacruz{
+	width: 90px;
+	height: 83px;
+	bottom: 128px;
+	left: 108px;
+}
+
+ul#map li.stacruz:hover {
+    /* background-position: 0 -950px; */
+	bottom: 128px;
+	left: 108px;
+    background-image: url(../../assets/images/landing/new/stacruz.png);
+	background-size: cover;
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+	filter: drop-shadow(5px 5px 5px #222);
+}
+
+.vinta2{
+	width: 66px;
+	height: 52px;
+	bottom: 54px;
+	left: 392px;
+}
+
+ul#map li.vinta2 {
+    /* background-position: 0 -950px; */
+   	bottom: 54px;
+	left: 392px;
+    background-image: url(../../assets/images/landing/vinta.png);
+	background-size: cover;
+	transition: transform .5s; 
+    animation: nudge 40s linear infinite alternate;
+}
+
+@keyframes nudge {
+	0%{
+		left: 40%;
+	}
+	50% {
+		left: 70%
+	}
+}
+
+
+.vinta3{
+	width: 33px;
+	height: 23px;
+	bottom: 119px;
+	left: 30px;
+}
+
+ul#map li.vinta3 {
+    /* background-position: 0 -950px; */
+   	bottom: 119px;
+	left: 30px;
+    background-image: url(../../assets/images/landing/vinta.png);
+	background-size: cover;
+	transition: transform .5s; 
+    animation: nudge2 40s linear infinite alternate;
+}
+
+@keyframes nudge2 {
+    0%{
+      left: 10%;
+    }
+    50% {
+     left: 20%
+	}
+	100% {
+		left: 25%;
+	}
+  }

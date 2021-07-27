@@ -51,6 +51,9 @@
                         </div>
 
                         <ul id="map" style="margin-top: -100px;">
+                        
+                            <li class="vinta3"></li>
+                            <li @click="openmodal(8)" class="merloquet zoom"></li>
                             <li @click="openmodal(8)" class="cityhall zoom"></li>
                             <li class="sm zoom"></li>
                             <li class="kcc zoom"></li>
@@ -62,17 +65,23 @@
                             <li class="brent zoom"></li>
                             <li class="ciudad zoom"></li>
                             <li class="cho zoom"></li>
+                            <li class="dost zoom"></li>
                             <li class="mosque zoom"></li>
                             <li class="church zoom"></li>
                             <li class="uz zoom"></li>
                             <li class="dswd zoom"></li>
                             <li class="bus zoom"></li>
                             <li class="psa zoom"></li>
+                            <li class="yakan zoom"></li>
                             <li class="ched zoom"></li>
                             <li class="doh zoom"></li>
                             <li class="seaport zoom"></li>
+                            <li class="zscmst zoom"></li>
                             <li class="fire zoom"></li>
                             <li class="treehouse zoom"></li>
+                            <li class="vinta2"></li>
+                            <li class="stacruz"></li>
+                            <a href="https://14thpnhrsweekcelebration.dost9.ph/" target="_blank"><li class="register bx-tada"></li></a>
                         </ul>
 
                         <div id="clouds" style="margin-top: -350px;">
@@ -83,9 +92,12 @@
                             <div class="cloud x5"></div>
                         </div>  
 
-                        <img class="logo" src="assets/images/landing/logo.png">
+                        <a href="https://14thpnhrsweekcelebration.dost9.ph/" target="_blank"><img class="logo" src="assets/images/landing/logo.png"></a>
                         <img class="logos" src="assets/images/landing/logos.png">
                         <img class="plane" src="assets/images/landing/new/designs/plane.png">
+<!-- 
+                        <img class="vinta2" src="assets/images/landing/vinta.png">
+                        <img class="vinta3" src="assets/images/landing/vinta.png"> -->
                         
                     </div>
 
