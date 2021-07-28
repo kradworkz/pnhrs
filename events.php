@@ -59,47 +59,7 @@
                             <p>The PNHRS Week is celebrated every second week of August in accordance with Presidential Proclamation No. 1309 of June 2007.</p>
                             <br><br>
 
-                            <h3>Message from the Lead Coordinator of PNHRS</h3>
-							<h6>By: Christine Jane Gonzalez</h6>
-							<br>
-
-							<p>For the 14th year celebration of the Philippine National Health Research System (PNHRS), we banner the theme: “Health R&D in the New Normal: Moving Towards Universal Health Care” in recognition of the role that the System plays in facilitating the successful implementation of the Universal Healthcare Law (UHC).</p>
-
-							<p>Even before its institutionalization in 2013, the System has already provided significant inputs and contributions to the landscape of healthcare in the country from generating evidence-informed solutions and innovations to supporting landmark legislations such as the UHC.</p>
-
-							<p>The strength of the PNHRS lies in its diverse yet interconnected network, as we are always able to build on partnerships in R&D to help address the country’s most pressing health concerns and achieve our overall goals in health. As we move forward to the implementation of the UHC, we bank on the System's diverse expertise and strong network once again to ensure that our communities will have access to better healthcare.</p>
-
-							<p>Although we are only meeting virtually this year, we hope that through the sessions, we can reiterate how nurturing partnerships will help in generating solutions that account for the healthcare needs of every Filipino across the country.</p>
-
-							<p>On behalf of the Department of Science and Technology - Philippine Council for Health Research and Development (DOST-PCHRD), I would like to thank the whole health research community, all of our partners and researchers in Luzon, Visayas, Mindanao and even those based abroad who worked tirelessly to make lives better for the Filipino, especially in the past year.</p>
-
-							<p>May we continue to build on solidarity to advance science, technology and innovation for better healthcare systems.</p>
-
-							<p>Maraming salamat po at mabuhay ang PNHRS!”</p>
-
-							<p>DR. JAIME C. MONTOYA, MD, MSc, PhD, CESO II <br/>Lead Coordinator, Philippine National Health Research System<br/>Executive Director, Philippine Council for Health Research and Development</p>
-
-							<br><br>
-
-                            <h3>Message from the Lead Organizer of 14th PNHRS Week</h3>
-							<h6>By: Christine Jane Gonzalez</h6>
-							<br>
-
-							<p>“It is an honor and pleasure for Zamboanga Consortium for Health Research and Development (ZCHRD), together with the Department of Science and Technology Region 9, to co-host and welcome all the attendees of this 14th PNHRS Conference.</p>
-
-							<p>Following its yearly tradition, this year 2021- 14th PNHRS Conference Week is the first virtual conference with the theme <b>“Health R and D in the New Normal: Moving Towards Universal Health Care"</b>b>. This experience of a virtual conference offers a broad range of sessions on the COVID-19 Pandemic and its challenges will pull together researches and sharing of experiences among experts on the latest knowledge in their presentations. The comprehensive presentations have been assembled from well-selected experts devoted to cover a wide spectrum on COVID-19 topics from various regional experiences nationwide.</p>
-
-							<p>The conference will include scientific and technical sessions on universal healthcare as a unique rostrum to bring together clinicians, physicians, educators, and researchers from all over the country serving as a platform to report, share and discuss issues and scientific achievements relative to the COVID 19 Pandemic and other pressing challenges in the aim to achieve universal health care.</p>
-
-							<p>We invite you all to join this 14th PNHRS virtual conference as we enjoin students and other stakeholders all over the country on the various research-based presentations for the whole PNHRS week celebration starting with satellite sessions from August 3-6,2012 followed by three days of pre-conference sessions on August 9-11, 2021, and main conference sessions on August 12-13, 2021.</p>
-
-							<p>The four days satellite conference will be full of inspiration to openly present and discuss their work offering opportunities through the clustering of region presentation from a broad range of experiences. This will be an excellent opportunity to update attendees on research and presentations relative to health care challenges that will drive a future direction for basic, clinical, and translational investigations.  Experience generates use and wisdom compels attention. </p>
-
-							<p>We enjoin you all to attend all the conference sessions.  Evidence deserves to be reviewed on needs relevant to vaccines, healthcare, pandemic management to promote wellness,  the key to address equal opportunities to achieve healthy communities.</p>
-
-							<p>We look forward to your attendance and share the excitement with us!”</p>
-
-							<p>DR. CHONA Q. SARMIENTO, PhD<br/>Chair, Zamboanga Consortium for Health Research and Development</p>
+                            
                         </div>
 
                         <div style="margin: 0 auto; width: 70%; border: 3px solid green;">
