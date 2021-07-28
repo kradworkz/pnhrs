@@ -45,8 +45,8 @@
                         <a href="https://14thpnhrsweekcelebration.dost9.ph/" target="_blank"><img class="logo" src="assets/images/landing/logo.png"></a>
                         <img class="logos" src="assets/images/landing/logos.png">
 
-						<div style="margin: 0 auto; width: 70%; border: 3px solid green; margin-top: 100px;">
-							<h3>ABOUT PNHRS WEEK PAGE</h3>
+						<div style="margin: 0 auto; width: 70%; margin-top: 100px;">
+							<h3>ABOUT PNHRS WEEK</h3>
 							<h6>By: Christine Jane Gonzalez</h6>
 							<br>
 

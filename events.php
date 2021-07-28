@@ -29,9 +29,92 @@
                 background-image: url('assets/images/landing/images/bg.png'); background-size: contain;
                 overflow: hidden;
             }
-        </style>
+            div.satellite {
+			  display: block; /* the default for span */
+			  float: left;
+			  color: white;
+			  font-size: 15px;
+			  width: 200px;
+			  text-align: center;
+			  margin: 5px;
+			  padding: 15px;
+			  background-color: black; 
+			}
+			div.satellite:hover{
+				cursor: pointer;
+			}
 
-    
+			div.precon {
+			  display: inline-block; /* the default for span */
+			  color: white;
+			  font-size: 15px;
+			  width: 250px;
+			  height: 60px;
+			  text-align: center;
+			  vertical-align: middle;
+			  margin: auto;
+			  padding: 8px 0;
+			  background-color: black; 
+			}
+			div.precon:hover{
+				cursor: pointer;
+			}
+
+			div.maincon {
+			  display: inline-block; /* the default for span */
+			  color: white;
+			  font-size: 20px;
+			  width: 200px;
+			  height: 100px;
+			  text-align: center;
+			  vertical-align: middle;
+			  margin: 20px;
+			  padding: 35px 0;
+			  background-color: black; 
+			}
+			div.maincon:hover{
+				cursor: pointer;
+			}
+
+			.modal {
+			  display: none; /* Hidden by default */
+			  position: fixed; /* Stay in place */
+			  z-index: 1; /* Sit on top */
+			  left: 0;
+			  top: 0;
+			  width: 100%; /* Full width */
+			  height: 100%; /* Full height */
+			  overflow: auto; /* Enable scroll if needed */
+			  background-color: rgb(0,0,0); /* Fallback color */
+			  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+			}
+
+			/* Modal Content/Box */
+			.modal-content {
+			  background-color: #fefefe;
+			  margin: 15% auto; /* 15% from the top and centered */
+			  padding: 20px;
+			  border: 1px solid #888;
+			  width: 80%; /* Could be more or less, depending on screen size */
+			}
+
+			/* The Close Button */
+			.close {
+			  color: #aaa;
+			  float: right;
+			  font-size: 28px;
+			  font-weight: bold;
+			}
+
+			.close:hover,
+			.close:focus {
+			  color: black;
+			  text-decoration: none;
+			  cursor: pointer;
+			}
+        </style>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>
     
     
@@ -45,28 +128,64 @@
                         <a href="https://14thpnhrsweekcelebration.dost9.ph/" target="_blank"><img class="logo" src="assets/images/landing/logo.png"></a>
                         <img class="logos" src="assets/images/landing/logos.png">
 
-						<div style="margin: 0 auto; width: 70%; border: 3px solid green; margin-top: 100px;">
-							<h3>ABOUT PNHRS WEEK PAGE</h3>
-							<h6>By: Christine Jane Gonzalez</h6>
-							<br>
 
-                            <p>Every second week of August, the health research community celebrates the Philippine National Health Research System (PNHRS) Week.</p>
+                        <div style="margin: 0 auto; width: 80%; margin-top: 50px;">
+                        	<center><h1>EVENTS</h1></center>
 
-                            <p>Hosted by the Zamboanga Consortium for Health Research and Development (ZCHRD) with the Department of Science and Technology IX (DOST IX), this year’s PNHRS Week theme is “Health R and D in the New Normal: Moving Towards Universal Health Care".</p>
+	                        <div style="float: left; width: 25%; margin-right:50px;">
+	                        	<img style="width:100%; height:100%; margin-top: 25px;" src="assets/images/programme.png">
+	                        </div>
 
-                            <p>In view of the COVID-19 pandemic, the celebration will stream a combination of live and pre-recorded material through various media platforms on August 3-13, 2021. It will serve as a venue for different stakeholders to share their best practices and experiences in pursuit of healthier lives for the Filipinos through health research and development. The event will also showcase new emerging partnerships to address the country’s current challenges on health issues.</p>
+							<div style="float: left; width: 70%; height:100%; margin-top: 25px;">
+								<div style="margin: 0 auto; width: 100%; padding-bottom: 25px;">
 
-                            <p>The PNHRS Week is celebrated every second week of August in accordance with Presidential Proclamation No. 1309 of June 2007.</p>
-                            <br><br>
+									<h4 style="text-align: center; text-decoration: underline; font-style: italic;">Satellite Sessions</h4>
 
-                            
-                        </div>
+									<div style="margin: 0 auto; width: 100%; text-align: center;">
+										<div class="satellite" id="myBtn">SOUTH LUZON<br/>CLUSTER</div>
+										<div id="myModal" class="modal">
+										  <!-- Modal content -->
+										  <div class="modal-content">
+										    <span class="close">&times;</span>
+										    <iframe src="assets/session_details/01_south_luzon.pdf" width="800px" height="600px">
+										  </div>
 
-                        <div style="margin: 0 auto; width: 70%; border: 3px solid green;">
-                        	
+										</div>
 
-                        </div>
-                        
+
+										<div class="satellite">NORTH LUZON<br/>CLUSTER</div>
+										<div class="satellite">VISAYAS<br/>CLUSTER</div>
+										<div class="satellite">MINDANAO<br/>CLUSTER</div>
+									</div>
+								</div>
+								
+								<div style="margin: 0 auto; width: 100%; margin-top: 20px;">
+									<h4 style="text-align: center; text-decoration: underline; font-style: italic;">Pre-Conference</h4>
+
+									<div style="margin: 0 auto; width: 100%; text-align: center;">
+										<div class="precon">ORAL RESEARCH<br/>PAPER PRESENTATION</div>
+										<div class="precon">RESEARCH IN GLOBAL<br/>HEALTH EMERGENCIES</div>
+										<div class="precon">PRACTICAL TRAINING FOR<br/>REC MEMBERS AND STAFF</div>
+									</div>
+									<div style="margin: 0 auto; text-align: center; width: 100%; margin-top: 20px;">
+										<div class="precon">SESSION ON SOCIAL INNOVATION <br/>IN HEALTH RESEARCH</div>
+										<div class="precon">3-MINUTE PITCH<br/>TO POLICYMAKERS</div>
+										<div class="precon">VISUAL ABSTRACT<br/>POSTER COMPETITION</div>
+									</div>
+								</div>
+
+								<div style="margin: 0 auto; width: 100%; margin-top: 20px;">
+									<h4 style="text-align: center; text-decoration: underline; font-style: italic;">Main Conference</h4>
+
+									<div style="margin: 0 auto; text-align: center; width: 100%; margin-top: 20px;">
+										<div class="maincon">DAY 1</div>
+										<div class="maincon">DAY 2</div>
+									</div>
+								</div>
+	                        </div>
+
+                    	</div>
+
                     </div>
 
                     <div v-else>
@@ -313,3 +432,35 @@
     </div>
     </body>
 </html>
+<script>
+$(document).ready(function() {
+    var btn = document.getElementById("myBtn");
+    btn.hide();
+});
+	
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
