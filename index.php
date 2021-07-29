@@ -121,7 +121,7 @@
                         <img class="faqs" src="assets/images/landing/new/designs/faqs.png" >
                         <a @click="view('faqs')"><img class="faq" src="assets/images/landing/new/designs/faq.png" onmouseover="this.src='assets/images/landing/new/designs/e-5.png'" onmouseout="this.src='assets/images/landing/new/designs/faq.png'"></a>
                         <img class="copy" src="assets/images/landing/new/designs/copyright.png" >
-                        <!-- <img class="plane" src="assets/images/landing/new/designs/plane.png"> -->
+                        <img class="plane" src="assets/images/landing/new/designs/plane.png">
                      
                         
                         
