@@ -23,21 +23,51 @@
             "date" : "August 04, 2021",
             "time" : "8AM - 12NN",
             "link" : "https://zoom.us/webinar/register/WN_qrQQF9gaQzua-A2-pTuRSg",
-            "option" : ""
+            "option" : "",
+            "images" : [
+                {
+                    "name" : "assets/images/sessions/northluzon/1.jpg"
+                },
+                {
+                    "name" : "assets/images/sessions/northluzon/2.jpg"
+                },
+                {
+                    "name" : "assets/images/sessions/northluzon/3.jpg"
+                }
+            ]
         },
         {
             "title" : "Visayas Cluster",
             "date" : "August 05, 2021",
             "time" : "8AM - 12NN",
             "link" : "https://us02web.zoom.us/webinar/register/WN_BUZ-ntn_SI-I9qMJyMVuKA",
-            "option" : ""
+            "option" : "",
+            "images" : [
+                {
+                    "name" : "assets/images/sessions/visayas/1.jpg"
+                },
+                {
+                    "name" : "assets/images/sessions/visayas/2.jpg"
+                }
+            ]
         },
         {
             "title" : "Mindanao Cluster",
             "date" : "August 06, 2021",
             "time" : "8AM - 12NN",
             "link" : "https://us02web.zoom.us/webinar/register/WN_6k1-qA-5RUe7F231-IPuow",
-            "option" : ""
+            "option" : "",
+            "images" : [
+                {
+                    "name" : "assets/images/sessions/mindanao/1.jpg"
+                },
+                {
+                    "name" : "assets/images/sessions/mindanao/2.jpg"
+                },
+                {
+                    "name" : "assets/images/sessions/mindanao/3.jpg"
+                }
+            ]
         }
     ],
     
