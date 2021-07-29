@@ -21,28 +21,38 @@ document.addEventListener('DOMContentLoaded', function () {
             },
             image: "assets/images/landing/images/background.jpg",
             content: 'island',
-            images : []
+            images : [],
+            lists : [],
+            lists2: []
         },
 
         created(){
-            axios.get('./landmarks.json')
-            .then(response => {
-                this.lists = response.data;
-            })
-            .catch((e) => {
-                console.error(e)
-            });
-
-            axios.get('./list.json')
-            .then(response => {
-                this.lists = response.data;
-            })
-            .catch((e) => {
-                console.error(e)
-            });
+          this.getL();
+          this.getLi();
         },
 
         methods: {
+
+            getL(){
+                axios.get('./landmarks.json')
+                .then(response => {
+                    this.lists = response.data;
+                })
+                .catch((e) => {
+                    console.error(e)
+                });
+            },
+
+            getLi(){
+                axios.get('./list.json')
+                .then(response => {
+                    this.lists2 = response.data;
+                })
+                .catch((e) => {
+                    console.error(e)
+                });
+            },
+
             openmodal(id){
                 (this.show == false ) ? this.show = true : this.show = false;
                 // this.landmark = this.lists[id];

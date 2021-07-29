@@ -12,7 +12,7 @@
             <div  data-simplebar style="height: 60vh; overflow-x: hidden;">
             <div class="row">
             <h5 class="text-warning mb-4"><i class="bx bx-news me-1"></i> SATELLITE SESSIONS</h5>
-                <div class="col-xl-3" v-for="(list,index) in lists.first" v-bind:key="list.index">
+                <div class="col-xl-3" v-for="(list,index) in lists2.first" v-bind:key="list.index">
                     <div class="card">
                         <div class="card-body">
                             <div class="media">
@@ -33,7 +33,7 @@
 
                 <hr></hr>
                 <h5 class="text-warning mb-4"><i class="bx bx-news me-1"></i> PRE-CONFERENCE SESSIONS</h5>
-                <div class="col-xl-4" v-for="(list,index) in lists.sixth" v-bind:key="list.id">
+                <div class="col-xl-4" v-for="(list,index) in lists2.sixth" v-bind:key="list.id">
                     <div class="card">
                         <div class="card-body">
                             <div class="media">
