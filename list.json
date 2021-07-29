@@ -276,7 +276,21 @@
                 "time" : "8AM - 12NN",
                 "link" : "https://us02web.zoom.us/webinar/register/WN_HSzgJC2YSMKtazgiE_MFiA",
                 "option" : "",
-                "color" : "danger"
+                "color" : "danger",
+                "images" : [
+                    {
+                        "name" : "assets/images/sessions/oral/1.jpg"
+                    },
+                    {
+                        "name" : "assets/images/sessions/oralo/2.jpg"
+                    },
+                    {
+                        "name" : "assets/images/sessions/oral/3.jpg"
+                    },
+                    {
+                        "name" : "assets/images/sessions/oral/4.jpg"
+                    }
+                ]
             },
             {
                 "main" : "Research in Global Health Emergencies",
