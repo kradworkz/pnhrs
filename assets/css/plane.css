@@ -94,8 +94,8 @@
   .logos {
     width:300px;
     height: auto;
-    top: 0;
-    right: 0px;
+    top: 5px;
+    right: 5px;
     position: absolute;
   }
 
@@ -108,10 +108,10 @@
   }
 
    .registerw {
-    width:105px;
+    width:103px;
     height: auto;
-    top: 16px;
-    right: 550px;
+    top: 260px;
+    left: 48px;
     position: absolute;
     transition: transform .5s; 
   }
@@ -129,10 +129,10 @@
   }
 
   .faq {
-    width:109px;
+    width:103px;
     height: auto;
-    bottom: 11px;
-    right: 43px;
+    top: 305px;
+    left: 48px;
     position: absolute;
   }
 
