@@ -39,7 +39,7 @@
     width:455px;
     height: auto;
     top: 0;
-    right: 0px;
+    left: 0px;
     position: absolute;
   }
 
@@ -95,7 +95,7 @@
     width:300px;
     height: auto;
     top: 0;
-    left: 0px;
+    right: 0px;
     position: absolute;
   }
 
