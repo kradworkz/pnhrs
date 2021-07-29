@@ -299,7 +299,12 @@
                 "time" : "8AM - 12NN",
                 "link" : "https://us02web.zoom.us/webinar/register/WN_s-isBFZESkinjrB_YXkQ8g",
                 "option" : "",
-                "color" : "warning"
+                "color" : "warning",
+                "images" : [
+                    {
+                        "name" : "assets/images/sessions/research/1.jpg"
+                    }
+                ]
             },
 
             {
@@ -309,7 +314,18 @@
                 "time" : "8AM - 4PM",
                 "link" : "",
                 "option" : "By Invitation Only",
-                "color" : "success"
+                "color" : "success",
+                "images" : [
+                    {
+                        "name" : "assets/images/sessions/practical/1.jpg"
+                    },
+                    {
+                        "name" : "assets/images/sessions/practical/2.jpg"
+                    },
+                    {
+                        "name" : "assets/images/sessions/practical/3.jpg"
+                    }
+                ]
             },
             {
                 "main" : "Session on Social Innovation in Health Research",
@@ -318,7 +334,12 @@
                 "time" : "8AM - 12NN",
                 "link" : "https://us02web.zoom.us/webinar/register/WN_4V-Qlp41TyCDokWC1bot3A",
                 "option" : "",
-                "color" : "danger"
+                "color" : "danger",
+                "images" : [
+                    {
+                        "name" : "assets/images/sessions/innovation/1.jpg"
+                    }
+                ]
             }, 
 
             {
@@ -328,7 +349,18 @@
                 "time" : "1PM - 4PM",
                 "link" : "https://us02web.zoom.us/webinar/register/WN_KvBNGA_GT3q9TGLaxFEjIg",
                 "option" : "",
-                "color" : "warning"
+                "color" : "warning",
+                "images" : [
+                    {
+                        "name" : "assets/images/sessions/3/1.jpg"
+                    },
+                    {
+                        "name" : "assets/images/sessions/3/2.jpg"
+                    },
+                    {
+                        "name" : "assets/images/sessions/3/3.jpg"
+                    }
+                ]
             },
           
             {
@@ -338,7 +370,21 @@
                 "time" : "8AM - 12NN",
                 "link" : "",
                 "option" : "By Invitation Only",
-                "color" : "success"
+                "color" : "success",
+                "images" : [
+                    {
+                        "name" : "assets/images/sessions/abstract/1.jpg"
+                    },
+                    {
+                        "name" : "assets/images/sessions/abstract/2.jpg"
+                    },
+                    {
+                        "name" : "assets/images/sessions/abstract/3.jpg"
+                    },
+                    {
+                        "name" : "assets/images/sessions/abstract/4.jpg"
+                    }
+                ]
             }
            
         ]
