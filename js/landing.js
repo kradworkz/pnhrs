@@ -20,7 +20,8 @@ document.addEventListener('DOMContentLoaded', function () {
                 backgroundColor:"#16a085" 
             },
             image: "assets/images/landing/images/background.jpg",
-            content: 'island'
+            content: 'island',
+            images : []
         },
 
         created(){
@@ -55,7 +56,8 @@ document.addEventListener('DOMContentLoaded', function () {
                 this.content = type;
             },
             
-            viewsession(){
+            viewsession(images){
+                this.images = images;
                 $("#viewsession").modal('show');
             }
         }

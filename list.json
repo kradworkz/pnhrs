@@ -5,7 +5,18 @@
             "date" : "August 03, 2021",
             "time" : "8AM - 12NN",
             "link" : "https://us02web.zoom.us/webinar/register/WN_B1HGEtFjQjyqjJQXl_KWGw",
-            "option" : ""
+            "option" : "",
+            "images" : [
+                {
+                    "name" : "assets/images/sessions/southluzon/1.jpg"
+                },
+                {
+                    "name" : "assets/images/sessions/southluzon/2.jpg"
+                },
+                {
+                    "name" : "assets/images/sessions/southluzon/3.jpg"
+                }
+            ]
         },
         {
             "title" : "North Luzon Cluster",
