@@ -36,6 +36,7 @@
 
     <body data-bs-spy="scroll" data-bs-target="#topnav-menu" data-bs-offset="60" >
         <div id="sg1">
+        <?php require_once("includes/modal2.php"); ?>
             <section class="section" v-bind:class="(show) ? 'bgback' : 'nobgback'" style="height: 100vh;">
                 <transition name="fade">
                     <div v-if="show" style="margin-top: -50px;">

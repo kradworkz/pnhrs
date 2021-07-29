@@ -53,6 +53,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
             view(type){
                 this.content = type;
+            },
+            
+            viewsession(){
+                $("#viewsession").modal('show');
             }
         }
     })

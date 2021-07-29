@@ -17,7 +17,7 @@
                         <div class="card-body">
                             <div class="media">
                                 <div class="media-body overflow-hidden">
-                                    <h5 class="text-truncate font-size-15"><a href="#" class="text-dark">{{ list.title}}</a></h5>
+                                    <h5 @click="viewsession()" class="text-truncate font-size-15"><a href="#" class="text-dark">{{ list.title}}</a></h5>
                                 </div>
                             </div>
                         </div>
