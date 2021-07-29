@@ -98,11 +98,11 @@
                             <img class="menu" src="assets/images/landing/new/designs/menu.png">
                             <a @click="view('about')"><img class="about" src="assets/images/landing/new/designs/about.png" onmouseover="this.src='assets/images/landing/new/designs/e-3.png'" onmouseout="this.src='assets/images/landing/new/designs/about.png'"></a>
                             <a @click="view('events')"><img class="events" src="assets/images/landing/new/designs/events.png" onmouseover="this.src='assets/images/landing/new/designs/e-2.png'" onmouseout="this.src='assets/images/landing/new/designs/events.png'"></a>
-                            <a @click="view('faqs')"><img class="exhibit" src="assets/images/landing/new/designs/exhibit.png"  onmouseover="this.src='assets/images/landing/new/designs/e-1.png'" onmouseout="this.src='assets/images/landing/new/designs/exhibit.png'"></a>
+                            <a @click="view('exhibit')"><img class="exhibit" src="assets/images/landing/new/designs/exhibit.png"  onmouseover="this.src='assets/images/landing/new/designs/e-1.png'" onmouseout="this.src='assets/images/landing/new/designs/exhibit.png'"></a>
                       
                         </div>
                         <div v-else-if="content == 'exhibit'">
-
+                            <?php require_once("exhibit.php");?>
                         </div>
                         <div v-else-if="content == 'about'">
                             <?php require_once("about.php");?>
