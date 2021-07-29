@@ -26,7 +26,7 @@
         <style>
             body {
                 /* background-color: #4ea8ff; */
-                background-image: url('assets/images/landing/images/bg.png'); background-size: contain;
+                /* background-image: url('assets/images/landing/images/bg.png'); background-size: contain; */
                 overflow: hidden;
             }
         </style>
@@ -39,71 +39,95 @@
             <section class="section" v-bind:class="(show) ? 'bgback' : 'nobgback'" style="height: 100vh;">
                 <transition name="fade">
                     <div v-if="show" style="margin-top: -50px;">
-                        <div class="container-sun">
-                            <svg class="svg-sun" version="1.1" viewBox="0 0 100 100" preserveAspectRatio="xMinYMin meet">
-                                <circle cx="50" cy="50" r="35" id="sun"></circle>
-                            </svg>
-                        </div>
-                        
-                        <div class="pyro"> 
-                            <div class="before"></div>
-                            <div class="after"></div>
-                        </div>
+                        <div v-if="content == 'island'">
+                            <div class="container-sun">
+                                <svg class="svg-sun" version="1.1" viewBox="0 0 100 100" preserveAspectRatio="xMinYMin meet">
+                                    <circle cx="50" cy="50" r="35" id="sun"></circle>
+                                </svg>
+                            </div>
+                            
+                            <div class="pyro"> 
+                                <div class="before"></div>
+                                <div class="after"></div>
+                            </div>
 
-                        <ul id="map" style="margin-top: -100px;">
-                            <li @click="openmodal(1)" class="dakak zoom"></li>    
-                            <li @click="openmodal(1)" class="stacruz zoom"></li>
-                            <li class="vinta3"></li>
-                            <li @click="openmodal(8)" class="merloquet zoom"></li>
-                            <li @click="openmodal(8)" class="cityhall zoom"></li>
-                            <li @click="openmodal(13)" class="sm zoom"></li>
-                            <li @click="openmodal(14)" class="kcc zoom"></li>
-                            <li class="adzu zoom"></li>
-                            <li  @click="openmodal(9)" class="fortpillar zoom"></li>
-                            <li class="barter zoom"></li>
-                            <li class="police zoom"></li>
-                            <li @click="openmodal(19)" class="airport zoom"></li>
-                            <li class="zcmc zoom"></li>
-                            <li class="brent zoom"></li>
-                            <li class="ciudad zoom"></li>
-                            <li class="cho zoom"></li>
-                            <li class="dost zoom"></li>
-                            <li class="mosque zoom"></li>
-                            <li class="church zoom"></li>
-                            <li class="uz zoom"></li>
-                            <li class="dswd zoom"></li>
-                            <li class="bus zoom"></li>
-                            <li class="psa zoom"></li>
-                            <li class="yakan zoom"></li>
-                            <li class="ched zoom"></li>
-                            <li class="doh zoom"></li>
-                            <li class="seaport zoom"></li>
-                            <li class="zscmst zoom"></li>
-                            <li class="fire zoom"></li>
-                            <li class="treehouse zoom"></li>
-                            <li class="vinta2"></li>
-                            <a href="register.php" target="_blank"><li class="register bx-tada"></li></a>
-                        </ul>
+                            <ul id="map" style="margin-top: -100px;">
+                                <!-- <li @click="openmodal(1)" class="dakak zoom"></li>     -->
+                                <li @click="openmodal(1)" class="stacruz zoom"></li>
+                                <li class="vinta3"></li>
+                                <li @click="openmodal(8)" class="merloquet zoom"></li>
+                                <li @click="openmodal(8)" class="cityhall zoom"></li>
+                                <li @click="openmodal(13)" class="sm zoom"></li>
+                                <li @click="openmodal(14)" class="kcc zoom"></li>
+                                <li class="adzu zoom"></li>
+                                <li  @click="openmodal(9)" class="fortpillar zoom"></li>
+                                <li class="barter zoom"></li>
+                                <li class="police zoom"></li>
+                                <li @click="openmodal(19)" class="airport zoom"></li>
+                                <li class="zcmc zoom"></li>
+                                <li class="brent zoom"></li>
+                                <li class="ciudad zoom"></li>
+                                <li class="cho zoom"></li>
+                                <li class="dost zoom"></li>
+                                <li class="mosque zoom"></li>
+                                <li class="church zoom"></li>
+                                <li class="uz zoom"></li>
+                                <li class="dswd zoom"></li>
+                                <li class="bus zoom"></li>
+                                <li class="psa zoom"></li>
+                                <li class="yakan zoom"></li>
+                                <li class="ched zoom"></li>
+                                <li class="doh zoom"></li>
+                                <li class="seaport zoom"></li>
+                                <li class="zscmst zoom"></li>
+                                <li class="fire zoom"></li>
+                                <li class="treehouse zoom"></li>
+                                <li class="vinta2"></li>
+                                <!-- <li href="register.php" target="_blank"><li class="register bx-tada"></li></a> -->
+                            </ul>
 
-                        <div id="clouds" style="margin-top: -350px;">
-                            <div class="cloud x1"></div>
-                            <div class="cloud x2"></div>
-                            <div class="cloud x3"></div>
-                            <div class="cloud x4"></div>
-                            <div class="cloud x5"></div>
-                        </div>  
+                            <div id="clouds" style="margin-top: -350px;">
+                                <div class="cloud x1"></div>
+                                <div class="cloud x2"></div>
+                                <div class="cloud x3"></div>
+                                <div class="cloud x4"></div>
+                                <div class="cloud x5"></div>
+                            </div> 
+
+                            <img class="menu" src="assets/images/landing/new/designs/menu.png">
+                            <a @click="view('about')"><img class="about" src="assets/images/landing/new/designs/about.png" onmouseover="this.src='assets/images/landing/new/designs/e-3.png'" onmouseout="this.src='assets/images/landing/new/designs/about.png'"></a>
+                            <a @click="view('events')"><img class="events" src="assets/images/landing/new/designs/events.png" onmouseover="this.src='assets/images/landing/new/designs/e-2.png'" onmouseout="this.src='assets/images/landing/new/designs/events.png'"></a>
+                            <a @click="view('faqs')"><img class="exhibit" src="assets/images/landing/new/designs/exhibit.png"  onmouseover="this.src='assets/images/landing/new/designs/e-1.png'" onmouseout="this.src='assets/images/landing/new/designs/exhibit.png'"></a>
+                      
+                        </div>
+                        <div v-else-if="content == 'exhibit'">
+
+                        </div>
+                        <div v-else-if="content == 'about'">
+                            <?php require_once("about.php");?>
+                        </div>
+                        <div v-else-if="content == 'events'">
+                            <?php require_once("events.php");?>
+                        </div>
+                        <div v-else>
+                            <?php require_once("faqs.php");?>
+                        </div>
 
                         <a href="https://14thpnhrsweekcelebration.dost9.ph/" target="_blank"><img class="logo" src="assets/images/landing/logo.png"></a>
                         <img class="logos" src="assets/images/landing/logos.png">
-                        <img class="plane" src="assets/images/landing/new/designs/plane.png">
-<!-- 
-                        <img class="vinta2" src="assets/images/landing/vinta.png">
-                        <img class="vinta3" src="assets/images/landing/vinta.png"> -->
+                        <img class="registerwood" src="assets/images/landing/register.png">
+                        <a href="register.php" target="_blank"><img class="registerw" src="assets/images/landing/new/designs/register.png" onmouseover="this.src='assets/images/landing/new/designs/e-4.png'" onmouseout="this.src='assets/images/landing/new/designs/register.png'"></a>
+                        <img class="faqs" src="assets/images/landing/new/designs/faqs.png" >
+                        <a @click="view('faqs')"><img class="faq" src="assets/images/landing/new/designs/faq.png" onmouseover="this.src='assets/images/landing/new/designs/e-5.png'" onmouseout="this.src='assets/images/landing/new/designs/faq.png'"></a>
+                        <img class="copy" src="assets/images/landing/new/designs/copyright.png" >
+                        <!-- <img class="plane" src="assets/images/landing/new/designs/plane.png"> -->
+                     
+                        
                         
                     </div>
 
                     <div v-else>
-                    <img class="top-left" src="assets/images/landing/images/bg.png">
+                        <img class="top-left" src="assets/images/landing/images/bg.png">
                     <!-- <img class="top-right" src="assets/images/landing/images/top-right.png">
 
                     <img class="bottom-right" src="assets/images/landing/images/bottom-right.png">

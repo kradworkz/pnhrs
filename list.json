@@ -225,6 +225,67 @@
                 "link" : "https://us02web.zoom.us/webinar/register/WN_s8n4xox2Sq25zNmwON-uTw"
             }
         
+        ],
+
+        "sixth" : [
+            {
+                "main" : "Oral Research Presentation",
+                "title" : "Oral Research Presentation - Student Category",
+                "date" : "August 09, 2021",
+                "time" : "8AM - 12NN",
+                "link" : "https://us02web.zoom.us/webinar/register/WN_HSzgJC2YSMKtazgiE_MFiA",
+                "option" : "",
+                "color" : "danger"
+            },
+            {
+                "main" : "Research in Global Health Emergencies",
+                "title" : "Research in Global Health Emergencies: The Nuffield Council Moral Compass and Good Participatory Practice",
+                "date" : "August 10, 2021",
+                "time" : "8AM - 12NN",
+                "link" : "https://us02web.zoom.us/webinar/register/WN_s-isBFZESkinjrB_YXkQ8g",
+                "option" : "",
+                "color" : "warning"
+            },
+
+            {
+                "main" : "Practical Training for REC Members and Staff",
+                "title" : "Practical Training for REC Members and Staff",
+                "date" : "August 10, 2021",
+                "time" : "8AM - 4PM",
+                "link" : "",
+                "option" : "By Invitation Only",
+                "color" : "success"
+            },
+            {
+                "main" : "Session on Social Innovation in Health Research",
+                "title" : "Session on Social Innovation in Health Research",
+                "date" : "August 09, 2021",
+                "time" : "8AM - 12NN",
+                "link" : "https://us02web.zoom.us/webinar/register/WN_4V-Qlp41TyCDokWC1bot3A",
+                "option" : "",
+                "color" : "danger"
+            }, 
+
+            {
+                "main" : "3-Minute Pitch to Policymakers",
+                "title" : "3-Minute Pitch to Policymakers Competition",
+                "date" : "August 10, 2021",
+                "time" : "1PM - 4PM",
+                "link" : "https://us02web.zoom.us/webinar/register/WN_KvBNGA_GT3q9TGLaxFEjIg",
+                "option" : "",
+                "color" : "warning"
+            },
+          
+            {
+                "main" : "Visual Abstract Poster Competition ",
+                "title" : "Visual Abstract Poster Competition (Student and Professional)",
+                "date" : "August 10, 2021",
+                "time" : "8AM - 12NN",
+                "link" : "",
+                "option" : "By Invitation Only",
+                "color" : "success"
+            }
+           
         ]
 
 }

@@ -19,7 +19,8 @@ document.addEventListener('DOMContentLoaded', function () {
             myStyle:{
                 backgroundColor:"#16a085" 
             },
-            image: "assets/images/landing/images/background.jpg"
+            image: "assets/images/landing/images/background.jpg",
+            content: 'island'
         },
 
         created(){
@@ -29,7 +30,15 @@ document.addEventListener('DOMContentLoaded', function () {
             })
             .catch((e) => {
                 console.error(e)
+            });
+
+            axios.get('./list.json')
+            .then(response => {
+                this.lists = response.data;
             })
+            .catch((e) => {
+                console.error(e)
+            });
         },
 
         methods: {
@@ -41,6 +50,10 @@ document.addEventListener('DOMContentLoaded', function () {
                 console.log(this.landmark);
                 // $("#openmodal").modal('show');
             },
+
+            view(type){
+                this.content = type;
+            }
         }
     })
 })

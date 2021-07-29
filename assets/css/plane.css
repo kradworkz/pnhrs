@@ -43,6 +43,54 @@
     position: absolute;
   }
 
+  
+  .menu {
+    width:240px;
+    height: auto;
+    top: 100px;
+    left: 0px;
+    position: absolute;
+  }
+
+  .about {
+    width:162px;
+    height: auto;
+    top: 162px;
+    left: 23px;
+    position: absolute;
+    transition: transform .5s; 
+  }
+
+  .about:hover {
+    transform: scale(1.1);
+  }
+
+  .events {
+    width:91px;
+    height: auto;
+    top: 212px;
+    left:7px;
+    position: absolute;
+    transition: transform .5s; 
+  }
+
+  .events:hover {
+    transform: scale(1.1);
+  }
+
+  .exhibit {
+    width:91px;
+    height: auto;
+    top: 212px;
+    left: 104px;
+    position: absolute;
+    transition: transform .5s; 
+  }
+
+  .exhibit:hover {
+    transform: scale(1.1);
+  }
+
   .logos {
     width:300px;
     height: auto;
@@ -51,6 +99,54 @@
     position: absolute;
   }
 
+  .registerwood {
+    width:159px;
+    height: auto;
+    top: 0;
+    right: 315px;
+    position: absolute;
+  }
+
+   .registerw {
+    width:105px;
+    height: auto;
+    top: 16px;
+    right: 348px;
+    position: absolute;
+    transition: transform .5s; 
+  }
+
+  .registerw:hover {
+    transform: scale(1.1);
+  }
+
+  .faqs {
+    width:180px;
+    height: auto;
+    bottom: 0;
+    right: 10px;
+    position: absolute;
+  }
+
+  .faq {
+    width:109px;
+    height: auto;
+    bottom: 11px;
+    right: 43px;
+    position: absolute;
+  }
+
+  .faq:hover {
+    transform: scale(1.1);
+  }
+
+  .copy {
+    width:180px;
+    height: auto;
+    bottom: 0;
+    left: 10px;
+    position: absolute;
+  }
 
   .plane {
     top: 150px;
@@ -62,7 +158,7 @@
 
   @keyframes slide {
     100% {
-     left: -20%;
+     left: -50%;
     opacity: 0;
     }
     90% {

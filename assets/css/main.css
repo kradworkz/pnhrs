@@ -500,18 +500,18 @@ ul#map li.register {
 }
 
 .stacruz{
-	width: 90px;
-	height: 83px;
-	bottom: 128px;
-	left: 108px;
+	width: 65px;
+	height: 64px;
+	bottom: 143px;
+	left: 204px;
 	background-image: url(../../assets/images/landing/new/stacruz.png);
 	background-size: cover;
 }
 
 ul#map li.stacruz:hover {
     /* background-position: 0 -950px; */
-	bottom: 128px;
-	left: 108px;
+	bottom: 143px;
+	left: 204px;
     background-image: url(../../assets/images/landing/new/stacruz.png);
 	background-size: cover;
 	-webkit-filter: drop-shadow(5px 5px 5px #222);
@@ -573,22 +573,26 @@ ul#map li.vinta2 {
 
 ul#map li.vinta3 {
     /* background-position: 0 -950px; */
-   	bottom: 119px;
+   	bottom: 133px;
 	left: 30px;
     background-image: url(../../assets/images/landing/vinta.png);
 	background-size: cover;
 	transition: transform .5s; 
-    animation: nudge2 40s linear infinite alternate;
+    animation: nudge2 10s linear infinite alternate;
 }
 
 @keyframes nudge2 {
     0%{
-      left: 10%;
+      left: 20%;
     }
     50% {
-     left: 20%
+     left: 30%
 	}
 	100% {
-		left: 25%;
+		left: 35%;
 	}
   }
+
+  .simplebar-track.simplebar-vertical .simplebar-scrollbar:before {
+	background-image: linear-gradient( yellow , red);
+}
