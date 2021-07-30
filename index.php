@@ -116,7 +116,13 @@
                         </div>
 
                         <a href="https://14thpnhrsweekcelebration.dost9.ph/" target="_blank"><img class="logo" src="assets/images/landing/logo.png"></a>
-                        <img class="logos" src="assets/images/landing/logos.png">
+                        <!-- <img class="logos" src="assets/images/landing/logos.png"> -->
+                        <img class="l-1" src="assets/images/krad/dost.png">
+                        <img class="l-2" src="assets/images/krad/pchrd.png">
+                        <img class="l-3" src="assets/images/krad/zchrd.png">
+                        <img class="l-4" src="assets/images/krad/up.png">
+                        <img class="l-5" src="assets/images/krad/doh.png">
+                        <img class="l-6" src="assets/images/krad/ched.png">
                         <!-- <img class="registerwood" src="assets/images/landing/register.png"> -->
                         <!-- <a href="register.php" target="_blank"><img class="registerw" src="assets/images/landing/new/designs/register.png" onmouseover="this.src='assets/images/landing/new/designs/e-4.png'" onmouseout="this.src='assets/images/landing/new/designs/register.png'"></a> -->
                         <!-- <img class="faqs" src="assets/images/landing/new/designs/faqs.png" >

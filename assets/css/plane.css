@@ -91,15 +91,6 @@
     transform: scale(1.1);
   }
 
-  .logos {
-    width:300px;
-    height: auto;
-    top: 5px;
-    right: 5px;
-    position: absolute;
-  }
-
-
    .registerw {
     width:103px;
     height: auto;
@@ -156,6 +147,56 @@
   }
 
 
+  .logos {
+    width:300px;
+    height: auto;
+    top: 5px;
+    right: 5px;
+    position: absolute;
+  }
+
+  .l-1 {
+    width:60px;
+    height: auto;
+    top: 5px;
+    right: 260px;
+    position: absolute;
+  }
+  .l-2 {
+    width:60px;
+    height: auto;
+    top: 5px;
+    right: 210px;
+    position: absolute;
+  }
+  .l-3 {
+    width:60px;
+    height: auto;
+    top: 5px;
+    right: 160px;
+    position: absolute;
+  }
+  .l-4 {
+    width:60px;
+    height: auto;
+    top: 5px;
+    right: 110px;
+    position: absolute;
+  }
+  .l-5 {
+    width:60px;
+    height: auto;
+    top: 5px;
+    right: 60px;
+    position: absolute;
+  }
+  .l-6 {
+    width:60px;
+    height: auto;
+    top: 5px;
+    right: 10px;
+    position: absolute;
+  }
 /*   
   .vinta2 {
     left: 850px;
