@@ -41,7 +41,7 @@
                         <div class="card-body">
                             <div class="media">
                                 <div class="media-body overflow-hidden">
-                                    <h5 @click="viewsession(list.images)" class="text-truncate font-size-12"><a href="#" class="text-dark">{{ list.main }}</a></h5>
+                                    <h6 @click="viewsession(list.images)" class="text-truncate font-size-12"><a href="#" class="text-dark">{{ list.main }}</a></h6>
                                 </div>
                             </div>
                         </div>
@@ -57,43 +57,27 @@
                 
                 <hr></hr>
                 <h6 class="text-warning mb-4"><i class="bx bx-news me-1"></i>  MAIN CONFERENCE SESSIONS</h6>
-                <div class="col-xl-4">
+                
+                <div class="col-xl-4" v-for="(list,index) in lists2.seventh" v-bind:key="list.id">
                     <div class="card">
                         <div class="card-body">
                             <div class="media">
                                 <div class="media-body overflow-hidden">
-                                    <h6 class="text-truncate font-size-12"><a href="#" class="text-dark">Day 1</a></h6>
+                                    <h6  @click="viewsession(list.images)" class="text-truncate font-size-12"><a href="#" class="text-dark">{{ list.main }}</a></h6>
                                 </div>
                             </div>
                         </div>
                         <div class="px-4 py-3 border-top">
                             <ul class="list-inline mb-0">
                                 <li class="list-inline-item mr-3" data-toggle="tooltip" data-placement="top" title="" data-original-title="Due Date">
-                                    <i class="bx bx-calendar mr-1"></i> August 12, 2021
+                                    <i class="bx bx-calendar mr-1"></i> {{list.date}}
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </div>    
 
-                <div class="col-xl-4 mb-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="media">
-                                <div class="media-body overflow-hidden">
-                                    <h6 class="text-truncate font-size-12"><a href="#" class="text-dark">Day 2</a></h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="px-4 py-3 border-top">
-                            <ul class="list-inline mb-0">
-                                <li class="list-inline-item mr-3" data-toggle="tooltip" data-placement="top" title="" data-original-title="Due Date">
-                                    <i class="bx bx-calendar mr-1"></i>   August 13, 2021
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>    
+               
             </div>
             </div>
         </div>               

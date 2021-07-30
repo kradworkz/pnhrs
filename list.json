@@ -387,6 +387,33 @@
                 ]
             }
            
+        ],
+        "seventh" : [
+            {
+                "main" : "Day 1",
+                "title" : "Day 1",
+                "date" : "August 12, 2021",
+                "images" : [
+                    {
+                        "name" : "assets/images/landing/sessions/plen1/1.jpg"
+                    },
+                    {
+                        "name" : "assets/images/landing/sessions/plen1/2.jpg"
+                    }
+                ]
+            },
+            {
+                "main" : "Day 2",
+                "title" : "Day 2",
+                "date" : "August 13, 2021",
+                "images" : [
+                    {
+                        "name" : "assets/images/landing/sessions/plen2/1.jpg"
+                    },
+                    {
+                        "name" : "assets/images/landing/sessions/plen2/2.jpg"
+                    }
+                ]
+            }
         ]
-
 }
