@@ -36,10 +36,10 @@
   }
 
   .logo {
-    width:455px;
+    width:600px;
     height: auto;
-    top: 0;
-    left: 0px;
+    top: 5px;
+    left: 5px;
     position: absolute;
   }
 
@@ -47,7 +47,7 @@
   .menu {
     width:240px;
     height: auto;
-    top: 100px;
+    top: 200px;
     left: 0px;
     position: absolute;
   }
@@ -55,7 +55,7 @@
   .about {
     width:162px;
     height: auto;
-    top: 162px;
+    top: 262px;
     left: 23px;
     position: absolute;
     transition: transform .5s; 
@@ -68,7 +68,7 @@
   .events {
     width:91px;
     height: auto;
-    top: 212px;
+    top: 312px;
     left:7px;
     position: absolute;
     transition: transform .5s; 
@@ -81,7 +81,7 @@
   .exhibit {
     width:91px;
     height: auto;
-    top: 212px;
+    top: 312px;
     left: 104px;
     position: absolute;
     transition: transform .5s; 
@@ -110,7 +110,7 @@
    .registerw {
     width:103px;
     height: auto;
-    top: 260px;
+    top: 360px;
     left: 48px;
     position: absolute;
     transition: transform .5s; 
@@ -131,7 +131,7 @@
   .faq {
     width:103px;
     height: auto;
-    top: 305px;
+    top: 405px;
     left: 48px;
     position: absolute;
   }

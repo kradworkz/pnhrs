@@ -26,7 +26,7 @@
                                 <div class="col-md-4 col-sm-8">
                                     <div>
                                         <center><img src="assets/images/landing/1.jpg" alt="" class="rounded-circle avatar-xl"></center><br>
-                                        <p style="color: #00ff87;"><b>DR. JAIME C. MONTOYA, MD, MSc, PhD, CESO II</b></p>
+                                        <p style="color: #00ff87;"><b>JAIME C. MONTOYA, MD, MSc, PhD, CESO II</b></p>
                                         <div class="text-white">
                                         <p style="margin-top: -20px; font-size: 10px;">Lead Coordinator, Philippine National Health</p>
                                         <p style="margin-top: -20px; font-size: 10px;">Research System</p>
@@ -80,7 +80,7 @@
                                 <div class="col-md-4 col-sm-8">
                                     <div>
                                         <center><img src="assets/images/landing/2.jpg" alt="" class="rounded-circle avatar-xl"></center><br>
-                                        <p style="color: #00ff87;"><b>DR. CHONA SARMIENTO</b></p>
+                                        <p style="color: #00ff87;"><b>CHONA SARMIENTO, PhD</b></p>
                                         <div class="text-white">
                                         <p style="margin-top: -20px; font-size: 10px;">Chair, Zamboanga Consortium for Health Research and Development</p>
                                         </div>

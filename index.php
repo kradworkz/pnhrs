@@ -39,7 +39,7 @@
         <?php require_once("includes/modal2.php"); ?>
             <section class="section" v-bind:class="(show) ? 'bgback' : 'nobgback'" style="height: 100vh;">
                 <transition name="fade">
-                    <div v-if="show" style="margin-top: -50px;">
+                    <div v-if="show" style="margin-top: -50px; margin-left: 50px;">
                         <div v-if="content == 'island'">
                             <div class="container-sun">
                                 <svg class="svg-sun" version="1.1" viewBox="0 0 100 100" preserveAspectRatio="xMinYMin meet">
