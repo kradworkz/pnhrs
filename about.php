@@ -5,8 +5,7 @@
                         <div class="col-lg-12">
                             <div class="text-center mb-5">
                             <span style="float: right; font-size: 40px;" class="text-white bx-tada" @click="content = 'island'"><i class='bx bxs-x-circle'></i></span>
-                                <h4 @click="content = 'island'" class="text-warning">About PNHRS Week</h4>
-                                <div class="text-dark small-title">Uploaded By: Christine Jane Gonzalez</div>
+                                <h4 @click="content = 'island'" class="text-warning">About this year's PNHRS Week Celebration</h4>
                             </div>
                         </div>
                     </div>

@@ -47,7 +47,7 @@
   .menu {
     width:240px;
     height: auto;
-    top: 200px;
+    top: 230px;
     left: 0px;
     position: absolute;
   }
@@ -55,7 +55,7 @@
   .about {
     width:162px;
     height: auto;
-    top: 262px;
+    top: 292px;
     left: 23px;
     position: absolute;
     transition: transform .5s; 
@@ -68,7 +68,7 @@
   .events {
     width:91px;
     height: auto;
-    top: 312px;
+    top: 342px;
     left:7px;
     position: absolute;
     transition: transform .5s; 
@@ -81,7 +81,7 @@
   .exhibit {
     width:91px;
     height: auto;
-    top: 312px;
+    top: 342px;
     left: 104px;
     position: absolute;
     transition: transform .5s; 
@@ -99,18 +99,11 @@
     position: absolute;
   }
 
-  .registerwood {
-    width:159px;
-    height: auto;
-    top: 0;
-    right: 520px;
-    position: absolute;
-  }
 
    .registerw {
     width:103px;
     height: auto;
-    top: 360px;
+    top: 390px;
     left: 48px;
     position: absolute;
     transition: transform .5s; 
@@ -120,18 +113,11 @@
     transform: scale(1.1);
   }
 
-  .faqs {
-    width:180px;
-    height: auto;
-    bottom: 0;
-    right: 10px;
-    position: absolute;
-  }
 
   .faq {
     width:103px;
     height: auto;
-    top: 405px;
+    top: 435px;
     left: 48px;
     position: absolute;
   }
@@ -140,25 +126,19 @@
     transform: scale(1.1);
   }
 
-  .copy {
-    width:180px;
-    height: auto;
-    bottom: 0;
-    left: 10px;
-    position: absolute;
-  }
+
 
   .plane {
     top: 150px;
     width: 25%;
     height:auto;
     position: absolute;
-    animation: slide 10s 1 linear forwards;
+    animation: slide 7s 1 linear forwards;
   }
 
   @keyframes slide {
     100% {
-     left: -50%;
+     left: 0%;
     opacity: 0;
     }
     90% {

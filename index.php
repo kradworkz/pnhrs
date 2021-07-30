@@ -52,7 +52,7 @@
                                 <div class="after"></div>
                             </div>
 
-                            <ul id="map" style="margin-top: -100px;">
+                            <ul id="map">
                                 <!-- <li @click="openmodal(1)" class="dakak zoom"></li>     -->
                                 <li @click="openmodal(1)" class="stacruz zoom"></li>
                                 <li class="vinta3"></li>
