@@ -29,7 +29,7 @@
         </div>
         <div class="col-md-6 col-sm-8">
             <div>
-                <center><img src="../assets/images/landing/1.jpg" alt="" class="rounded avatar-xxl"></center><br>
+                <center><img src="../assets/images/landing/1.jpg" alt="" class="roundedd avatar-xxl"></center><br>
                 <center><p class="text-success"><b>JAIME C. MONTOYA, MD, MSc, PhD, CESO II</b></p> </center>
                 <center><p style="margin-top: -20px; font-size: 10px;">Lead Coordinator, Philippine National Health</p></center>
                 <center><p style="margin-top: -20px; font-size: 10px;">Research System</p></center>
@@ -46,7 +46,7 @@
     <div class="row align-items-center pt-md-5">
         <div class="col-md-6 col-sm-8">
             <div>
-                <center><img src="../assets/images/landing/3.jpg" alt="" class="rounded avatar-xxl"></center><br>
+                <center><img src="../assets/images/landing/3.jpg" alt="" class="roundedd avatar-xxl"></center><br>
                 <center><p class="text-success"><b>MARTIN A. WEE</b></p></center>
                 <center><p style="margin-top: -20px; font-size: 12px;">Regional Director, DOST IX</p></center>
             </div>
@@ -96,7 +96,7 @@
         </div>
         <div class="col-md-6 col-sm-8">
             <div>
-                <center><img src="../assets/images/landing/2.jpg" alt="" class="rounded avatar-xxl"></center><br>
+                <center><img src="../assets/images/landing/2.jpg" alt="" class="roundedd avatar-xxl"></center><br>
                 <center><p class="text-success"><b>CHONA SARMIENTO, PhD</b></p></center>
                 <center><p style="margin-top: -20px; font-size: 12px;">Director, Zamboanga Consortium for Health Research and Development</p></center>
             </div>

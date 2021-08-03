@@ -34,7 +34,7 @@
             <section v-if="content == 'island'" class="section hero-section" id="home" style="background-color:  #4ea8ff; height: 100vh; overflow: hidden;">
                 <div class="bg-overlay bg-primary"></div>
                 <div class="">
-                    <div class="row align-items-center" style="margin-top: -100px;">
+                    <div class="row align-items-center" style="margin-top: -100px; margin-left: 20px;">
                         <div class="col-lg-12">
                             <ul id="map">
                                 <!-- <li @click="openmodal(1)" class="dakak zoom"></li>     -->

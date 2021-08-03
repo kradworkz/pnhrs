@@ -1,5 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&amp;display=swap);
 
+.roundedd {
+    border-radius: 1.5rem !important;
+}
+
 #page-topbar {
     position: fixed;
     top: 0;
