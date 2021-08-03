@@ -31,7 +31,7 @@
                 <?php require_once("parts/navigation.php"); ?>
             </nav>
 
-            <section v-if="content == 'island'" class="section hero-section bg-ico-hero" id="home" style="height: 100vh; overflow: hidden;">
+            <section v-if="content == 'island'" class="section hero-section" id="home" style="background-color:  #4ea8ff; height: 100vh; overflow: hidden;">
                 <div class="bg-overlay bg-primary"></div>
                 <div class="">
                     <div class="row align-items-center" style="margin-top: -100px;">
@@ -105,7 +105,7 @@
                 </div>
             </section>
 
-            <section v-if="content == 'about'" class="section hero-section bg-ico-hero" id="home">
+            <section v-if="content == 'about'" class="section hero-section" id="home" style="background-color:  #4ea8ff;">
                 <?php require_once("parts/about1.php"); ?>
             </section>
             <section v-if="content == 'about'" class="section pt-4 bg-white" id="features">

@@ -47,7 +47,14 @@ document.addEventListener('DOMContentLoaded', function () {
             viewsession(images){
                 this.images = images;
                 $("#viewsession").modal('show');
-            }
+            },
+
+            openmodal(id){
+                
+                // this.landmark = this.lists[id];
+                this.landmark = this.lists.find(list => list.id === id)
+                $("#openmodal").modal('show');
+            },
         }
     })
 })
