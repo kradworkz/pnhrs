@@ -16,6 +16,7 @@
         <link href="assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
         <link href="assets/css/animation.css" id="app-style" rel="stylesheet" type="text/css" />
         <link href="assets/css/main.css" id="app-style" rel="stylesheet" type="text/css" />
+        <link href="assets/css/lobby.css" id="app-style" rel="stylesheet" type="text/css" />
         <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" rel="stylesheet" type="text/css" />
         <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" rel="stylesheet" type="text/css" />
         <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script>
@@ -27,7 +28,7 @@
             body {
                 /* background-color: #4ea8ff; */
                 /* background-image: url('assets/images/landing/images/bg.png'); background-size: contain; */
-                overflow: hidden;
+                /* overflow: hidden; */
             }
         </style>
 
@@ -37,6 +38,7 @@
     <body data-bs-spy="scroll" data-bs-target="#topnav-menu" data-bs-offset="60" >
         <div id="sg1">
         <?php require_once("includes/modal2.php"); ?>
+        
             <section class="section" v-bind:class="(show) ? 'bgback' : 'nobgback'" style="height: 100vh;">
                 <transition name="fade">
                     <div v-if="show" style="margin-top: -50px; margin-left: 50px;">

@@ -1,40 +1,5 @@
 
 
-
-  .top-left {
-    width: 1100px;
-    height: auto;
-    top: 0;
-    left: 180px;
-    position: absolute;
-  }
-
-  .top-right {
-    width: 400px;
-    height: auto;
-    top: 0;
-    right: 0;
-    position: absolute;
-  }
-
-  
-
-  .bottom-left {
-    width: 400px;
-    height: auto;
-    bottom: 0;
-    left: 0;
-    position: absolute;
-  }
-
-  .bottom-right {
-    width: 400px;
-    height: auto;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-  }
-
   .logo {
     width:600px;
     height: auto;
@@ -94,7 +59,7 @@
    .registerw {
     width:103px;
     height: auto;
-    top: 390px;
+    top: 383px;
     left: 48px;
     position: absolute;
     transition: transform .5s; 
@@ -108,12 +73,24 @@
   .faq {
     width:103px;
     height: auto;
-    top: 435px;
-    left: 48px;
+    top: 433px;
+    left: 5px;
     position: absolute;
   }
 
   .faq:hover {
+    transform: scale(1.1);
+  }
+
+  .resources {
+    width:79px;
+    height: auto;
+    top: 433px;
+    left: 112px;
+    position: absolute;
+  }
+
+  .resources:hover {
     transform: scale(1.1);
   }
 

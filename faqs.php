@@ -25,8 +25,8 @@
                                 <div class="faq-box media mb-4">
                                     <div class="media-body">
                                         <h5 class="font-size-15 text-warning" style="text-shadow: 1px 1px 1px #404040;">Will I be able to take information from the event?</h5>
-                                        <p class="text-white">The event will be streamed live and can be replayed at our Facebook and Youtube accounts.</p>
-                                        <p class="text-white">Links here: *Insert person*</p>
+                                        <p class="text-white">The event will be streamed live and can be replayed at our Facebook account.</p>
+                                        <p class="text-white">Links here: <a href="https://www.facebook.com/DOSTRegion9" target="_blank">Facebook Page</a></p>
                                     </div>
                                 </div>
                                 <div class="faq-box media mb-4">
@@ -39,7 +39,7 @@
                                 <div class="faq-box media">
                                     <div class="media-body">
                                         <h5 class="font-size-15 text-warning" style="text-shadow: 1px 1px 1px #404040;">I have problems with Zoom.</h5>
-                                        <p class="text-white">You may contact our technical support at *Insert person*</p>
+                                        <p class="text-white">You may contact our technical support at dost9.ict@ro9.dost.gov.ph</p>
                                     </div>
                                 </div>
                             </div>
