@@ -5,7 +5,7 @@
         <title>14th  PNHRS Week</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta content="Health R and D in the New Normal : Moving towards universal health care" name="description" />
-        <meta content="kradyfatty" name="author" />
+        <meta content="01101011 01110010 01100001 01100100" name="author" />
         <link rel="shortcut icon" href="../assets/images/favicon.ico">
         <link rel="stylesheet" href="../assets/libs/owl.carousel/assets/owl.carousel.min.css">
         <link rel="stylesheet" href="../assets/libs/owl.carousel/assets/owl.theme.default.min.css">
@@ -95,7 +95,7 @@
                     <a @click="view('resources')"><img class="resources" src="../assets/images/landing/new/designs/resources.png" onmouseover="this.src='../assets/images/landing/new/designs/e-6.png'" onmouseout="this.src='../assets/images/landing/new/designs/resources.png'"></a> 
                     
                     <a href="https://14thpnhrsweekcelebration.dost9.ph/" target="_blank"><img class="logo" src="../assets/images/landing/logo.png"></a>
-                    <a href="https://www.dost.gov.ph" target="_blank"><img class="l-1" src="../assets/images/krad/dost.png"></a>
+                    <a href="https://region9.dost.gov.ph" target="_blank"><img class="l-1" src="../assets/images/krad/dost.png"></a>
                     <a href="https://www.pchrd.dost.gov.ph" target="_blank"><img class="l-2" src="../assets/images/krad/pchrd.png"></a>
                     <a href="https://www.healthresearch.ph/index.php/about-pnhrs" target="_blank"><img class="l-3" src="../assets/images/krad/zchrd.png"></a>
                     <a href="https://up.edu.ph" target="_blank"><img class="l-4" src="../assets/images/krad/up.png"></a>

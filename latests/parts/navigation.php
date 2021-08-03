@@ -11,7 +11,7 @@
     <div class="collapse navbar-collapse" id="topnav-menu-content">
         <ul class="navbar-nav ms-auto" id="topnav-menu">
             <li class="nav-item" style="margin-right: -20px;">
-                <a class="nav-link active" href="https://www.dost.gov.ph" target="_blank"><img  src="../assets/images/krad/dost.png" height="40"></a>
+                <a class="nav-link active" href="https://region9.dost.gov.ph" target="_blank"><img  src="../assets/images/krad/dost.png" height="40"></a>
             </li>
             <li class="nav-item" style="margin-right: -20px;">
                 <a class="nav-link" href="https://www.pchrd.dost.gov.ph" target="_blank"><img src="../assets/images/krad/pchrd.png" height="40"></a>
